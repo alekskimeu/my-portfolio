@@ -1,3 +1,14 @@
+import { Post } from "../components";
+
 export default function Blog() {
-	return <h1>Blog</h1>;
+	return (
+		<main>
+			<Post />
+			<Post />
+			<Post />
+			<Post />
+			<Post />
+			<Post />
+		</main>
+	);
 }

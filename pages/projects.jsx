@@ -1,3 +1,14 @@
+import { Project } from "../components";
+
 export default function Projects() {
-	return <h1>Projects</h1>;
+	return (
+		<main>
+			<Project />
+			<Project />
+			<Project />
+			<Project />
+			<Project />
+			<Project />
+		</main>
+	);
 }
