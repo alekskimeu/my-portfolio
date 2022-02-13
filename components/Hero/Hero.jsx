@@ -19,8 +19,36 @@ const Hero = () => {
 						Facilis in modi nisi ratione.
 					</p>
 					<div className={styles.herocta}>
+						<h2>Find me online:</h2>
 						<Link href="/">
-							<a>Download CV</a>
+							<a>
+								<Image
+									src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
+									alt="Github"
+									width="40"
+									height="40"
+								/>
+							</a>
+						</Link>
+						<Link href="/">
+							<a>
+								<Image
+									src="https://avatars.githubusercontent.com/u/357098?s=200&v=4"
+									alt="Github"
+									width="40"
+									height="40"
+								/>
+							</a>
+						</Link>
+						<Link href="/">
+							<a>
+								<Image
+									src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/twitter/twitter.png"
+									alt="Github"
+									width="40"
+									height="40"
+								/>
+							</a>
 						</Link>
 					</div>
 				</div>

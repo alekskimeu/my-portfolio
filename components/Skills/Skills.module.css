@@ -3,7 +3,7 @@
 }
 
 .skills .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -14,17 +14,19 @@
 }
 
 .skills .skillsWrapper .heading {
-    font-weight: 500;
-    margin-bottom: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 .skills .skillsContainer {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .skills .skillsCard {
-    border: 1px solid lightgray;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: 2px 4px 8px rgb(231, 231, 231);
     padding: 1rem;
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
@@ -38,7 +40,16 @@
 
 }
 
-.skills .skillsContainer i {
-    font-size: 2rem;
-    color: blue;
+.skills .skillsCard img {
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.skills .skillsCard img:hover {
+    opacity: .8;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }

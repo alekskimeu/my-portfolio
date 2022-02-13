@@ -24,25 +24,21 @@
 
 .hero .content .description {
     font-size: 1.6rem;
+    margin-bottom: 2rem;
 }
 
 .hero .herocta {
-    display: inline-block;
-    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero .herocta h2 {
+    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .hero .herocta a {
-    background-color: red;
-    color: white;
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding: 1.2rem;
-    text-transform: uppercase;
-    border-radius: .3rem;
-    -webkit-border-radius: .3rem;
-    -moz-border-radius: .3rem;
-    -ms-border-radius: .3rem;
-    -o-border-radius: .3rem;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -58,7 +54,7 @@
     flex: .6;
 }
 
-.hero img {
+.hero .image img {
     border: 3px solid white;
     width: 100%;
     border-radius: 50%;
