@@ -1,0 +1,31 @@
+.header {
+    height: 5rem;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu a {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}

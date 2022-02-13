@@ -1,0 +1,44 @@
+.skills {
+
+}
+
+.skills .container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.skillsWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.skills .skillsWrapper .heading {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.skills .skillsContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.skills .skillsCard {
+    border: 1px solid lightgray;
+    padding: 1rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    
+}
+
+.skills .skillsHeader {
+
+}
+
+.skills .skillsContainer i {
+    font-size: 2rem;
+    color: blue;
+}
