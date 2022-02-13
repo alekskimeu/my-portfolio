@@ -1,9 +1,9 @@
 .skills {
-
+    padding: 2rem 0;
 }
 
 .skills .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 

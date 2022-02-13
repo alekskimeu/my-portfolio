@@ -1,0 +1,76 @@
+.post {
+    box-shadow: 2px 4px 8px rgba(231, 231, 231);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.post:hover {
+    box-shadow: 4px 8px 16px rgba(231, 231, 231);
+}
+
+.post .body {
+    padding: 0.5rem 1rem;
+}
+
+.post .body .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.post .body .title:hover {
+    opacity: .8;
+}
+
+.post .body .excerpt {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.post img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.post:hover img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.post .footer {
+    padding: 1rem 1rem 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post .footer span {
+    font-size: 1.2rem;
+    color: rgb(99, 99, 99);
+}
+
+.post .footer i {
+    color: rgb(184, 184, 184);
+}

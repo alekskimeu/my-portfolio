@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { Hero, Skills } from "../components";
+import { Hero, Posts, Skills } from "../components";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,6 +17,7 @@ export default function Home() {
 			<main>
 				<Hero />
 				<Skills />
+				<Posts />
 			</main>
 		</>
 	);
