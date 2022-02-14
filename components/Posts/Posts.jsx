@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Post } from "../";
 
@@ -10,11 +11,15 @@ const Posts = () => {
 				<div className="container">
 					<div className="section-header">
 						<h1 className="heading">Latest posts</h1>
+						<Link href="/">
+							<a>
+								View All <i className="fas fa-arrow-right"></i>
+							</a>
+						</Link>
 					</div>
 					<div className={styles.posts}>
 						<Post />
 						<Post />
-						{/* <Post /> */}
 					</div>
 				</div>
 			</div>
