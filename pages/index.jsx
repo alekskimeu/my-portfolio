@@ -17,6 +17,7 @@ export default function Home() {
 			<main>
 				<Hero />
 				<Skills />
+				{/* <Projects /> */}
 				<Posts />
 			</main>
 		</>

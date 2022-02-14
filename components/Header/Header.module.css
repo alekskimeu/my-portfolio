@@ -1,6 +1,6 @@
 .header {
     height: 5rem;
-    background-color: whitesmoke;
+    background-color: var(--white);
 }
 
 .navbar {

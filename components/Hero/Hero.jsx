@@ -11,12 +11,15 @@ const Hero = () => {
 		<div className={styles.hero}>
 			<div className={styles.container}>
 				<div className={styles.content}>
-					<h1 className={styles.title}>Hello, Alex here 👋</h1>
+					<h1 className={styles.title}>Hello World 👋</h1>
 					<p className={styles.description}>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
-						nisi repellat aperiam dolor rerum quidem reiciendis earum dolorum
-						exercitationem obcaecati fuga perspiciatis itaque ipsum consectetur.
-						Facilis in modi nisi ratione.
+						My name is <span>Alex Kimeu</span>. I'm a passionate{" "}
+						<span>Developer</span> in love with JAMstack. I enjoy learning &
+						creating solutions using code. I'm interested in Web3 & Blockchain
+						technology.
+						<br />
+						If any of these interests you too, I'd love to chat! <br />
+						Let's connect, shall we?
 					</p>
 					<div className={styles.herocta}>
 						<h2>Find me online:</h2>
