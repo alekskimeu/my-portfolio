@@ -1,0 +1,9 @@
+.projects {
+    padding: 5rem 0 3rem 0;
+}
+
+.projects .projectsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}

@@ -1,0 +1,66 @@
+.project {
+    background-color: var(--white);
+    padding: 1.5rem;
+    box-shadow: 2px 4px 8px rgb(231, 231, 231);
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.project:hover {
+    box-shadow: 4px 8px 16px rgb(231, 231, 231);
+}
+
+.project .title {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.project .description {
+    font-size: 1.4rem;
+    color: var(--text);
+    margin-bottom: .8rem;
+}
+
+.project .tech {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.project .tech span {
+    font-weight: 600;
+}
+
+.project .projectCta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project .projectCta a {
+    color: var(--main);
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.project .projectCta a:hover {
+    opacity: .9;
+}
+
+.project .projectCta i {
+    font-size: .8rem;
+}

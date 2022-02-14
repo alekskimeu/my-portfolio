@@ -6,6 +6,9 @@ const Skills = () => {
 	return (
 		<div className={styles.skills}>
 			<div className={styles.container}>
+				<div className="section-header">
+					<h1 className="heading">Tech stack</h1>
+				</div>
 				<div className={styles.skillsWrapper}>
 					<div>
 						{" "}

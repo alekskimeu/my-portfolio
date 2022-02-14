@@ -16,8 +16,10 @@ const Hero = () => {
 						My name is <span className={styles.name}>Alex Kimeu</span>. I&#39;m
 						a passionate <span className={styles.profession}>Developer</span> in
 						love with{" "}
-						<Link href="/https://jamstack.org/what-is-jamstack/">
-							<a className={styles.stack}>JAMstack</a>
+						<Link href="https://jamstack.org/what-is-jamstack/">
+							<a className={styles.stack} target="_blank">
+								JAMstack
+							</a>
 						</Link>
 						. <br />I enjoy learning & creating things with code. I&#39;m
 						interested in Web3 & Blockchain technology.

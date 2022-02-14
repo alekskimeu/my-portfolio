@@ -5,11 +5,20 @@ import styles from "./Posts.module.css";
 
 const Posts = () => {
 	return (
-		<div className={styles.posts}>
-			<Post />
-			<Post />
-			{/* <Post /> */}
-		</div>
+		<>
+			<div className={styles.blogPosts}>
+				<div className="container">
+					<div className="section-header">
+						<h1 className="heading">Latest posts</h1>
+					</div>
+					<div className={styles.posts}>
+						<Post />
+						<Post />
+						{/* <Post /> */}
+					</div>
+				</div>
+			</div>
+		</>
 	);
 };
 
