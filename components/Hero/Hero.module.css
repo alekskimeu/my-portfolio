@@ -26,6 +26,17 @@
     margin-bottom: 2rem;
 }
 
+.hero .content .description .name, .hero .content .description .profession {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.hero .content .stack {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 .hero .herocta {
     display: flex;
     align-items: center;
@@ -33,7 +44,7 @@
 }
 
 .hero .herocta h2 {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.6rem;
 }
 

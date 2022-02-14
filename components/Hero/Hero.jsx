@@ -13,10 +13,11 @@ const Hero = () => {
 				<div className={styles.content}>
 					<h1 className={styles.title}>Hello World 👋</h1>
 					<p className={styles.description}>
-						My name is <span>Alex Kimeu</span>. I&#39;m a passionate{" "}
-						<span>Developer</span> in love with JAMstack. I enjoy learning &
-						creating solutions using code. I&#39;m interested in Web3 &
-						Blockchain technology.
+						My name is <span className={styles.name}>Alex Kimeu</span>. I&#39;m
+						a passionate <span className={styles.profession}>Developer</span> in
+						love with <span className={styles.stack}>JAMstack</span>. <br />I
+						enjoy learning & creating things with code. I&#39;m interested in
+						Web3 & Blockchain technology.
 						<br />
 						If any of these interests you too, I&#39;d love to chat! <br />
 						Let&#39;s connect, shall we?
