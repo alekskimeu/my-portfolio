@@ -1,5 +1,5 @@
 .hero {
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 5rem 1rem 3rem 1rem;
 }
 
 .hero .container {
@@ -32,7 +32,7 @@
     text-decoration: underline;
 }
 
-.hero .content .stack {
+.hero .content .description .stack  {
     font-weight: 500;
     text-decoration: underline;
 }
@@ -44,7 +44,7 @@
 }
 
 .hero .herocta h2 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.6rem;
 }
 
