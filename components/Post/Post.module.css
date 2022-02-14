@@ -22,7 +22,7 @@
 }
 
 .post .body .title {
-    color: var(--main);
+    color: var(--text);
     font-weight: 500;
     font-size: 1.8rem;
     transition: all .5s ease;
@@ -33,7 +33,7 @@
 }
 
 .post .body .title:hover {
-    opacity: .8;
+    color: var(--main);
 }
 
 .post .body .excerpt {
