@@ -7,12 +7,11 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Alex Kimeu</title>
+				<title>Alex Kimeu - Homepage </title>
 				<meta
 					name="description"
-					content="Software Dev | Limitless learner | Blogger"
+					content="Software Developer | Limitless learner | Blogger"
 				/>
-				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main>
 				<Hero />
