@@ -1,19 +1,15 @@
 .skills {
-    padding: 5rem 0 3rem 0; 
+    padding: 3rem 0 3rem 0; 
 }
 
-.skills .container {
-    max-width: 1100px;
-    margin: auto;
-}
-
-.skillsWrapper {
+.skills .skillsWrapper {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
 }
 
 .skills .skillsWrapper .heading {
+    text-align: center;
     font-weight: 400;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid rgb(231, 231, 231);
@@ -21,6 +17,7 @@
 
 .skills .skillsContainer {
     display: flex;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -52,4 +49,18 @@
     opacity: .8;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+}
+
+@media screen and (max-width: 1120px) {
+    .skills .skillsWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
+@media screen and (max-width: 700px) {
+    .skills .skillsWrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
 }

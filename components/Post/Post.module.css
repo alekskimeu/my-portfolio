@@ -22,7 +22,7 @@
 }
 
 .post .body .title {
-    color: var(--text);
+    color: var(--link);
     font-weight: 500;
     font-size: 1.8rem;
     transition: all .5s ease;

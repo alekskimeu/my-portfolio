@@ -1,5 +1,5 @@
 .blogPosts {
-    padding: 5rem 0 3rem 0;
+    padding: 3rem 0 3rem 0;
 }
 
 .posts {
@@ -8,4 +8,11 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .posts {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

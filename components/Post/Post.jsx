@@ -9,7 +9,7 @@ import styles from "./Post.module.css";
 const Post = () => {
 	return (
 		<div className={styles.post}>
-			<Image src={image} alt="" height={300} width={534} />
+			<Image src={image} alt="" />
 			<div className={styles.body}>
 				<Link href="/">
 					<a className={styles.title}>Git and Github</a>

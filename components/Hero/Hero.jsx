@@ -18,29 +18,19 @@ const Hero = () => {
 						love with{" "}
 						<Link href="https://jamstack.org/what-is-jamstack/">
 							<a className={styles.stack} target="_blank">
-								JAMstack
+								JAMstack.
 							</a>
-						</Link>
-						. <br />I enjoy learning & creating things with code. I&#39;m
-						interested in Web3 & Blockchain technology.
+						</Link>{" "}
+						I enjoy learning & creating things with code. I&#39;m interested in
+						Web3 & Blockchain technology.
 						<br />
 						If any of these interests you too, I&#39;d love to chat! <br />
 						Let&#39;s connect, shall we?
 					</p>
 					<div className={styles.herocta}>
 						<h2>Find me online:</h2>
-						<Link href="/">
-							<a>
-								<Image
-									src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/telegram/telegram.png"
-									alt="Alex on Telegram"
-									width="40"
-									height="40"
-								/>
-							</a>
-						</Link>
-						<Link href="/">
-							<a>
+						<Link href="https://twitter.com/alekskimeu">
+							<a target="_blank">
 								<Image
 									src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/twitter/twitter.png"
 									alt="Alex on Twitter"
@@ -49,8 +39,8 @@ const Hero = () => {
 								/>
 							</a>
 						</Link>
-						<Link href="/">
-							<a>
+						<Link href="https://www.linkedin.com/in/alexkimeu/">
+							<a target="_blank">
 								<Image
 									src="https://avatars.githubusercontent.com/u/357098?s=200&v=4"
 									alt="Alex on LinkedIn"
@@ -59,8 +49,8 @@ const Hero = () => {
 								/>
 							</a>
 						</Link>
-						<Link href="/">
-							<a>
+						<Link href="https://github.com/alekskimeu">
+							<a target="_blank">
 								<Image
 									src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
 									alt="Alex on Github"
@@ -72,7 +62,7 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className={styles.image}>
-					<Image src={image} alt="Alex Kimeu" />
+					<Image src={image} alt="Alex Kimeu" className={styles.photo} />
 				</div>
 			</div>
 		</div>
