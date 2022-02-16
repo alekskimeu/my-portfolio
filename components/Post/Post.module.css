@@ -71,10 +71,11 @@
 }
 
 .post .footer span {
-    font-size: 1.45rem;
+    font-size: 1.1rem;
     color: rgb(99, 99, 99);
 }
 
 .post .footer i {
     color: rgb(184, 184, 184);
+    font-size: 1.2rem;
 }

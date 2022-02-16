@@ -1,6 +1,8 @@
 .project {
+    border-top: 3px solid var(--primary);
     background-color: var(--white);
     padding: 1.5rem;
+    margin-bottom: 2rem;
     box-shadow: 2px 4px 8px rgb(231, 231, 231);
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
