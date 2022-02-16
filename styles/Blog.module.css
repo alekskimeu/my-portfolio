@@ -1,5 +1,36 @@
 .blog {
-    padding: 7rem 0;
+    padding: 8rem 0 5rem 0;
+}
+
+.blog .search {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 4rem;
+    border: 1px solid rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.blog .search i {
+    color: gray;
+    margin-left: .5rem;
+    font-size: 1rem;
+}
+
+.blog .search .searchInput {
+    border: none;
+    padding: .5rem;
+    width: 100%;
+    outline-width: 0;
+    font-size: 1.1rem;
 }
 
 .blog .postsWrapper {

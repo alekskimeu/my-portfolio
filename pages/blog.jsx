@@ -15,6 +15,15 @@ export default function Blog() {
 			</Head>
 			<main className={styles.blog}>
 				<div className="container">
+					<div className={styles.search}>
+						<i className="fas fa-search"></i>
+						<input
+							type="search"
+							name="query"
+							placeholder="Search Article"
+							className={styles.searchInput}
+						/>
+					</div>
 					<div className={styles.postsWrapper}>
 						<Post />
 						<Post />
