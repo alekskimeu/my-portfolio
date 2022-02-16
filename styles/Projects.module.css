@@ -1,0 +1,16 @@
+.projects {
+    padding: 7rem 0;
+}
+
+.projects .projectsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 962px) {
+    .projects .projectsWrapper {
+        grid-template-columns: 1fr;
+    }
+}
