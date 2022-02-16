@@ -1,6 +1,7 @@
 .post {
     box-shadow: 2px 4px 8px rgba(231, 231, 231);
     background-color: var(--white);
+    margin-bottom: 2rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;

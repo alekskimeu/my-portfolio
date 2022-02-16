@@ -1,6 +1,5 @@
 .header {
     height: 5rem;
-    border-bottom: 1px solid rgb(226, 226, 226);
     position: fixed;
     width: 100%;
     background-color: white;
@@ -13,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     padding: 0 2rem;
 }

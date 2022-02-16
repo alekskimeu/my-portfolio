@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { Post } from "../components";
 
+import styles from "../styles/Blog.module.css";
+
 export default function Blog() {
 	return (
 		<>
@@ -11,13 +13,17 @@ export default function Blog() {
 					content="This is where I write about tech and share stuff I learn"
 				/>
 			</Head>
-			<main>
-				<Post />
-				<Post />
-				<Post />
-				<Post />
-				<Post />
-				<Post />
+			<main className={styles.blog}>
+				<div className="container">
+					<div className={styles.postsWrapper}>
+						<Post />
+						<Post />
+						<Post />
+						<Post />
+						<Post />
+						<Post />
+					</div>
+				</div>
 			</main>
 		</>
 	);
