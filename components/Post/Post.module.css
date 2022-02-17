@@ -41,6 +41,7 @@
 
 .post .body .linkMore {
     color: var(--link);
+    font-weight: 500;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

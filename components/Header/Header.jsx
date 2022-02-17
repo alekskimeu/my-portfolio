@@ -14,13 +14,13 @@ const Header = () => {
 					style={{ right: mobileMenu ? 0 : "-100%" }}
 				>
 					<Link href="/">
-						<a>Home</a>
+						<a onClick={() => setMobileMenu(false)}>Home</a>
 					</Link>
 					<Link href="/projects">
-						<a>Projects</a>
+						<a onClick={() => setMobileMenu(false)}>Projects</a>
 					</Link>
 					<Link href="/blog">
-						<a>Blog</a>
+						<a onClick={() => setMobileMenu(false)}>Blog</a>
 					</Link>
 				</div>
 				<div className={styles.menuIcon}>
