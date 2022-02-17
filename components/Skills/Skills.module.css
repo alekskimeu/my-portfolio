@@ -11,6 +11,7 @@
 .skills .skillsWrapper .heading {
     text-align: center;
     font-weight: 400;
+    font-size: 1.4rem;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid rgb(231, 231, 231);
 }

@@ -29,14 +29,14 @@
 }
 
 .project .description {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--text);
     margin-bottom: .8rem;
 }
 
 .project .tech {
     margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .project .tech span {
@@ -51,7 +51,7 @@
 
 .project .projectCta a {
     color: var(--link);
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     font-weight: 500;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
