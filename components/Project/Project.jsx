@@ -17,12 +17,12 @@ const Project = () => {
 			<div className={styles.projectCta}>
 				<Link href="/">
 					<a>
-						Source code <i className="fas fa-arrow-right"></i>
+						<i className="fab fa-github"></i> Code
 					</a>
 				</Link>
 				<Link href="/">
 					<a>
-						Website <i className="fas fa-arrow-right"></i>
+						<i className="fas fa-link"></i> Demo
 					</a>
 				</Link>
 			</div>

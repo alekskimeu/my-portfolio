@@ -18,12 +18,6 @@ const Skills = () => {
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image
-									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-									alt="CSS3"
-									width="60"
-									height="60"
-								/>
-								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
 									alt="JavaScript"
 									width="60"

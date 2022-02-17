@@ -1,9 +1,9 @@
 .project {
-    border-top: 3px solid var(--primary);
+    border-top: 2px solid var(--link);
     background-color: var(--white);
     padding: 1.5rem;
-    margin-bottom: 2rem;
-    box-shadow: 2px 4px 8px rgb(231, 231, 231);
+    margin-bottom: 1rem;
+    box-shadow: 3px 8px 16px rgb(231, 231, 231);
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
     -moz-border-radius: .3rem;
@@ -29,7 +29,7 @@
 }
 
 .project .description {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--text);
     margin-bottom: .8rem;
 }
@@ -40,7 +40,8 @@
 }
 
 .project .tech span {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .project .projectCta {
@@ -51,7 +52,7 @@
 
 .project .projectCta a {
     color: var(--link);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -65,5 +66,19 @@
 }
 
 .project .projectCta i {
-    font-size: .8rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .project .title {
+        font-size: 1.4rem;
+    }    
+
+    .project .description {
+        font-size: 1.3rem;
+    }
+
+    .project .tech span {
+        font-size: 1.2rem;
+    }
 }

@@ -11,7 +11,9 @@ const Projects = () => {
 				<div className="section-header">
 					<h1 className="heading">Projects</h1>
 					<Link href="/">
-						<a>View all <i className="fas fa-arrow-right"></i></a>
+						<a>
+							View all<i className="fas fa-arrow-right-long"></i>
+						</a>
 					</Link>
 				</div>
 				<div className={styles.projectsWrapper}>

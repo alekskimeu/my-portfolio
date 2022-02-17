@@ -1,7 +1,7 @@
 .post {
-    box-shadow: 2px 4px 8px rgba(231, 231, 231);
+    box-shadow: 3px 8px 16px rgb(231, 231, 231);
     background-color: var(--white);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
@@ -19,11 +19,11 @@
 }
 
 .post .body {
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.5rem;
 }
 
 .post .body .title {
-    color: var(--link);
+    color: var(--text);
     font-weight: 500;
     font-size: 1.5rem;
     transition: all .5s ease;
@@ -33,14 +33,23 @@
     -o-transition: all .5s ease;
 }
 
-.post .body .title:hover {
-    color: var(--main);
-}
-
 .post .body .excerpt {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 1rem;
     color: var(--text);
+}
+
+.post .body .linkMore {
+    color: var(--link);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.post .body .linkMore:hover {
+    opacity: .9;
 }
 
 .post img {
@@ -71,11 +80,34 @@
 }
 
 .post .footer span {
-    font-size: 1.1rem;
-    color: rgb(99, 99, 99);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1.2rem;
+    color: var(--text);
+    opacity: .8;
 }
 
 .post .footer i {
     color: rgb(184, 184, 184);
-    font-size: 1.2rem;
+}
+
+.post .footer .date {
+    color: var(--text);
+    opacity: .8;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .post .body .title {
+        font-size: 1.4rem;
+    }
+
+    .post .body .excerpt {
+        font-size: 1.3rem;
+    }
+
+    .post .footer span{
+        font-size: 1rem;
+    }
 }

@@ -10,9 +10,10 @@
 
 .skills .skillsWrapper .heading {
     text-align: center;
-    font-weight: 400;
-    font-size: 1.4rem;
+    font-weight: 500;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    padding-bottom: .3rem;
     border-bottom: 1px solid rgb(231, 231, 231);
 }
 
@@ -24,8 +25,8 @@
 
 .skills .skillsCard {
     border: 1px solid rgb(231, 231, 231);
-    border-top: 3px solid var(--primary);
-    box-shadow: 2px 4px 8px rgb(231, 231, 231);
+    border-top: 3px solid var(--link);
+    box-shadow: 3px 8px 16px rgb(231, 231, 231);
     background-color: var(--white);
     padding: 1.5rem;
     border-radius: .3rem;
@@ -57,7 +58,12 @@
     .skills .skillsWrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }    
+
+    .skills .skillsCard {
+        margin-bottom: .3rem;
+    }
 }
 
 @media screen and (max-width: 700px) {

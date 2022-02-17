@@ -16,7 +16,10 @@ const Post = () => {
 				</Link>
 				<p className={styles.excerpt}>
 					The world breaks everyone, and afterwards, many are strong at the
-					broken places.
+					broken places...{" "}
+					<Link href="#">
+						<a className={styles.linkMore}>Read more</a>
+					</Link>
 				</p>
 			</div>
 			<div className={styles.footer}>

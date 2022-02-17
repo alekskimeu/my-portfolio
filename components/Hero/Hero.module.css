@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
     gap: 5rem;
 }
@@ -14,6 +14,13 @@
 .hero .content {
     flex: 1;
     order: 2;
+    border: 2px solid var(--link);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .hero .content .title {
@@ -26,6 +33,7 @@
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
     color: var(--text);
+    line-height: 1.4;
 }
 
 .hero .content .description .name, .hero .content .description .profession {
@@ -47,7 +55,7 @@
 
 .hero .herocta h2 {
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .hero .herocta a {
@@ -67,7 +75,7 @@
 }
 
 .hero .image .photo {
-    width: 100%;
+    max-width: 100%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -78,8 +86,12 @@
 @media screen and (max-width: 1040px) {
     .hero .container {
         flex-direction: column;
-        max-width: 700px;
+        max-width: 800px;
         gap: 1rem;
+    }
+
+    .hero .image .photo {
+        width: 50px !important;
     }
 
     .hero .content {
@@ -87,12 +99,26 @@
         text-align: center;
     }
 
-    .hero .image {
-        flex: .2;
-    }
-
     .hero .herocta {
         text-align: center;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero .content .title {
+        font-size: 1.8rem;
+    }
+
+    .hero .content .description {
+        font-size: 1.4rem;
+    }
+
+    .hero .content .herocta {
+        gap: 1rem;
+    }
+
+    .hero .content .herocta h2 {
+        font-size: 1.3rem;
     }
 }

@@ -13,7 +13,7 @@ const Posts = () => {
 						<h1 className="heading">Latest posts</h1>
 						<Link href="/">
 							<a>
-								View All <i className="fas fa-arrow-right"></i>
+								View All<i className="fas fa-arrow-right-long"></i>
 							</a>
 						</Link>
 					</div>
@@ -28,3 +28,4 @@ const Posts = () => {
 };
 
 export default Posts;
+

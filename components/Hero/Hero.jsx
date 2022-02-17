@@ -25,10 +25,9 @@ const Hero = () => {
 						Web3 & Blockchain technology.
 						<br />
 						If any of these interests you too, I&#39;d love to chat! <br />
-						Let&#39;s connect, shall we?
 					</p>
 					<div className={styles.herocta}>
-						<h2>Find me online:</h2>
+						<h2>Let&#39;s connect:</h2>
 						<Link href="https://twitter.com/alekskimeu">
 							<a target="_blank">
 								<Image
