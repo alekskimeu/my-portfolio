@@ -3,24 +3,21 @@ import Link from "next/link";
 
 import styles from "./Project.module.css";
 
-const Project = () => {
+const Project = ({ project }) => {
 	return (
 		<div className={styles.project}>
-			<h2 className={styles.title}>Noelas API</h2>
-			<p className={styles.description}>
-				The world breaks everyone, and afterwards, many are strong at the broke
-				places
-			</p>
+			<h2 className={styles.title}>{project.name}</h2>
+			<p className={styles.description}>{project.description}</p>
 			<p className={styles.tech}>
-				<span>Techs:</span> CSS3, React, Redux
+				<span>Topics:</span> {project.topics.join(", ")}
 			</p>
 			<div className={styles.projectCta}>
-				<Link href="/">
+				<Link href={project?.html_url}>
 					<a>
 						<i className="fab fa-github"></i> Code
 					</a>
 				</Link>
-				<Link href="/">
+				<Link href={project.homepage ? project.homepage : "#"}>
 					<a>
 						<i className="fas fa-link"></i> Demo
 					</a>

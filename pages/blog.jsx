@@ -1,9 +1,11 @@
 import Head from "next/head";
+import axios from "axios";
 import { Post } from "../components";
 
 import styles from "../styles/Blog.module.css";
 
-export default function Blog() {
+export default function Blog({ posts }) {
+	console.log(posts.posts);
 	return (
 		<>
 			<Head>
@@ -25,15 +27,24 @@ export default function Blog() {
 						/>
 					</div>
 					<div className={styles.postsWrapper}>
-						<Post />
-						<Post />
-						<Post />
-						<Post />
-						<Post />
-						<Post />
+						{/* {posts.map((post) => (
+							<Post key={post.id} />
+						))} */}
 					</div>
 				</div>
 			</main>
 		</>
 	);
+}
+
+export async function getServerSideProps(context) {
+	const results = await axios.get(
+		"https://my-admin-site.herokuapp.com/api/posts"
+	);
+	const posts = results;
+	return {
+		props: {
+			posts,
+		},
+	};
 }
