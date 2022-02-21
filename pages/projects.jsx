@@ -6,7 +6,6 @@ import { Project } from "../components";
 import styles from "../styles/Projects.module.css";
 
 const Projects = ({ projects }) => {
-	console.log(projects);
 	return (
 		<>
 			<Head>

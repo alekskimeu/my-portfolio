@@ -1,0 +1,59 @@
+.postPage {
+    padding: 7rem 0;
+}
+
+.postPage .postWrapper {
+    max-width: 840px;
+    margin: auto;
+}
+
+.postPage .postWrapper .postImg {
+    width: 100%;
+}
+
+.postPage .postHeader {
+    margin: 1rem 0 .4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postPage .postHeader .title {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: var(--primary);
+}
+
+.postPage .postHeader .date {
+    color: var(--text);
+    font-weight: 500;
+}
+
+.postPage .ert {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--text);
+    opacity: .8;
+}
+
+.postPage .postBody .description {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+
+@media screen and (max-width: 642px){
+    .postPage .postHeader {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .postPage .postHeader .title {
+        font-size: 1.8rem;
+    }
+
+    .postPage .postBody .description {
+        line-height: 1.3;
+    }
+}

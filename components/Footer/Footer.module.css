@@ -4,6 +4,7 @@
     border-top: 1px solid rgba(231, 231, 231);
     height: 3rem;
     position: absolute;
+    bottom: 0;
 }
 
 .footer .container {
