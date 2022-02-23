@@ -17,6 +17,12 @@
     position: relative;
 }
 
+.header .navbar .logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--link-light);
+}
+
 .menu {
     display: flex;
     align-items: center;

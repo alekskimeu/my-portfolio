@@ -9,6 +9,7 @@ import image from "../../public/images/user.jpeg";
 import styles from "./Post.module.css";
 
 const Post = ({ post }) => {
+	console.log(post.contentHtml);
 	const { theme, setTheme } = useTheme();
 	return (
 		<div
@@ -35,8 +36,7 @@ const Post = ({ post }) => {
 
 			<div className={styles.footer}>
 				<span className={styles.eta}>
-					{Math.ceil(post.contentHtml.trim().split(/\s+/).length / 225)} min
-					read
+					{Math.floor(post.contentHtml.split(/\s+/).length / 225)} min read
 				</span>
 				<span className={styles.date}>
 					<i className="fas fa-calendar"></i> {post.date}

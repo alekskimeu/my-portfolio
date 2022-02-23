@@ -26,7 +26,7 @@ const Header = ({ isLight, changeTheme }) => {
 		>
 			<nav className={styles.navbar}>
 				<Link href="/">
-					<a className="logo">AK</a>
+					<a className={styles.logo}>AK</a>
 				</Link>
 				<div
 					className={styles.menu}

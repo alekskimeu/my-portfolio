@@ -8,6 +8,7 @@ import image from "../../public/images/user.jpeg";
 import styles from "../../styles/Post.module.css";
 
 export default function Post({ post }) {
+	console.log(post.contentHtml);
 	return (
 		<>
 			<Head>
@@ -25,8 +26,8 @@ export default function Post({ post }) {
 							</div>
 
 							<p className={styles.ert}>
-								{Math.ceil(post.contentHtml.trim().split(/\s+/).length / 225)}{" "}
-								min read
+								{Math.floor(post.contentHtml.split(/\s+/).length / 225)} min
+								read
 							</p>
 						</div>
 
