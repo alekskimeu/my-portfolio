@@ -20,7 +20,7 @@ const Projects = () => {
 				</div>
 				<div className={styles.projectsWrapper}>
 					{projects.map((project) => (
-						<Project key={project.id} />
+						<Project key={project.id} project={project} />
 					))}
 				</div>
 			</div>

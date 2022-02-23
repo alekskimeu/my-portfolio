@@ -22,9 +22,11 @@ const Post = ({ post }) => {
 				</p>
 			</div>
 			<div className={styles.footer}>
-				<span className={styles.eta}>5 min read</span>
+				<span className={styles.eta}>
+					{Math.ceil(post.content.trim().split(/\s+/).length / 225)} min read
+				</span>
 				<span className={styles.date}>
-					<i className="fas fa-calendar"></i> 13 Feb, 2022
+					<i className="fas fa-calendar"></i> {post.date}
 				</span>
 			</div>
 		</div>
