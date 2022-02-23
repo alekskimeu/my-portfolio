@@ -36,7 +36,7 @@ const Post = ({ post }) => {
 
 			<div className={styles.footer}>
 				<span className={styles.eta}>
-					{Math.floor(post.contentHtml.split(/\s+/).length / 225)} min read
+					{Math.floor(post.contentHtml.split(/\s+/).length / 200)} min read
 				</span>
 				<span className={styles.date}>
 					<i className="fas fa-calendar"></i> {post.date}

@@ -26,7 +26,7 @@ export default function Post({ post }) {
 							</div>
 
 							<p className={styles.ert}>
-								{Math.floor(post.contentHtml.split(/\s+/).length / 225)} min
+								{Math.floor(post.contentHtml.split(/\s+/).length / 200)} min
 								read
 							</p>
 						</div>
