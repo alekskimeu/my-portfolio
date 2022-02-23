@@ -17,13 +17,13 @@ const Project = ({ project }) => {
 						: "3px 8px 16px #222831",
 
 				borderTop:
-					theme === "light" ? "2px solid #222831" : "2px solid #222831",
+					theme === "light" ? "2px solid #222831" : "2px solid #2e313d",
 			}}
 		>
 			<h2 className={styles.title}>{project.title}</h2>
 			<p className={styles.description}>{project.description}</p>
 			<p className={styles.tech}>
-				<span>Topics:</span> {project.techs.join(", ")}
+				<span>Techs:</span> {project.techs.join(", ")}
 			</p>
 			<div className={styles.projectCta}>
 				<Link href={`${project.code}`}>

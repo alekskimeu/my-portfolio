@@ -53,6 +53,7 @@ const Header = ({ isLight, changeTheme }) => {
 					{theme === "light" ? (
 						<DarkModeIcon
 							className={styles.themeToggle}
+							style={{ color: "#2e313d" }}
 							onClick={() => setTheme("dark")}
 						/>
 					) : (
