@@ -4,7 +4,7 @@ import Head from "next/head";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, isLight, changeTheme }) => {
 	return (
 		<>
 			<Head>
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
 			</Head>
 			<div className="wrapper">
 				<div className="wrap">
-					<Header />
+					<Header isLight={isLight} changeTheme={changeTheme} />
 					{children}
 				</div>
 				<Footer />

@@ -2,11 +2,19 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 :root {
+  /* LIght theme */
   --white: #fff;
   --black: #000;
-  --primary: #072227;
-  --text: #222831;
-  --link: #35589A;
+  --background-light: whitesmoke;
+  --primary-light: #072227;
+  --text-light: #222831;
+  --link-light: #35589A;
+
+  /* Dark theme */
+  --background-dark: whitesmoke;
+  --primary-dark: #072227;
+  --text-dark: #222831;
+  --link-dark: #35589A;
 }
 
 * {
