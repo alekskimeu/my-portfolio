@@ -9,9 +9,10 @@
   --primary-light: #072227;
   --text-light: #222831;
   --link-light: #35589A;
+}
 
-  /* Dark theme */
-  --background-dark: whitesmoke;
+[data-theme='dark'] {
+  --background-dark: #212330;
   --primary-dark: #072227;
   --text-dark: #222831;
   --link-dark: #35589A;
@@ -28,7 +29,6 @@ html {
 }
 
 body {
-  background-color: whitesmoke;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -44,7 +44,7 @@ body {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 
 ul {
@@ -63,23 +63,13 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .section-header .heading {
   font-weight: 600;
   font-size: 1.7rem;
   position: relative;
-  color: var(--link);
-}
-
-.section-header .heading::before {
-  position: absolute;
-  content: "";
-  background-color: var(--link);
-  bottom: -.3rem;
-  width: 60px;
-  height: 1px;
 }
 
 .section-header a {

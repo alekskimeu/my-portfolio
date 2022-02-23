@@ -1,47 +1,65 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { useTheme } from "next-themes";
+
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
 import styles from "./Header.module.css";
 
 const Header = ({ isLight, changeTheme }) => {
 	const [mobileMenu, setMobileMenu] = useState(false);
+	const { theme, setTheme } = useTheme();
+
 	return (
-		<header className={styles.header}>
+		<header
+			className={styles.header}
+			style={{
+				background: theme === "light" ? "#ffffff" : "#121212",
+				borderBottom:
+					theme === "light"
+						? "1px solid rgb(231, 231, 231)"
+						: "1px solid #2e313d",
+			}}
+		>
 			<nav className={styles.navbar}>
-				<h1 className="logo">AK</h1>
+				<Link href="/">
+					<a className="logo">AK</a>
+				</Link>
 				<div
 					className={styles.menu}
 					style={{ right: mobileMenu ? 0 : "-100%" }}
 				>
 					<Link href="/">
-						<a onClick={() => setMobileMenu(false)}>Home</a>
+						<a>Home</a>
 					</Link>
 					<Link href="/projects">
-						<a onClick={() => setMobileMenu(false)}>Projects</a>
+						<a>Projects</a>
 					</Link>
 					<Link href="/blog">
-						<a onClick={() => setMobileMenu(false)}>Blog</a>
+						<a>Blog</a>
 					</Link>
 				</div>
 				<div className={styles.menuIcon}>
 					{mobileMenu ? (
-						<i
-							className="fas fa-close"
-							onClick={() => setMobileMenu(false)}
-						></i>
+						<CloseIcon onClick={() => setMobileMenu(false)} />
 					) : (
-						<i className="fas fa-bars" onClick={() => setMobileMenu(true)}></i>
+						<MenuIcon onClick={() => setMobileMenu(true)} />
 					)}
 				</div>
-				<div className={styles.toggle} onClick={changeTheme}>
-					{isLight ? (
-						<DarkModeIcon className={styles.themeToggle} />
+				<div className={styles.toggle}>
+					{theme === "light" ? (
+						<DarkModeIcon
+							className={styles.themeToggle}
+							onClick={() => setTheme("dark")}
+						/>
 					) : (
 						<LightModeIcon
 							className={styles.themeToggle}
 							style={{ color: "gold" }}
+							onClick={() => setTheme("light")}
 						/>
 					)}
 				</div>

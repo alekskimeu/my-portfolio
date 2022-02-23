@@ -2,13 +2,24 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+import { useTheme } from "next-themes";
+
 import image from "../../public/images/user.jpeg";
 
 import styles from "./Post.module.css";
 
 const Post = ({ post }) => {
+	const { theme, setTheme } = useTheme();
 	return (
-		<div className={styles.post}>
+		<div
+			className={styles.post}
+			style={{
+				boxShadow:
+					theme === "light"
+						? "3px 8px 16px rgb(231, 231, 231)"
+						: "3px 8px 16px #072227",
+			}}
+		>
 			<Image src={image} alt="" />
 			<div className={styles.body}>
 				<Link href={`/posts/${post.id}`}>

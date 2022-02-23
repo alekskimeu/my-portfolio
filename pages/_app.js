@@ -1,18 +1,14 @@
-import { useState } from "react";
+import { ThemeProvider } from "next-themes";
 import { Layout } from "../components";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-	const [isLight, setIsLight] = useState(true);
-
-	const changeTheme = () => {
-		setIsLight(!isLight);
-	};
-
 	return (
-		<Layout isLight={isLight} changeTheme={changeTheme}>
-			<Component {...pageProps} />
-		</Layout>
+		<ThemeProvider>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</ThemeProvider>
 	);
 }
 

@@ -1,16 +1,26 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 
 import image from "../../public/images/aleki.jpeg";
 
 import styles from "./Hero.module.css";
 
 const Hero = () => {
+	const { theme, setTheme } = useTheme();
 	return (
 		<div className={styles.hero}>
 			<div className={styles.container}>
-				<div className={styles.content}>
+				<div
+					className={styles.content}
+					style={{
+						border:
+							theme === "light"
+								? "2px solid rgba(231, 231, 231)"
+								: "2px solid #2e313d",
+					}}
+				>
 					<h1 className={styles.title}>Hello World 👋</h1>
 					<p className={styles.description}>
 						My name is <span className={styles.name}>Alex Kimeu</span>. I&#39;m

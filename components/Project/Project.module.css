@@ -1,9 +1,7 @@
 .project {
-    border-top: 2px solid var(--link);
     background-color: var(--white);
     padding: 1.5rem;
     margin-bottom: 1rem;
-    box-shadow: 3px 8px 16px rgb(231, 231, 231);
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
     -moz-border-radius: .3rem;
@@ -26,17 +24,19 @@
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgb(231, 231, 231);
+    color: var(--primary-light);
 }
 
 .project .description {
     font-size: 1.4rem;
-    color: var(--text);
+    color: var(--text-light);
     margin-bottom: .8rem;
 }
 
 .project .tech {
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
+    color: var(--text-light);
 }
 
 .project .tech span {
@@ -51,7 +51,7 @@
 }
 
 .project .projectCta a {
-    color: var(--link);
+    color: var(--link-light);
     font-size: 1.1rem;
     font-weight: 500;
     transition: all .5s ease;

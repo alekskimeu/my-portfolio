@@ -1,11 +1,25 @@
 import React from "react";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 
 import styles from "./Project.module.css";
 
 const Project = ({ project }) => {
+	const { theme, setTheme } = useTheme();
+
 	return (
-		<div className={styles.project}>
+		<div
+			className={styles.project}
+			style={{
+				boxShadow:
+					theme === "light"
+						? "3px 8px 16px rgb(231, 231, 231)"
+						: "3px 8px 16px #222831",
+
+				borderTop:
+					theme === "light" ? "2px solid #222831" : "2px solid #222831",
+			}}
+		>
 			<h2 className={styles.title}>{project.title}</h2>
 			<p className={styles.description}>{project.description}</p>
 			<p className={styles.tech}>

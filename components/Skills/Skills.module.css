@@ -15,6 +15,7 @@
     margin-bottom: 1.5rem;
     padding-bottom: .3rem;
     border-bottom: 1px solid rgb(231, 231, 231);
+    color: var(--primary-dark);
 }
 
 .skills .skillsContainer {
@@ -24,9 +25,7 @@
 }
 
 .skills .skillsCard {
-    border: 1px solid rgb(231, 231, 231);
     border-top: 3px solid var(--link);
-    box-shadow: 3px 8px 16px rgb(231, 231, 231);
     background-color: var(--white);
     padding: 1.5rem;
     border-radius: .3rem;

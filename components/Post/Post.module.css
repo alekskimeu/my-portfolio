@@ -1,5 +1,4 @@
 .post {
-    box-shadow: 3px 8px 16px rgb(231, 231, 231);
     background-color: var(--white);
     margin-bottom: 1rem;
     border-radius: .5rem;
@@ -23,7 +22,7 @@
 }
 
 .post .body .title {
-    color: var(--text);
+    color: var(--text-light);
     font-weight: 500;
     font-size: 1.5rem;
     transition: all .5s ease;
@@ -36,11 +35,11 @@
 .post .body .excerpt {
     font-size: 1.4rem;
     margin-top: 1rem;
-    color: var(--text);
+    color: var(--text-light);
 }
 
 .post .body .linkMore {
-    color: var(--link);
+    color: var(--link-light);
     font-weight: 500;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -55,7 +54,7 @@
 
 .post img {
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
     transition: all .5s ease;
@@ -74,7 +73,7 @@
 }
 
 .post .footer {
-    padding: 1rem 1rem 1.5rem 1rem;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +84,7 @@
     align-items: center;
     gap: 0.3rem;
     font-size: 1.2rem;
-    color: var(--text);
+    color: var(--text-light);
     opacity: .8;
 }
 
@@ -94,7 +93,7 @@
 }
 
 .post .footer .date {
-    color: var(--text);
+    color: var(--text-light);
     opacity: .8;
     font-size: 1rem;
 }

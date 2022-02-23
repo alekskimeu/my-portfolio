@@ -1,18 +1,31 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import { useTheme } from "next-themes";
+
 import styles from "./Skills.module.css";
 
 const Skills = () => {
+	const { theme, setTheme } = useTheme();
+
 	return (
 		<div className={styles.skills}>
 			<div className="container">
-				<div className="section-header">
-					<h1 className="heading">Tech stack</h1>
-				</div>
 				<div className={styles.skillsWrapper}>
 					<div>
 						{" "}
-						<div className={styles.skillsCard}>
+						<div
+							className={styles.skillsCard}
+							style={{
+								border:
+									theme === "light"
+										? "1px solid rgb(231, 231, 231)"
+										: "1px solid #222831",
+								boxShadow:
+									theme === "light"
+										? "3px 8px 16px rgb(231, 231, 231)"
+										: "3px 8px 16px #222831",
+							}}
+						>
 							<div className={styles.skillsHeader}>
 								<h1 className={styles.heading}>Frontend</h1>
 							</div>
@@ -46,7 +59,19 @@ const Skills = () => {
 					</div>
 					<div>
 						{" "}
-						<div className={styles.skillsCard}>
+						<div
+							className={styles.skillsCard}
+							style={{
+								border:
+									theme === "light"
+										? "1px solid rgb(231, 231, 231)"
+										: "1px solid #222831",
+								boxShadow:
+									theme === "light"
+										? "3px 8px 16px rgb(231, 231, 231)"
+										: "3px 8px 16px #222831",
+							}}
+						>
 							<div className={styles.skillsHeader}>
 								<h1 className={styles.heading}>Backend</h1>
 							</div>
@@ -74,7 +99,19 @@ const Skills = () => {
 					</div>
 					<div>
 						{" "}
-						<div className={styles.skillsCard}>
+						<div
+							className={styles.skillsCard}
+							style={{
+								border:
+									theme === "light"
+										? "1px solid rgb(231, 231, 231)"
+										: "1px solid #222831",
+								boxShadow:
+									theme === "light"
+										? "3px 8px 16px rgb(231, 231, 231)"
+										: "3px 8px 16px #222831",
+							}}
+						>
 							<div className={styles.skillsHeader}>
 								<h1 className={styles.heading}>Database</h1>
 							</div>
@@ -97,7 +134,19 @@ const Skills = () => {
 
 					<div>
 						{" "}
-						<div className={styles.skillsCard}>
+						<div
+							className={styles.skillsCard}
+							style={{
+								border:
+									theme === "light"
+										? "1px solid rgb(231, 231, 231)"
+										: "1px solid #222831",
+								boxShadow:
+									theme === "light"
+										? "3px 8px 16px rgb(231, 231, 231)"
+										: "3px 8px 16px #222831",
+							}}
+						>
 							<div className={styles.skillsHeader}>
 								<h1 className={styles.heading}>Mobile</h1>
 							</div>

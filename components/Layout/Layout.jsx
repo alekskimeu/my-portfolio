@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
-const Layout = ({ children, isLight, changeTheme }) => {
+const Layout = ({ children }) => {
+	const [isLight, setIsLight] = useState(true);
+
+	const changeTheme = () => {
+		setIsLight(!isLight);
+	};
 	return (
 		<>
 			<Head>
