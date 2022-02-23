@@ -12,12 +12,12 @@ const Project = ({ project }) => {
 				<span>Topics:</span> {project.techs}
 			</p>
 			<div className={styles.projectCta}>
-				<Link href={project.source}>
+				<Link href="#">
 					<a target="_blank">
 						<i className="fab fa-github"></i> Code
 					</a>
 				</Link>
-				<Link href={project.demo}>
+				<Link href="#">
 					<a target="_blank">
 						<i className="fas fa-link"></i> Demo
 					</a>

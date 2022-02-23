@@ -11,19 +11,21 @@ const Post = ({ post }) => {
 		<div className={styles.post}>
 			<Image src={image} alt="" />
 			<div className={styles.body}>
-				<Link href="/">
+				<Link href={`/posts/${post.id}`}>
 					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
-					{post.excerpt}
-					<Link href="#">
+					{post.excerpt}...{" "}
+					<Link href={`/posts/${post.id}`}>
 						<a className={styles.linkMore}>Read more</a>
 					</Link>
 				</p>
 			</div>
+
 			<div className={styles.footer}>
 				<span className={styles.eta}>
-					{Math.ceil(post.content.trim().split(/\s+/).length / 225)} min read
+					{Math.ceil(post.contentHtml.trim().split(/\s+/).length / 225)} min
+					read
 				</span>
 				<span className={styles.date}>
 					<i className="fas fa-calendar"></i> {post.date}

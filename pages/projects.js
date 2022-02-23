@@ -17,7 +17,7 @@ export default function Projects({ projects }) {
 				<div className="container">
 					<div className={styles.projectsWrapper}>
 						{projects.map((project) => (
-							<Project key={project.id} />
+							<Project key={project.id} project={project} />
 						))}
 					</div>
 				</div>
@@ -32,5 +32,3 @@ export async function getStaticProps() {
 		props: { projects },
 	};
 }
-
-
