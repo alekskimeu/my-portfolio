@@ -3,10 +3,11 @@ import Link from "next/link";
 
 import { Hero, Post, Project, Skills } from "../components";
 import { getSortedPostsData } from "../lib/posts";
-import { getProjectsData } from "../lib/projects";
+import { projectsData } from "../projects/data";
 import styles from "../styles/Home.module.css";
 
-export default function Home({ posts, projects }) {
+export default function Home({ posts }) {
+	const projects = projectsData.slice(0, 2);
 	return (
 		<>
 			<Head>
@@ -65,9 +66,8 @@ export default function Home({ posts, projects }) {
 // Fetch posts & projects
 export async function getStaticProps() {
 	const posts = getSortedPostsData().slice(0, 2);
-	const projects = getProjectsData().slice(0, 2);
 
 	return {
-		props: { posts, projects },
+		props: { posts },
 	};
 }

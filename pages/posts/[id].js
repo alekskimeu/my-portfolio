@@ -1,30 +1,33 @@
 import React from "react";
 import Image from "next/image";
-import image from "../../public/images/user.jpeg";
-
+import Head from "next/head";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
+import image from "../../public/images/user.jpeg";
+
 import styles from "../../styles/Post.module.css";
-import Head from "next/head";
 
 export default function Post({ post }) {
 	return (
 		<>
 			<Head>
 				<title>{post.title}</title>
+				<meta name="description" content={`${post.excerpt}`} />
 			</Head>
 			<div className={styles.postPage}>
 				<div className="container">
 					<div className={styles.postWrapper}>
-						<Image src={image} alt="" className={styles.postImg} />
+						<Image src={image} alt={post.title} className={styles.postImg} />
 						<div>
 							<div className={styles.postHeader}>
 								<h1 className={styles.title}>{post.title}</h1>
 								<p className={styles.date}>{post.date}</p>
 							</div>
-							{Math.ceil(post.contentHtml.trim().split(/\s+/).length / 225)} min
-							read
-							<p className={styles.ert}> min read</p>
+
+							<p className={styles.ert}>
+								{Math.ceil(post.contentHtml.trim().split(/\s+/).length / 225)}{" "}
+								min read
+							</p>
 						</div>
 
 						<div

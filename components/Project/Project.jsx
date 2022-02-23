@@ -9,15 +9,15 @@ const Project = ({ project }) => {
 			<h2 className={styles.title}>{project.title}</h2>
 			<p className={styles.description}>{project.description}</p>
 			<p className={styles.tech}>
-				<span>Topics:</span> {project.techs}
+				<span>Topics:</span> {project.techs.join(", ")}
 			</p>
 			<div className={styles.projectCta}>
-				<Link href="#">
+				<Link href={`${project.code}`}>
 					<a target="_blank">
 						<i className="fab fa-github"></i> Code
 					</a>
 				</Link>
-				<Link href="#">
+				<Link href={`${project.demo}`}>
 					<a target="_blank">
 						<i className="fas fa-link"></i> Demo
 					</a>
