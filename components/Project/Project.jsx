@@ -6,19 +6,19 @@ import styles from "./Project.module.css";
 const Project = ({ project }) => {
 	return (
 		<div className={styles.project}>
-			<h2 className={styles.title}>Noelas API</h2>
-			<p className={styles.description}>eCommerce platform API</p>
+			<h2 className={styles.title}>{project.title}</h2>
+			<p className={styles.description}>{project.description}</p>
 			<p className={styles.tech}>
-				<span>Topics:</span> Node, Express, MongoDB
+				<span>Topics:</span> {project.techs}
 			</p>
 			<div className={styles.projectCta}>
-				<Link href="#">
-					<a>
+				<Link href={project.source}>
+					<a target="_blank">
 						<i className="fab fa-github"></i> Code
 					</a>
 				</Link>
-				<Link href="#">
-					<a>
+				<Link href={project.demo}>
+					<a target="_blank">
 						<i className="fas fa-link"></i> Demo
 					</a>
 				</Link>

@@ -6,17 +6,16 @@ import image from "../../public/images/user.jpeg";
 
 import styles from "./Post.module.css";
 
-const Post = () => {
+const Post = ({ post }) => {
 	return (
 		<div className={styles.post}>
 			<Image src={image} alt="" />
 			<div className={styles.body}>
 				<Link href="/">
-					<a className={styles.title}>Git and Github</a>
+					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
-					The world breaks everyone, and afterwards, many are strong at the
-					broken places...{" "}
+					{post.excerpt}
 					<Link href="#">
 						<a className={styles.linkMore}>Read more</a>
 					</Link>

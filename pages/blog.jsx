@@ -1,5 +1,4 @@
 import Head from "next/head";
-import axios from "axios";
 import { Post } from "../components";
 
 import styles from "../styles/Blog.module.css";
@@ -9,10 +8,7 @@ export default function Blog() {
 		<>
 			<Head>
 				<title>Alex Kimeu - Blog</title>
-				<meta
-					name="description"
-					content="This is where I write about tech and share stuff I learn"
-				/>
+				<meta name="description" content="No way he writes!" />
 			</Head>
 			<main className={styles.blog}>
 				<div className="container">

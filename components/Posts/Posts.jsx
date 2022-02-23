@@ -1,5 +1,5 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import { Post } from "../";
 
 import styles from "./Posts.module.css";
@@ -28,5 +28,3 @@ const Posts = () => {
 };
 
 export default Posts;
-
-

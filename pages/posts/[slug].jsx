@@ -4,7 +4,7 @@ import image from "../../public/images/user.jpeg";
 
 import styles from "../../styles/Post.module.css";
 
-const Post = () => {
+export default function Post() {
 	return (
 		<div className={styles.postPage}>
 			<div className="container">
@@ -44,6 +44,8 @@ const Post = () => {
 			</div>
 		</div>
 	);
-};
+}
 
-export default Post;
+export async function getStaticPaths() {}
+
+export async function getStaticProps() {}

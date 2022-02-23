@@ -1,5 +1,5 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import { Project } from "..";
 
 import styles from "./Projects.module.css";
