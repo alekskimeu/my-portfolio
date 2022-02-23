@@ -89,12 +89,9 @@
         max-width: 800px;
         gap: 1rem;
     }
-
-    .hero .image .photo {
-        width: 50px !important;
-    }
-
+    
     .hero .content {
+        border: none;
         margin: auto;
         text-align: center;
     }

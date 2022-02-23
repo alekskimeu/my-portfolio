@@ -31,10 +31,11 @@ export default function Home({ posts, projects }) {
 								</a>
 							</Link>
 						</div>
-						<div className={styles.projectsWrapper}></div>
-						{projects.map((project) => (
-							<Project key={project.id} project={project} />
-						))}
+						<div className={styles.projectsWrapper}>
+							{projects.map((project) => (
+								<Project key={project.id} project={project} />
+							))}
+						</div>
 					</div>
 				</div>
 
@@ -49,10 +50,11 @@ export default function Home({ posts, projects }) {
 								</a>
 							</Link>
 						</div>
-						<div className={styles.posts}></div>
-						{posts.map((post) => (
-							<Post key={post.id} post={post} />
-						))}
+						<div className={styles.posts}>
+							{posts.map((post) => (
+								<Post key={post.id} post={post} />
+							))}
+						</div>
 					</div>
 				</div>
 			</main>
