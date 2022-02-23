@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import image from "../../public/images/user.jpeg";
 
 import styles from "../../styles/Post.module.css";
@@ -45,7 +45,3 @@ export default function Post() {
 		</div>
 	);
 }
-
-export async function getStaticPaths() {}
-
-export async function getStaticProps() {}
