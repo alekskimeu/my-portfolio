@@ -1,10 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import { getSortedPostsData } from "../../lib/posts";
+
 import { Post } from "../";
 
 import styles from "./Posts.module.css";
 
-const Posts = () => {
+const Posts = ({ posts }) => {
 	return (
 		<>
 			<div className={styles.blogPosts}>
@@ -18,8 +20,9 @@ const Posts = () => {
 						</Link>
 					</div>
 					<div className={styles.posts}>
-						<Post />
-						<Post />
+						{posts.map((post) => {
+							<Post key={post.id} post={post} />;
+						})}
 					</div>
 				</div>
 			</div>
@@ -28,3 +31,12 @@ const Posts = () => {
 };
 
 export default Posts;
+
+export async function getStaticProps() {
+	const posts = getSortedPostsData();
+	return {
+		props: {
+			posts,
+		},
+	};
+}

@@ -2,9 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { Project } from "..";
 
+import { getProjectsData } from "../../lib/projects";
+
 import styles from "./Projects.module.css";
 
-const Projects = () => {
+const Projects = ({ projects }) => {
 	return (
 		<div className={styles.projects}>
 			<div className="container">
@@ -17,8 +19,9 @@ const Projects = () => {
 					</Link>
 				</div>
 				<div className={styles.projectsWrapper}>
-					<Project />
-					<Project />
+					{projects.map((project) => (
+						<Project key={project.id} />
+					))}
 				</div>
 			</div>
 		</div>
@@ -26,3 +29,10 @@ const Projects = () => {
 };
 
 export default Projects;
+
+export async function getStaticProps() {
+	const projects = getProjectsData();
+	return {
+		props: { projects },
+	};
+}

@@ -2,9 +2,11 @@ import React from "react";
 import Head from "next/head";
 import { Project } from "../components";
 
+import { getProjectsData } from "../lib/projects";
+
 import styles from "../styles/Projects.module.css";
 
-export default function Projects () {
+export default function Projects({ projects }) {
 	return (
 		<>
 			<Head>
@@ -14,15 +16,21 @@ export default function Projects () {
 			<div className={styles.projects}>
 				<div className="container">
 					<div className={styles.projectsWrapper}>
-						<Project />
-						<Project />
-						<Project />
-						<Project />
+						{projects.map((project) => (
+							<Project key={project.id} />
+						))}
 					</div>
 				</div>
 			</div>
 		</>
 	);
-};
+}
+
+export async function getStaticProps() {
+	const projects = getProjectsData();
+	return {
+		props: { projects },
+	};
+}
 
 

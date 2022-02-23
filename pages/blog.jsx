@@ -1,9 +1,11 @@
 import Head from "next/head";
 import { Post } from "../components";
 
+import { getSortedPostsData } from "../lib/posts";
+
 import styles from "../styles/Blog.module.css";
 
-export default function Blog() {
+export default function Blog({ posts }) {
 	return (
 		<>
 			<Head>
@@ -22,13 +24,21 @@ export default function Blog() {
 						/>
 					</div>
 					<div className={styles.postsWrapper}>
-						<Post />
-						<Post />
-						<Post />
-						<Post />
+						{posts.map((post) => (
+							<Post key={post.id} />
+						))}
 					</div>
 				</div>
 			</main>
 		</>
 	);
+}
+
+export async function getStaticProps() {
+	const posts = getSortedPostsData();
+	return {
+		props: {
+			posts,
+		},
+	};
 }
