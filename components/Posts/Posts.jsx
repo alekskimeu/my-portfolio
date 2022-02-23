@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import { getSortedPostsData } from "../../lib/posts";
+import { getSortedPostsData as posts } from "../../lib/posts";
 
 import { Post } from "../";
 
 import styles from "./Posts.module.css";
 
-const Posts = ({ posts }) => {
+const Posts = () => {
 	return (
 		<>
 			<div className={styles.blogPosts}>
@@ -31,12 +31,3 @@ const Posts = ({ posts }) => {
 };
 
 export default Posts;
-
-export async function getStaticProps() {
-	const posts = getSortedPostsData();
-	return {
-		props: {
-			posts,
-		},
-	};
-}

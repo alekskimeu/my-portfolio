@@ -2,11 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { Project } from "..";
 
-import { getProjectsData } from "../../lib/projects";
+import { getProjectsData as projects } from "../../lib/projects";
 
 import styles from "./Projects.module.css";
 
-const Projects = ({ projects }) => {
+const Projects = () => {
 	return (
 		<div className={styles.projects}>
 			<div className="container">
@@ -30,9 +30,3 @@ const Projects = ({ projects }) => {
 
 export default Projects;
 
-export async function getStaticProps() {
-	const projects = getProjectsData();
-	return {
-		props: { projects },
-	};
-}
