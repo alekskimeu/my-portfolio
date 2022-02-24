@@ -9,6 +9,12 @@ import CloseIcon from "@mui/icons-material/Close";
 
 import styles from "./Header.module.css";
 
+// TODO: Consider centering menu items on mobile & showing only
+// TODO: Logo on top, menu items beneath horizontally
+// TODO: their corresponding icons on even smaller devices
+// TODO: Rather than having the slider menu.
+
+
 const Header = ({ isLight, changeTheme }) => {
 	const [mobileMenu, setMobileMenu] = useState(false);
 	const { theme, setTheme } = useTheme();
