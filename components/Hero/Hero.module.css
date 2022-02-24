@@ -14,7 +14,6 @@
 .hero .content {
     flex: 1;
     order: 2;
-    border: 2px solid var(--link);
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -26,11 +25,10 @@
 .hero .content .title {
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: var(--primary);
 }
 
 .hero .content .description {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1.5rem;
     color: var(--text);
     line-height: 1.4;
@@ -44,7 +42,6 @@
 .hero .content .description .stack  {
     font-weight: 500;
     text-decoration: underline;
-    color: var(--link);
 }
 
 .hero .herocta {
@@ -55,7 +52,7 @@
 
 .hero .herocta h2 {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .hero .herocta a {
@@ -104,11 +101,11 @@
 
 @media screen and (max-width: 600px) {
     .hero .content .title {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .hero .content .description {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .hero .content .herocta {
@@ -116,6 +113,6 @@
     }
 
     .hero .content .herocta h2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
