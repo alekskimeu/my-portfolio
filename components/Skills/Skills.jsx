@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
@@ -33,26 +32,26 @@ const Skills = () => {
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
 									alt="JavaScript"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
 									alt="React"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg"
 									alt="Next"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
 									alt="Redux"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 							</div>
 						</div>
@@ -79,20 +78,20 @@ const Skills = () => {
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
 									alt="Node Js"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 								<Image
 									src="https://avatars.githubusercontent.com/u/958072?s=200&v=4"
 									alt="Laravel"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg"
 									alt="Django"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 							</div>
 						</div>
@@ -119,14 +118,14 @@ const Skills = () => {
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
 									alt="MySQL"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
 									alt="MongoDB"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 							</div>
 						</div>
@@ -154,14 +153,14 @@ const Skills = () => {
 								<Image
 									src="https://reactnative.dev/img/header_logo.svg"
 									alt="React Native"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 								<Image
-									src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png"
+									src="https://raw.githubusercontent.com/github/explore/5b3500551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png"
 									alt="MongoDB"
-									width="60"
-									height="60"
+									width="50"
+									height="50"
 								/>
 							</div>
 						</div>

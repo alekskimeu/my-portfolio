@@ -28,7 +28,7 @@ export default function Home({ posts }) {
 							<h1 className="heading">Projects</h1>
 							<Link href="/projects">
 								<a>
-									View all<i className="fas fa-arrow-right-long"></i>
+									View all <i className="fas fa-arrow-right-long"></i>
 								</a>
 							</Link>
 						</div>
@@ -47,7 +47,7 @@ export default function Home({ posts }) {
 							<h1 className="heading">Latest posts</h1>
 							<Link href="/blog">
 								<a>
-									View All<i className="fas fa-arrow-right-long"></i>
+									View All <i className="fas fa-arrow-right-long"></i>
 								</a>
 							</Link>
 						</div>
