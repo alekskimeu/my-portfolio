@@ -1,22 +1,12 @@
-import React, { useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
 
 import styles from "./Header.module.css";
 
-// TODO: Consider centering menu items on mobile & showing only
-// TODO: Logo on top, menu items beneath horizontally
-// TODO: their corresponding icons on even smaller devices
-// TODO: Rather than having the slider menu.
-
-
-const Header = ({ isLight, changeTheme }) => {
-	const [mobileMenu, setMobileMenu] = useState(false);
+const Header = () => {
 	const { theme, setTheme } = useTheme();
 
 	return (
@@ -34,10 +24,7 @@ const Header = ({ isLight, changeTheme }) => {
 				<Link href="/">
 					<a className={styles.logo}>AK</a>
 				</Link>
-				<div
-					className={styles.menu}
-					style={{ right: mobileMenu ? 0 : "-100%" }}
-				>
+				<div className={styles.menu}>
 					<Link href="/">
 						<a>Home</a>
 					</Link>
@@ -48,13 +35,7 @@ const Header = ({ isLight, changeTheme }) => {
 						<a>Blog</a>
 					</Link>
 				</div>
-				<div className={styles.menuIcon}>
-					{mobileMenu ? (
-						<CloseIcon onClick={() => setMobileMenu(false)} />
-					) : (
-						<MenuIcon onClick={() => setMobileMenu(true)} />
-					)}
-				</div>
+
 				<div className={styles.toggle}>
 					{theme === "light" ? (
 						<DarkModeIcon

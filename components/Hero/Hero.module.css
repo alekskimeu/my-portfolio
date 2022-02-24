@@ -1,8 +1,7 @@
 .hero {
-    padding: 10rem 1rem 2rem 1rem;
+    padding: 14rem 1rem 5rem 1rem;
 }
 
-/* TODO: Remove align-items: center to see if image can be resized */
 .hero .container {
     display: flex;
     justify-content: space-between;
@@ -82,12 +81,16 @@
 }
 
 @media screen and (max-width: 1040px) {
+    .hero {
+        padding-top: 10rem;
+    }
+
     .hero .container {
         flex-direction: column;
         max-width: 800px;
         gap: 1rem;
     }
-    
+
     .hero .content {
         border: none;
         margin: auto;

@@ -50,29 +50,16 @@
     color: var(--link);
 }
 
-.navbar .menuIcon {
-    display: none;
-}
-
-.navbar .menuIcon i {
-    font-size: 1.8rem;
-}
-
-
-@media screen and (max-width: 700px) {
-    .navbar .menuIcon {
-        display: block;
+@media screen and (max-width: 572px) {
+    .header {
+        min-height: 6rem;
     }
 
-    .menu {
+    .header .navbar {
         flex-direction: column;
-        position: absolute;
-        top: 5rem;
-        background-color: var(--white);
-        height: calc(100vh - 4.5rem);
-        width: 50vw;
-        align-items: start;
-        padding: 2rem;
+        justify-content: center;
+        gap: .5rem;
+        padding-bottom: 0.5rem;
     }    
 }
 
