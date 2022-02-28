@@ -25,6 +25,7 @@
 .hero .content .title {
     margin-bottom: 1rem;
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .hero .content .description {
@@ -57,6 +58,10 @@
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
+}
+
+.hero .herocta i {
+    font-size: 2rem;
 }
 
 .hero .herocta a:hover {

@@ -7,6 +7,8 @@ import profile from "../../public/images/user.jpg";
 
 import styles from "./Hero.module.css";
 
+// TODO: Use icons or svgs for the social links
+
 const Hero = () => {
 	const { theme, setTheme } = useTheme();
 	return (
@@ -21,41 +23,25 @@ const Hero = () => {
 								: "2px solid #2e313d",
 					}}
 				>
-					<h1 className={styles.title}>Hello World 👋</h1>
+					<h1 className={styles.title}>Alex Kimeu</h1>
 					<h3 className={styles.description}>
-						My name is <span className={styles.name}>Alex Kimeu</span>...
-						<br />A Fullstack Developer in a wild world of dynamic web.
+						A Fullstack Developer in a wild world of dynamic web.
 					</h3>
 					<div className={styles.herocta}>
 						<h2>Let&#39;s connect:</h2>
 						<Link href="https://twitter.com/alekskimeu">
 							<a target="_blank">
-								<Image
-									src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/twitter/twitter.png"
-									alt="Alex on Twitter"
-									width="40"
-									height="40"
-								/>
+								<i className="fab fa-twitter"></i>
 							</a>
 						</Link>
 						<Link href="https://www.linkedin.com/in/alexkimeu/">
 							<a target="_blank">
-								<Image
-									src="https://avatars.githubusercontent.com/u/357098?s=200&v=4"
-									alt="Alex on LinkedIn"
-									width="40"
-									height="40"
-								/>
+								<i className="fab fa-linkedin"></i>
 							</a>
 						</Link>
 						<Link href="https://github.com/alekskimeu">
 							<a target="_blank">
-								<Image
-									src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
-									alt="Alex on Github"
-									width="40"
-									height="40"
-								/>
+								<i className="fab fa-github"></i>
 							</a>
 						</Link>
 					</div>
