@@ -26,7 +26,7 @@ const Hero = () => {
 						Fullstack Developer in a wild world of dynamic web & native apps.
 					</h3>
 					<div className={styles.herocta}>
-						<h2>Let&#39;s connect:</h2>
+						<h2>Find me online:</h2>
 						<Link href="https://twitter.com/alekskimeu">
 							<a target="_blank">
 								<i className="fab fa-twitter"></i>
