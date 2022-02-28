@@ -23,7 +23,7 @@ const Hero = () => {
 				>
 					<h1 className={styles.title}>Alex Kimeu</h1>
 					<h3 className={styles.description}>
-						Fullstack Developer in a wild world of dynamic web & native apps.
+					Full Stack Developer in a wild world of dynamic web & native apps.
 					</h3>
 					<div className={styles.herocta}>
 						<h2>Find me online:</h2>
