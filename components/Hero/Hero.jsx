@@ -27,18 +27,21 @@ const Hero = () => {
 					</h2>
 					<div className={styles.herocta}>
 						<h3>Find me online:</h3>
-						<Link href="https://twitter.com/alekskimeu">
-							<a target="_blank" aria-label="Twitter">
+						<Link href="https://twitter.com/alekskimeu" aria-label="Twitter">
+							<a target="_blank">
 								<i className="fab fa-twitter"></i>
 							</a>
 						</Link>
-						<Link href="https://www.linkedin.com/in/alexkimeu/">
-							<a target="_blank" aria-label="LinkedIn">
+						<Link
+							href="https://www.linkedin.com/in/alexkimeu/"
+							aria-label="LinkedIn"
+						>
+							<a target="_blank">
 								<i className="fab fa-linkedin"></i>
 							</a>
 						</Link>
-						<Link href="https://github.com/alekskimeu">
-							<a target="_blank" aria-label="Github">
+						<Link href="https://github.com/alekskimeu" aria-label="Github">
+							<a target="_blank">
 								<i className="fab fa-github"></i>
 							</a>
 						</Link>
