@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
-import image from "../../public/images/user.jpeg";
+import image from "../../public/images/user.jpg";
 
 import styles from "./Post.module.css";
 
@@ -18,7 +18,8 @@ const Post = ({ post }) => {
 						: "3px 8px 16px #072227",
 			}}
 		>
-			<Image src={image} alt="" />
+			<Image src={image} alt="" className={styles.postImage} />
+
 			<div className={styles.body}>
 				<Link href={`/posts/${post.id}`}>
 					<a className={styles.title}>{post.title}</a>

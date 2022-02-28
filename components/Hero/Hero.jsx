@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 
 import image from "../../public/images/aleki.jpeg";
+import profile from "../../public/images/user.jpg";
 
 import styles from "./Hero.module.css";
 
@@ -21,20 +22,10 @@ const Hero = () => {
 					}}
 				>
 					<h1 className={styles.title}>Hello World 👋</h1>
-					<p className={styles.description}>
-						My name is <span className={styles.name}>Alex Kimeu</span>. I&#39;m
-						a passionate <span className={styles.profession}>Developer</span> in
-						love with{" "}
-						<Link href="https://jamstack.org/what-is-jamstack/">
-							<a className={styles.stack} target="_blank">
-								JAMstack.
-							</a>
-						</Link>{" "}
-						I enjoy learning & creating things with code. I&#39;m interested in
-						Web3 & Blockchain technology.
-						<br />
-						If any of these interests you too, I&#39;d love to chat! <br />
-					</p>
+					<h3 className={styles.description}>
+						My name is <span className={styles.name}>Alex Kimeu</span>...
+						<br />A Developer in a wild world of dynamic web.
+					</h3>
 					<div className={styles.herocta}>
 						<h2>Let&#39;s connect:</h2>
 						<Link href="https://twitter.com/alekskimeu">
@@ -70,7 +61,10 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className={styles.image}>
-					<Image src={image} alt="Alex Kimeu" className={styles.photo} />
+					<picture>
+						<source media="(max-width:1040px)" srcSet={profile} />
+						<Image src={image} alt="Alex Kimeu" className={styles.photo} />
+					</picture>
 				</div>
 			</div>
 		</div>
