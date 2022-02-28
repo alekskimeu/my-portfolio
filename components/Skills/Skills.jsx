@@ -47,12 +47,6 @@ const Skills = () => {
 									width="50"
 									height="50"
 								/>
-								<Image
-									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
-									alt="Redux"
-									width="50"
-									height="50"
-								/>
 							</div>
 						</div>
 					</div>

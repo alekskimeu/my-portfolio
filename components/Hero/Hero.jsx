@@ -7,8 +7,6 @@ import profile from "../../public/images/user.jpg";
 
 import styles from "./Hero.module.css";
 
-// TODO: Use icons or svgs for the social links
-
 const Hero = () => {
 	const { theme, setTheme } = useTheme();
 	return (
