@@ -25,7 +25,7 @@ const Hero = () => {
 				>
 					<h1 className={styles.title}>Alex Kimeu</h1>
 					<h3 className={styles.description}>
-						A Fullstack Developer in a wild world of dynamic web.
+						Fullstack Developer in a wild world of dynamic web.
 					</h3>
 					<div className={styles.herocta}>
 						<h2>Let&#39;s connect:</h2>
