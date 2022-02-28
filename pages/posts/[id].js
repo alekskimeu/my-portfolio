@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
-import image from "../../public/images/user.jpeg";
+import image from "../../public/images/user.jpg";
 
 import styles from "../../styles/Post.module.css";
 
