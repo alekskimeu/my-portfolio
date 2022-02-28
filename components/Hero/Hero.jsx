@@ -22,23 +22,23 @@ const Hero = () => {
 					}}
 				>
 					<h1 className={styles.title}>Alex Kimeu</h1>
-					<h3 className={styles.description}>
-					Full Stack Developer in a wild world of dynamic web & native apps.
-					</h3>
+					<h2 className={styles.description}>
+						Full Stack Developer in a wild world of dynamic web & native apps.
+					</h2>
 					<div className={styles.herocta}>
-						<h2>Find me online:</h2>
+						<h3>Find me online:</h3>
 						<Link href="https://twitter.com/alekskimeu">
-							<a target="_blank">
+							<a target="_blank" aria-label="Twitter">
 								<i className="fab fa-twitter"></i>
 							</a>
 						</Link>
 						<Link href="https://www.linkedin.com/in/alexkimeu/">
-							<a target="_blank">
+							<a target="_blank" aria-label="LinkedIn">
 								<i className="fab fa-linkedin"></i>
 							</a>
 						</Link>
 						<Link href="https://github.com/alekskimeu">
-							<a target="_blank">
+							<a target="_blank" aria-label="Github">
 								<i className="fab fa-github"></i>
 							</a>
 						</Link>
