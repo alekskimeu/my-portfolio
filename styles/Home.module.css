@@ -5,6 +5,7 @@
 .projects .projectsWrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
     gap: 2rem;
 }
 
@@ -18,17 +19,17 @@
     padding: 5rem 0 1rem 0;
 }
 
-.posts {
+.blogPosts .posts {
     max-width: 1200px;
     margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     gap: 2rem;
 }
 
 @media screen and (max-width: 900px) {
-    .posts {
-        display: grid;
+    .blogPosts .posts {
         grid-template-columns: 1fr;
     }
 }

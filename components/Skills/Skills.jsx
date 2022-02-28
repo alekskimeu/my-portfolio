@@ -32,20 +32,20 @@ const Skills = () => {
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
 									alt="JavaScript"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
 									alt="React"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg"
 									alt="Next"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 							</div>
 						</div>
@@ -72,14 +72,14 @@ const Skills = () => {
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
 									alt="Node Js"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 								<Image
 									src="https://avatars.githubusercontent.com/u/958072?s=200&v=4"
 									alt="Laravel"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 							</div>
 						</div>
@@ -106,14 +106,14 @@ const Skills = () => {
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
 									alt="MySQL"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
 									alt="MongoDB"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 							</div>
 						</div>
@@ -141,8 +141,8 @@ const Skills = () => {
 								<Image
 									src="https://reactnative.dev/img/header_logo.svg"
 									alt="React Native"
-									width="50"
-									height="50"
+									width={50}
+									height={50}
 								/>
 							</div>
 						</div>

@@ -18,7 +18,7 @@ const Post = ({ post }) => {
 						: "3px 8px 16px #072227",
 			}}
 		>
-			<Image src={image} alt="" className={styles.postImage} />
+			<Image src={image} alt={post.title} className={styles.postImage} />
 
 			<div className={styles.body}>
 				<Link href={`/posts/${post.id}`}>
@@ -27,7 +27,7 @@ const Post = ({ post }) => {
 				<p className={styles.excerpt}>
 					{post.excerpt.substr(0, 65)}...{" "}
 					<Link href={`/posts/${post.id}`}>
-						<a className={styles.linkMore}>Read more</a>
+						<a className={styles.linkMore}>Read post</a>
 					</Link>
 				</p>
 			</div>

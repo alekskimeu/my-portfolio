@@ -53,11 +53,7 @@ export default function Home({ posts }) {
 						</div>
 						<div className={styles.posts}>
 							{posts.map((post) => (
-								<Post
-									key={post.id}
-									post={post}
-									ert={Math.floor(post.contentHtml.split(/\s+/).length / 200)}
-								/>
+								<Post key={post.id} post={post} />
 							))}
 						</div>
 					</div>
