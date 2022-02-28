@@ -31,7 +31,6 @@
 .hero .content .description {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    color: var(--text);
     line-height: 1.4;
     font-weight: 400;
 }
@@ -48,8 +47,8 @@
 }
 
 .hero .herocta h2 {
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: 400;
+    font-size: 1.6rem;
 }
 
 .hero .herocta a {
@@ -62,11 +61,17 @@
 
 .hero .herocta i {
     font-size: 2rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
-.hero .herocta a:hover {
+.hero .heroCta a:hover {
     opacity: .9;
 }
+
 
 .hero .image {
     flex: .5;

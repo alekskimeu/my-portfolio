@@ -11,13 +11,6 @@
   --link-light: #35589A;
 }
 
-[data-theme='dark'] {
-  --background-dark: #212330;
-  --primary-dark: #072227;
-  --text-dark: #222831;
-  --link-dark: #35589A;
-}
-
 * {
   padding: 0;
   margin: 0;
