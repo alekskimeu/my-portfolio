@@ -7,6 +7,8 @@ import profile from "../../public/images/user.jpg";
 
 import styles from "./Hero.module.css";
 
+// How to leave your 9-5 with class & dignity
+
 const Hero = () => {
 	const { theme, setTheme } = useTheme();
 	return (
