@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
-import image from "../../public/images/aleki.jpeg";
-import profile from "../../public/images/user.jpg";
+import image from "../../public/images/profile.jpg";
 
 import styles from "./Hero.module.css";
 
@@ -50,10 +49,7 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className={styles.image}>
-					<picture>
-						<source media="(max-width:1040px)" srcSet={profile} />
-						<Image src={image} alt="Alex Kimeu" className={styles.photo} />
-					</picture>
+					<Image src={image} alt="Alex Kimeu" className={styles.photo} />
 				</div>
 			</div>
 		</div>
