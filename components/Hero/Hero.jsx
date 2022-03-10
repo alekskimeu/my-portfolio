@@ -49,7 +49,11 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className={styles.image}>
-					<Image src={image} alt="Alex Kimeu" className={styles.photo} />
+					<Image
+						src={image}
+						alt="Alex Kimeu"
+						className={styles.photo}
+					/>
 				</div>
 			</div>
 		</div>

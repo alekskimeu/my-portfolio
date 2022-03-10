@@ -144,6 +144,12 @@ const Skills = () => {
 									width={50}
 									height={50}
 								/>
+								<Image
+									src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png"
+									alt="Java"
+									width={50}
+									height={50}
+								/>
 							</div>
 						</div>
 					</div>

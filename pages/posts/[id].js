@@ -8,7 +8,6 @@ import image from "../../public/images/user.jpg";
 import styles from "../../styles/Post.module.css";
 
 export default function Post({ post }) {
-	console.log(post.contentHtml);
 	return (
 		<>
 			<Head>
@@ -18,7 +17,12 @@ export default function Post({ post }) {
 			<div className={styles.postPage}>
 				<div className="container">
 					<div className={styles.postWrapper}>
-						<Image src={image} alt={post.title} className={styles.postImg} />
+						<Image
+							src={image}
+							alt={post.title}
+							className={styles.postImg}
+							layout="responsive"
+						/>
 						<div>
 							<div className={styles.postHeader}>
 								<h1 className={styles.title}>{post.title}</h1>

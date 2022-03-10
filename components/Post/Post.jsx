@@ -18,7 +18,12 @@ const Post = ({ post }) => {
 						: "3px 8px 16px #072227",
 			}}
 		>
-			<Image src={image} alt={post.title} className={styles.postImage} />
+			<Image
+				src={image}
+				alt={post.title}
+				className={styles.postImage}
+				layout="responsive"
+			/>
 
 			<div className={styles.body}>
 				<Link href={`/posts/${post.id}`}>
