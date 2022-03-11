@@ -5,11 +5,6 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
 const Layout = ({ children }) => {
-	const [isLight, setIsLight] = useState(true);
-
-	const changeTheme = () => {
-		setIsLight(!isLight);
-	};
 	return (
 		<>
 			<Head>
@@ -18,7 +13,7 @@ const Layout = ({ children }) => {
 			</Head>
 			<div className="wrapper">
 				<div className="wrap">
-					<Header isLight={isLight} changeTheme={changeTheme} />
+					<Header />
 					{children}
 				</div>
 				<Footer />
