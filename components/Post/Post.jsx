@@ -26,12 +26,12 @@ const Post = ({ post }) => {
 			/>
 
 			<div className={styles.body}>
-				<Link href={`/posts/${post.id}`}>
+				<Link href={`/blog/${post.id}`}>
 					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
 					{post.excerpt.substr(0, 65)}...{" "}
-					<Link href={`/posts/${post.id}`}>
+					<Link href={`/blog/${post.id}`}>
 						<a className={styles.linkMore}>Read post</a>
 					</Link>
 				</p>

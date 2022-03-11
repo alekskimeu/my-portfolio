@@ -4,7 +4,7 @@ excerpt: 'There are several methods that can be used to manipulate arrays in Jav
 date: '2020-01-01'
 ---
 
-1. **concat()**
+**1. concat()**
 
 The conact() method creates a new array by merging (concatenating) existing arrays. This method does not modify the original arrays.
 
@@ -246,9 +246,12 @@ const pals = [
 },
 ];
 
-pals.filter((pal) => pal.age > 18); /* [{name: "Tom", age: 25}, 
-                                       {name: "Abram", age: 23}]
-                                     */
+pals.filter((pal) => pal.age > 18); 
+/* [
+     {name: "Tom", age: 25}, 
+     {name: "Abram", age: 23}
+   ]
+*/
 ```
 
 

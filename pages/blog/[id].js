@@ -30,14 +30,13 @@ export default function Post({ post }) {
 							</div>
 
 							<p className={styles.ert}>
-								{Math.floor(post.contentHtml.split(/\s+/).length / 200)} min
-								read
+								{Math.floor(post.content.split(/\s+/).length / 200)} min read
 							</p>
 						</div>
 
 						<div
 							className={styles.postBody}
-							dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+							dangerouslySetInnerHTML={{ __html: post.content }}
 						/>
 					</div>
 				</div>
