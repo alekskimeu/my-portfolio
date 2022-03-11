@@ -22,9 +22,16 @@ const Hero = () => {
 								: "2px solid #2e313d",
 					}}
 				>
-					<h1 className={styles.title}>Alex Kimeu</h1>
+					<h1 className={styles.title}>Hello, World 👋</h1>
 					<h2 className={styles.description}>
-						Full Stack Developer in a wild world of dynamic web & native apps.
+						I&#39;m Alex Kimeu, a Full stack Developer in love with JAMstack.
+						Apart from coding, I blog about tech in{" "}
+						<Link href="/blog">
+							<a>my blog</a>
+						</Link>{" "}
+						& general life stuff on{" "}
+						<a href="https://bdadg.com/blog">bdadg blog</a>. I enjoy playing &
+						watching football.
 					</h2>
 					<div className={styles.herocta}>
 						<h3>Find me online:</h3>
@@ -49,11 +56,7 @@ const Hero = () => {
 					</div>
 				</div>
 				<div className={styles.image}>
-					<Image
-						src={image}
-						alt="Alex Kimeu"
-						className={styles.photo}
-					/>
+					<Image src={image} alt="Alex Kimeu" className={styles.photo} />
 				</div>
 			</div>
 		</div>

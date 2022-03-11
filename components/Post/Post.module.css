@@ -26,7 +26,7 @@
     margin-top: 1rem;
     color: var(--text-light);
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -35,7 +35,7 @@
 }
 
 .post .body .excerpt {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 1.5rem;
     color: var(--text-light);
 }
@@ -102,11 +102,11 @@
 
 @media screen and (max-width: 600px) {
     .post .body .title {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .post .body .excerpt {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .post .footer span{
