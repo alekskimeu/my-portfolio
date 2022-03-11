@@ -24,7 +24,8 @@ const Hero = () => {
 				>
 					<h1 className={styles.title}>Hello, World 👋</h1>
 					<h2 className={styles.description}>
-						I&#39;m Alex Kimeu, a Full stack Developer in love with{" "}
+						I&#39;m <span className={styles.name}>Alex Kimeu</span>, a Full
+						stack Developer in love with{" "}
 						<a href="https://jamstack.org/what-is-jamstack/">JAMstack</a>. Apart
 						from coding, I blog about tech in{" "}
 						<Link href="/blog">

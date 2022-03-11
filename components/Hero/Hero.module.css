@@ -14,7 +14,7 @@
 .hero .content {
     flex: 1;
     order: 2;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -29,7 +29,7 @@
 }
 
 .hero .content .description {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 1.5rem;
     line-height: 1.4;
     font-weight: 400;
