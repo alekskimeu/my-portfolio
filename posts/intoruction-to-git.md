@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to Git & Github'
+title: 'My FreeCodeCamp Experience'
 excerpt: 'How I completed FreeCodeCamp Web Development Certification in 7 months.'
 date: '2020-01-01'
 ---
