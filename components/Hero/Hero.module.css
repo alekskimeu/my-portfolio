@@ -35,6 +35,11 @@
     font-weight: 400;
 }
 
+.hero .content .description a {
+    color: var(--link);
+    font-weight: 500;
+}
+
 .hero .content .description .name {
     font-weight: 500;
     text-transform: uppercase;
@@ -52,6 +57,7 @@
 }
 
 .hero .herocta a {
+    color: var(--link);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
