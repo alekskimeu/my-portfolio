@@ -24,37 +24,57 @@ const Hero = () => {
 				>
 					<h1 className={styles.title}>Hello, World 👋</h1>
 					<h2 className={styles.description}>
-						I&#39;m <span className={styles.name}>Alex Kimeu</span>, a Full
-						stack Developer in love with{" "}
-						<a href="https://jamstack.org/what-is-jamstack/">JAMstack</a>. Apart
-						from coding, I blog about tech in{" "}
+						I&#39;m <span className={styles.name}>Alex Kimeu</span>, a Software
+						Developer in love with{" "}
+						<a href="https://jamstack.org/what-is-jamstack/">JAMstack</a>. I
+						enjoy learning & building stuff with code. Apart from coding and
+						learning new techs, I write about tech in my{" "}
 						<Link href="/blog">
-							<a>my blog</a>
+							<a>blog</a>
 						</Link>{" "}
-						& general life stuff on{" "}
-						<a href="https://bdadg.com/blog">bdadg blog</a>. I enjoy playing &
-						watching football.
+						& about general life stuff on{" "}
+						<a href="https://bdadg.com/blog">BDADG</a>.
 					</h2>
 					<div className={styles.herocta}>
-						<h3>Find me online:</h3>
-						<Link href="https://twitter.com/alekskimeu" aria-label="Twitter">
-							<a target="_blank">
-								<i className="fab fa-twitter"></i>
-							</a>
-						</Link>
-						<Link
-							href="https://www.linkedin.com/in/alexkimeu/"
-							aria-label="LinkedIn"
+						<div className={styles.socialMedia}>
+							<Link href="https://twitter.com/alekskimeu" aria-label="Twitter">
+								<a
+									target="_blank"
+									style={{ color: theme === "light" ? "#BB6464" : "white" }}
+								>
+									<i className="fab fa-twitter"></i>
+								</a>
+							</Link>
+							<Link
+								href="https://www.linkedin.com/in/alexkimeu/"
+								aria-label="LinkedIn"
+							>
+								<a
+									target="_blank"
+									style={{ color: theme === "light" ? "#BB6464" : "white" }}
+								>
+									<i className="fab fa-linkedin"></i>
+								</a>
+							</Link>
+							<Link href="https://github.com/alekskimeu" aria-label="Github">
+								<a
+									target="_blank"
+									style={{ color: theme === "light" ? "#BB6464" : "white" }}
+								>
+									<i className="fab fa-github"></i>
+								</a>
+							</Link>
+						</div>
+						<a
+							href="#"
+							className={styles.btnDownload}
+							style={{
+								backgroundColor: theme === "light" ? "#BB6464" : "white",
+								color: theme === "light" ? "white" : "#332FD0",
+							}}
 						>
-							<a target="_blank">
-								<i className="fab fa-linkedin"></i>
-							</a>
-						</Link>
-						<Link href="https://github.com/alekskimeu" aria-label="Github">
-							<a target="_blank">
-								<i className="fab fa-github"></i>
-							</a>
-						</Link>
+							Download CV <i className="fas fa-download"></i>
+						</a>
 					</div>
 				</div>
 				<div className={styles.image}>
