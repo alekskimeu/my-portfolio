@@ -70,7 +70,7 @@ const Hero = () => {
 							className={styles.btnDownload}
 							style={{
 								backgroundColor: theme === "light" ? "#BB6464" : "white",
-								color: theme === "light" ? "white" : "#332FD0",
+								color: theme === "light" ? "white" : "#BB6464",
 							}}
 						>
 							Download CV <i className="fas fa-download"></i>
