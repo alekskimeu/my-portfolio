@@ -46,13 +46,7 @@ const Hero = () => {
 						amazing that we live in an age where we can make many possibilities
 						with technology, & I&#39;m ready to collaborate with other
 						developers in my career to develop solutions geared to accelerate
-						business processes. <br /> Apart from coding and learning new techs,
-						I write about tech in my{" "}
-						<Link href="/blog">
-							<a>blog</a>
-						</Link>{" "}
-						& about general life stuff on{" "}
-						<a href="https://bdadg.com/blog">BDADG</a>.
+						business processes.
 						<br />
 						Get in touch!
 					</h2>
