@@ -26,11 +26,6 @@ export default function Home({ posts }) {
 					<div className="container">
 						<div className="section-header">
 							<h1 className="heading">Projects</h1>
-							<Link href="/projects">
-								<a>
-									View all <i className="fas fa-arrow-right-long"></i>
-								</a>
-							</Link>
 						</div>
 						<div className={styles.projectsWrapper}>
 							{projects.map((project) => (
@@ -45,11 +40,6 @@ export default function Home({ posts }) {
 					<div className="container">
 						<div className="section-header">
 							<h1 className="heading">Latest posts</h1>
-							<Link href="/blog">
-								<a>
-									View All <i className="fas fa-arrow-right-long"></i>
-								</a>
-							</Link>
 						</div>
 						<div className={styles.posts}>
 							{posts.map((post) => (
