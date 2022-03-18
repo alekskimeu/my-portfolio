@@ -19,15 +19,35 @@ const Hero = () => {
 						border:
 							theme === "light"
 								? "1px solid #BB6464"
-								: "1px solid rgba(231, 231, 231)",
+								: "1px solid rgba(231, 231, 231, .5)",
 					}}
 				>
-					<h1 className={styles.title}>Hello, World 👋</h1>
+					<div className={styles.header}>
+						<h1 className={styles.title}>Hello, World 👋</h1>
+						<div
+							className={styles.image}
+							style={{
+								border:
+									theme === "light" ? "2px solid #BB6464" : "2px solid white",
+							}}
+						>
+							<Image
+								src={image}
+								alt="Alex Kimeu"
+								className={styles.photo}
+								layout="responsive"
+							/>
+						</div>
+					</div>
 					<h2 className={styles.description}>
 						I&#39;m <span className={styles.name}>Alex Kimeu</span>, a
 						Passionate Software Developer with 3+ years of progressive
-						experience in creating impactful solutions with technology. <br />
-						Apart from coding and learning new techs, I write about tech in my{" "}
+						experience in creating impactful solutions with technology. It&#39;s
+						amazing that we live in an age where we can make many possibilities
+						with technology, & I&#39;m ready to collaborate with other
+						developers in my career to develop solutions geared to accelerate
+						business processes. <br /> Apart from coding and learning new techs,
+						I write about tech in my{" "}
 						<Link href="/blog">
 							<a>blog</a>
 						</Link>{" "}
@@ -78,19 +98,6 @@ const Hero = () => {
 							Download CV <i className="fas fa-download"></i>
 						</a>
 					</div>
-				</div>
-				<div
-					className={styles.image}
-					style={{
-						border: theme === "light" ? "2px solid #BB6464" : "2px solid white",
-					}}
-				>
-					<Image
-						src={image}
-						alt="Alex Kimeu"
-						className={styles.photo}
-						layout="responsive"
-					/>
 				</div>
 			</div>
 		</div>
