@@ -28,6 +28,9 @@ const Header = () => {
 					<Link href="/">
 						<a>Home</a>
 					</Link>
+					<Link href="/resume">
+						<a>Resume</a>
+					</Link>
 					<Link href="/projects">
 						<a>Projects</a>
 					</Link>
