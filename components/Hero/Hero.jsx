@@ -7,49 +7,61 @@ import image from "../../public/images/profile.jpg";
 import styles from "./Hero.module.css";
 
 // How to leave your 9-5 with class & dignity
-
+// TODO: Get in touch, Social icons & photo on one side. Content on the other
 const Hero = () => {
 	const { theme, setTheme } = useTheme();
 	return (
 		<div className={styles.hero}>
-			<div className={styles.container}>
+			<div className={styles.container}
+			style={{
+				border:
+					theme === "light"
+						? "1px solid #BB6464"
+						: "1px solid rgba(231, 231, 231, .5)",
+			}}
+			>
 				<div
 					className={styles.content}
-					style={{
-						border:
-							theme === "light"
-								? "1px solid #BB6464"
-								: "1px solid rgba(231, 231, 231, .5)",
-					}}
+					
 				>
-					<div className={styles.header}>
+					
 						<h1 className={styles.title}>Hello, World 👋</h1>
-						<div
-							className={styles.image}
+						
+					<p className={styles.description}>
+						I&#39;m  a
+						Passionate Software Developer with 3+ years of progressive
+						experience in creating impactful solutions with technology.
+					</p>
+					<p className={styles.description}> It&#39;s
+						amazing that we live in an age where we can make many possibilities
+						with technology, & I&#39;m ready to collaborate with other
+						developers in my career to develop solutions geared to accelerate
+						business processes.</p>
+					
+					<a
+							href="#"
+							className={styles.btnDownload}
 							style={{
 								border:
 									theme === "light" ? "2px solid #BB6464" : "2px solid white",
+								color: theme === "light" ? "#BB6464" : "white",
 							}}
+						>
+							Download CV <i className="fas fa-download"></i>
+						</a>
+				</div>
+				<div
+							className={styles.image}
+							
 						>
 							<Image
 								src={image}
 								alt="Alex Kimeu"
 								className={styles.photo}
 								layout="responsive"
-							/>
-						</div>
-					</div>
-					<h2 className={styles.description}>
-						I&#39;m <span className={styles.name}>Alex Kimeu</span>, a
-						Passionate Software Developer with 3+ years of progressive
-						experience in creating impactful solutions with technology. It&#39;s
-						amazing that we live in an age where we can make many possibilities
-						with technology, & I&#39;m ready to collaborate with other
-						developers in my career to develop solutions geared to accelerate
-						business processes.
-						<br />
-						Get in touch!
-					</h2>
+								
+					/>
+					<h1 className={styles.name}>Alex Kimeu</h1>
 					<div className={styles.herocta}>
 						<div className={styles.socialMedia}>
 							<Link href="https://twitter.com/alekskimeu" aria-label="Twitter">
@@ -80,19 +92,9 @@ const Hero = () => {
 								</a>
 							</Link>
 						</div>
-						<a
-							href="#"
-							className={styles.btnDownload}
-							style={{
-								border:
-									theme === "light" ? "2px solid #BB6464" : "2px solid white",
-								color: theme === "light" ? "#BB6464" : "white",
-							}}
-						>
-							Download CV <i className="fas fa-download"></i>
-						</a>
+						
 					</div>
-				</div>
+						</div>
 			</div>
 		</div>
 	);

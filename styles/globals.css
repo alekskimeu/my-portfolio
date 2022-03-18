@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .section-header .heading {
