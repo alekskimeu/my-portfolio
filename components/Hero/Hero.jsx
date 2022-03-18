@@ -18,22 +18,23 @@ const Hero = () => {
 					style={{
 						border:
 							theme === "light"
-								? "2px solid rgba(231, 231, 231)"
-								: "2px solid #2e313d",
+								? "1px solid #BB6464"
+								: "1px solid rgba(231, 231, 231)",
 					}}
 				>
 					<h1 className={styles.title}>Hello, World 👋</h1>
 					<h2 className={styles.description}>
 						I&#39;m <span className={styles.name}>Alex Kimeu</span>, a Software
-						Developer in love with{" "}
-						<a href="https://jamstack.org/what-is-jamstack/">JAMstack</a>. I
-						enjoy learning & building stuff with code. Apart from coding and
-						learning new techs, I write about tech in my{" "}
+						Developer specializing in Frontend development, transforming designs
+						into actual products. <br />
+						Apart from coding and learning new techs, I write about tech in my{" "}
 						<Link href="/blog">
 							<a>blog</a>
 						</Link>{" "}
 						& about general life stuff on{" "}
 						<a href="https://bdadg.com/blog">BDADG</a>.
+						<br />
+						Get in touch!
 					</h2>
 					<div className={styles.herocta}>
 						<div className={styles.socialMedia}>
@@ -69,16 +70,27 @@ const Hero = () => {
 							href="#"
 							className={styles.btnDownload}
 							style={{
-								backgroundColor: theme === "light" ? "#BB6464" : "white",
-								color: theme === "light" ? "white" : "#BB6464",
+								border:
+									theme === "light" ? "2px solid #BB6464" : "2px solid white",
+								color: theme === "light" ? "#BB6464" : "white",
 							}}
 						>
 							Download CV <i className="fas fa-download"></i>
 						</a>
 					</div>
 				</div>
-				<div className={styles.image}>
-					<Image src={image} alt="Alex Kimeu" className={styles.photo} />
+				<div
+					className={styles.image}
+					style={{
+						border: theme === "light" ? "2px solid #BB6464" : "2px solid white",
+					}}
+				>
+					<Image
+						src={image}
+						alt="Alex Kimeu"
+						className={styles.photo}
+						layout="responsive"
+					/>
 				</div>
 			</div>
 		</div>
