@@ -25,8 +25,8 @@ const Hero = () => {
 					<h1 className={styles.title}>Hello, World 👋</h1>
 					<h2 className={styles.description}>
 						I&#39;m <span className={styles.name}>Alex Kimeu</span>, a Software
-						Developer specializing in Frontend development, transforming designs
-						into actual products. <br />
+						Developer specializing in Frontend development. I enjoy transforming
+						designs into actual products. <br />
 						Apart from coding and learning new techs, I write about tech in my{" "}
 						<Link href="/blog">
 							<a>blog</a>
