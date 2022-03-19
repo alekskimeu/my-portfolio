@@ -23,7 +23,7 @@
 
 .hero .content .title {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -48,11 +48,11 @@
     text-align: center;
     margin-top: 1rem;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .hero .content .description {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     font-weight: 400;
 }
@@ -156,21 +156,10 @@
         padding: 1rem;
     }
 
-    .hero .content .title {
-        font-size: 1.6rem;
-    }
-
-    .hero .content .description {
-        font-size: 1.4rem;
-    }
-
     .hero .content .socialMedia {
         gap: 1rem;
     }
 
-    .hero .content .socialMedia h2 {
-        font-size: 1.4rem;
-    }
 }
 
 @media screen and (max-width: 500px) {

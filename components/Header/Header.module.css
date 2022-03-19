@@ -23,7 +23,7 @@
     color: var(--link);
 }
 
-.menu {
+.header .menu {
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -34,7 +34,7 @@
     -o-transition: all .5s ease;
 }
 
-.menu a {
+.header .menu a {
     text-transform: uppercase;
     color: var(--text);
     font-size: 1.2rem;
@@ -46,11 +46,11 @@
     -o-transition: all .5s ease;
 }
 
-.menu a:hover {
+.header .menu a:hover {
     color: var(--link);
 }
 
-@media screen and (max-width: 572px) {
+@media screen and (max-width: 672px) {
     .header {
         min-height: 6rem;
     }
@@ -61,6 +61,10 @@
         gap: .5rem;
         padding-bottom: 0.5rem;
     }    
+
+    .header .menu {
+        gap: 1rem;
+    }
 }
 
 /* Toggle */

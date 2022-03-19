@@ -20,14 +20,13 @@
 }
 
 .postPage .postHeader .title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.2rem;
     color: var(--primary);
 }
 
 .postPage .postHeader .date {
     color: var(--text);
-    font-weight: 500;
 }
 
 .postPage .ert {
@@ -38,15 +37,15 @@
 }
 
 .postPage .postBody p {
-    font-size: 1.6rem;
-    line-height: 1.6;
+    font-size: 1.4rem;
+    line-height: 1.4;
     margin-bottom: 2rem;
 }
 
 .postPage .postBody pre  {
     max-width: 100%;
     font-size: 1.1rem;
-    line-height: 1.6;
+    line-height: 1.4;
     margin-bottom: 2rem;
     background-color: whitesmoke;
     padding: 1rem;
@@ -62,8 +61,7 @@
 }
 
 .postPage p > strong {
-    font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
@@ -91,8 +89,4 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-}
-
-@media screen and (max-width) {
-
 }

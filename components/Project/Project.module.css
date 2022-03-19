@@ -20,7 +20,7 @@
 
 .project .title {
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgb(231, 231, 231);
@@ -28,7 +28,8 @@
 }
 
 .project .description {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
     color: var(--text-light);
     margin-bottom: .8rem;
 }

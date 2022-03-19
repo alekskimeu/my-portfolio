@@ -26,7 +26,7 @@
     margin-top: 1rem;
     color: var(--text-light);
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -35,7 +35,8 @@
 }
 
 .post .body .excerpt {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
     margin-top: 1.5rem;
     color: var(--text-light);
 }
