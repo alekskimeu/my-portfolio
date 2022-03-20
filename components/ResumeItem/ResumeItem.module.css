@@ -1,0 +1,111 @@
+.resumeItem {
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    color: black;
+    width: 48%;
+    position: relative;
+}
+
+.resumeItem:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+.resumeItem:nth-child(odd) {
+    left: 0;
+}
+
+.resumeItem:nth-child(even) {
+    right: -51.8%;
+}
+
+.resumeItem:nth-child(odd)::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid var(--link);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.resumeItem:nth-child(even)::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -17px;
+    background-color: white;
+    border: 4px solid var(--link);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.resumeItem .resumeItemHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.resumeItem .resumeItemHeader .profession {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: rgb(24, 24, 24);
+    margin-bottom: 0.5rem;
+}
+
+.resumeItem .resumeItemHeader .company {
+    color: var(--text-light);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.resumeItem .resumeItemHeader .timeline {
+    font-style: italic;
+}
+
+.resumeItem .resumeBody .description {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.resumeItem .resumeBody .resumeList {
+    list-style-type: disc;
+    padding-left: 2rem;
+    color: var(--text-light);
+    line-height: 1.4;
+}
+
+.resumeItem .resumeBody .resumeList li {
+    font-size: 1.3rem;
+    color: var(--text-light);
+    opacity: .9;
+}
+
+@media screen and (max-width: 762px) {    
+    .resumeItem {
+        width: 93%;
+        padding-left: 70px;
+        padding-right: 25px;
+        margin-left: 3rem;
+    }
+    
+    .resumeItem:nth-child(odd):after, .resumeItem:nth-child(even):after {
+        left: -2rem;
+    }
+    
+    .resumeItem:nth-child(even) {
+        left: 0%;
+    }
+}

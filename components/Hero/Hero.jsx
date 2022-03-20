@@ -12,54 +12,48 @@ const Hero = () => {
 	const { theme, setTheme } = useTheme();
 	return (
 		<div className={styles.hero}>
-			<div className={styles.container}
-			style={{
-				border:
-					theme === "light"
-						? "1px solid #BB6464"
-						: "1px solid rgba(231, 231, 231, .5)",
-			}}
+			<div
+				className={styles.container}
+				style={{
+					border:
+						theme === "light"
+							? "1px solid #BB6464"
+							: "1px solid rgba(231, 231, 231, .5)",
+				}}
 			>
-				<div
-					className={styles.content}
-					
-				>
-					
-						<h1 className={styles.title}>Hello, World 👋</h1>
-						
+				<div className={styles.content}>
+					<h1 className={styles.title}>Hello, World 👋</h1>
+
 					<p className={styles.description}>
-						I&#39;m  a
-						Passionate Software Developer with 3+ years of progressive
+						I&#39;m a passionate Software Developer with 3+ years of progressive
 						experience in creating impactful solutions with technology.
 					</p>
-					<p className={styles.description}> It&#39;s
-						amazing that we live in an age where we can make many possibilities
-						with technology, & I&#39;m ready to collaborate with other
-						developers in my career to develop solutions geared to accelerate
-						business processes.</p>
-					
+					<p className={styles.description}>
+						{" "}
+						It&#39;s amazing that we live in an age where we can make many
+						possibilities with technology, & I&#39;m ready to collaborate with
+						other developers in my career to develop solutions geared to
+						accelerate business processes.
+					</p>
+
 					<a
-							href="#"
-							className={styles.btnDownload}
-							style={{
-								border:
-									theme === "light" ? "2px solid #BB6464" : "2px solid white",
-								color: theme === "light" ? "#BB6464" : "white",
-							}}
-						>
-							Download CV <i className="fas fa-download"></i>
-						</a>
+						href="#"
+						className={styles.btnDownload}
+						style={{
+							border:
+								theme === "light" ? "2px solid #BB6464" : "2px solid white",
+							color: theme === "light" ? "#BB6464" : "white",
+						}}
+					>
+						Download CV <i className="fas fa-download"></i>
+					</a>
 				</div>
-				<div
-							className={styles.image}
-							
-						>
-							<Image
-								src={image}
-								alt="Alex Kimeu"
-								className={styles.photo}
-								layout="responsive"
-								
+				<div className={styles.image}>
+					<Image
+						src={image}
+						alt="Alex Kimeu"
+						className={styles.photo}
+						layout="responsive"
 					/>
 					<h1 className={styles.name}>Alex Kimeu</h1>
 					<div className={styles.herocta}>
@@ -92,9 +86,8 @@ const Hero = () => {
 								</a>
 							</Link>
 						</div>
-						
 					</div>
-						</div>
+				</div>
 			</div>
 		</div>
 	);
