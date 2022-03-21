@@ -21,9 +21,6 @@ const ResumeItem = () => {
 					<li>Database Administration</li>
 					<li>Database Administration</li>
 					<li>Database Administration</li>
-					<li>Database Administration</li>
-					<li>Database Administration</li>
-					<li>Database Administration</li>
 				</ul>
 			</div>
 		</div>

@@ -16,6 +16,7 @@ export default function Home({ posts }) {
 					name="description"
 					content="Software Developer | Limitless learner | Blogger"
 				/>
+				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
 			<main>
 				<Hero />

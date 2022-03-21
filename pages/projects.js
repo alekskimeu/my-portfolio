@@ -11,6 +11,7 @@ export default function Projects({ projects }) {
 			<Head>
 				<title>Alex Kimeu - Projects</title>
 				<meta name="description" content="Software projects I have worked on" />
+				<meta name="keywords" content="Tech projects" />
 			</Head>
 			<div className={styles.projects}>
 				<div className="container">

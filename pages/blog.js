@@ -13,6 +13,7 @@ export default function Blog({ posts }) {
 			<Head>
 				<title>Alex Kimeu - Blog</title>
 				<meta name="description" content="No way he writes!" />
+				<meta name="keywords" content="Blog, Technical writing" />
 			</Head>
 			<main className={styles.blog}>
 				<div className="container">
