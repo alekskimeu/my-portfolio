@@ -26,7 +26,7 @@ const Hero = () => {
 
 					<p className={styles.description}>
 						I&#39;m a passionate Software Developer with 3+ years of progressive
-						experience in creating impactful solutions with technology.
+						experience creating impactful solutions with technology.
 					</p>
 					<p className={styles.description}>
 						{" "}
