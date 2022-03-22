@@ -18,14 +18,12 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								border:
-									theme === "light"
-										? "1px solid rgb(231, 231, 231)"
-										: "1px solid #222831",
+								borderTop:
+									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
-										? "3px 8px 16px rgb(231, 231, 231)"
-										: "3px 8px 16px #222831",
+										? "5px 8px 16px rgb(231, 231, 231)"
+										: "5px 8px 16px #222831",
 							}}
 						>
 							<div className={styles.skillsHeader}>
@@ -58,14 +56,12 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								border:
-									theme === "light"
-										? "1px solid rgb(231, 231, 231)"
-										: "1px solid #222831",
+								borderTop:
+									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
-										? "3px 8px 16px rgb(231, 231, 231)"
-										: "3px 8px 16px #222831",
+										? "5px 8px 16px rgb(231, 231, 231)"
+										: "5px 8px 16px #222831",
 							}}
 						>
 							<div className={styles.skillsHeader}>
@@ -92,14 +88,12 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								border:
-									theme === "light"
-										? "1px solid rgb(231, 231, 231)"
-										: "1px solid #222831",
+								borderTop:
+									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
-										? "3px 8px 16px rgb(231, 231, 231)"
-										: "3px 8px 16px #222831",
+										? "5px 8px 16px rgb(231, 231, 231)"
+										: "5px 8px 16px #222831",
 							}}
 						>
 							<div className={styles.skillsHeader}>
@@ -127,14 +121,12 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								border:
-									theme === "light"
-										? "1px solid rgb(231, 231, 231)"
-										: "1px solid #222831",
+								borderTop:
+									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
-										? "3px 8px 16px rgb(231, 231, 231)"
-										: "3px 8px 16px #222831",
+										? "5px 8px 16px rgb(231, 231, 231)"
+										: "5px 8px 16px #222831",
 							}}
 						>
 							<div className={styles.skillsHeader}>

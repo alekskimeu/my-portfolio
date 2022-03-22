@@ -28,7 +28,6 @@
 }
 
 .skills .skillsCard {
-    border-top: 3px solid var(--link);
     background-color: var(--white);
     padding: 1.5rem;
     border-radius: .3rem;

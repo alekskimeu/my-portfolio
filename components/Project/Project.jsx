@@ -16,7 +16,7 @@ const Project = ({ project }) => {
 						: "3px 8px 16px #222831",
 
 				borderTop:
-					theme === "light" ? "2px solid #222831" : "2px solid #2e313d",
+					theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 			}}
 		>
 			<h2 className={styles.title}>{project.title}</h2>
