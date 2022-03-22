@@ -32,8 +32,8 @@ const Hero = () => {
 						{" "}
 						It&#39;s amazing that we live in an age where we can make many
 						possibilities with technology, & I&#39;m ready to collaborate with
-						other developers in my career to develop solutions geared to
-						accelerate business processes.
+						other developers in my career to develop solutions geared to improve
+						performance & accelerate business processes.
 					</p>
 
 					<a
