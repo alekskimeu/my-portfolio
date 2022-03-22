@@ -30,10 +30,14 @@ const Hero = () => {
 					</p>
 					<p className={styles.description}>
 						{" "}
-						It&#39;s amazing that we live in an age where we can make many
-						possibilities with technology, & I&#39;m ready to collaborate with
-						other developers in my career to develop solutions geared to improve
-						performance & accelerate business processes.
+						Apart from coding & learning new techs, I write about tech in my{" "}
+						<Link href="/blog">
+							<a>blog</a>
+						</Link>{" "}
+						& about general life stuff on{" "}
+						<a href="#" target="_blank">
+							BDADG
+						</a>
 					</p>
 
 					<a
