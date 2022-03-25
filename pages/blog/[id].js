@@ -6,13 +6,14 @@ import { useTheme } from "next-themes";
 import { Post } from "../../components";
 import { getAllPostIds, getOtherPosts, getPostData } from "../../lib/posts";
 
-import image from "../../public/images/user.jpg";
 
 import styles from "../../styles/Post.module.css";
 import Link from "next/link";
 
 export default function BlogPost({ post, posts }) {
 	const { theme, setTheme } = useTheme();
+
+	const imageName = post.title.split(" ").join("-").toLowerCase();
 
 	return (
 		<>
@@ -24,7 +25,7 @@ export default function BlogPost({ post, posts }) {
 				<div className="container">
 					<div className={styles.postWrapper}>
 						<Image
-							src={image}
+							src={`/images/posts/${imageName}.jpg`}
 							alt={post.title}
 							className={styles.postImg}
 							layout="responsive"

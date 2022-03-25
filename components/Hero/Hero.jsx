@@ -2,12 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
-import image from "../../public/images/profile.jpg";
+import image from "../../public/images/site/profile.jpg";
 
 import styles from "./Hero.module.css";
 
 // How to leave your 9-5 with class & dignity
-// TODO: Get in touch, Social icons & photo on one side. Content on the other
 const Hero = () => {
 	const { theme, setTheme } = useTheme();
 	return (
@@ -29,11 +28,10 @@ const Hero = () => {
 						experience creating impactful solutions with technology.
 					</p>
 					<p className={styles.description}>
-						{" "}
 						Apart from coding & learning new techs, I write about tech in my{" "}
 						<Link href="/blog">
 							<a>blog</a>
-						</Link>{" "}
+						</Link>
 						& about general life stuff on{" "}
 						<a href="#" target="_blank">
 							BDADG

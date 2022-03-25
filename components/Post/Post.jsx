@@ -2,12 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
-import image from "../../public/images/user.jpg";
-
 import styles from "./Post.module.css";
 
 const Post = ({ post }) => {
 	const { theme, setTheme } = useTheme();
+	const imageName = post.title.split(" ").join("-").toLowerCase();
 	return (
 		<div
 			className={styles.post}
@@ -19,7 +18,7 @@ const Post = ({ post }) => {
 			}}
 		>
 			<Image
-				src={image}
+				src={`/images/posts/${imageName}.jpg`}
 				alt={post.title}
 				className={styles.postImage}
 				layout="responsive"
