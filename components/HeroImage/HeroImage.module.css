@@ -1,0 +1,71 @@
+.image {
+    flex: .6;
+}
+
+.image .photo {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.image .name {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.image .herocta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.image .socialMedia {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.image .socialMedia a {
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.image .socialMedia i {
+    font-size: 2rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.image .socialMedia a:hover {
+    opacity: .9;
+}
+
+@media screen and (max-width: 1040px) {
+    .image {
+        padding-top: 10rem;
+    }
+
+    .image .socialMedia {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image .herocta {
+        flex-direction: column;
+    }    
+}

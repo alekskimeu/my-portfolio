@@ -36,7 +36,7 @@ export default function Blog({ posts }) {
 					</div>
 					<div className={styles.postsWrapper}>
 						{posts.map((post) => (
-							<Post key={post.id} post={post} />
+							<Post key={post.index} post={post} />
 						))}
 					</div>
 				</div>

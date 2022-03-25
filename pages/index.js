@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 
 import { Hero, Post, Project, Skills } from "../components";
 import { getSortedPostsData } from "../lib/posts";
@@ -30,7 +29,7 @@ export default function Home({ posts }) {
 						</div>
 						<div className={styles.projectsWrapper}>
 							{projects.map((project) => (
-								<Project key={project.id} project={project} />
+								<Project key={project.index} project={project} />
 							))}
 						</div>
 					</div>
@@ -44,7 +43,7 @@ export default function Home({ posts }) {
 						</div>
 						<div className={styles.posts}>
 							{posts.map((post) => (
-								<Post key={post.id} post={post} />
+								<Post key={post.index} post={post} />
 							))}
 						</div>
 					</div>

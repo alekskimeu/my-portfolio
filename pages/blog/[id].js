@@ -3,15 +3,18 @@ import Image from "next/image";
 import Head from "next/head";
 import { useTheme } from "next-themes";
 
+import * as dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
+
 import { Post } from "../../components";
 import { getAllPostIds, getOtherPosts, getPostData } from "../../lib/posts";
-
 
 import styles from "../../styles/Post.module.css";
 import Link from "next/link";
 
 export default function BlogPost({ post, posts }) {
 	const { theme, setTheme } = useTheme();
+	dayjs.extend(relativeTime);
 
 	const imageName = post.title.split(" ").join("-").toLowerCase();
 
@@ -29,6 +32,8 @@ export default function BlogPost({ post, posts }) {
 							alt={post.title}
 							className={styles.postImg}
 							layout="responsive"
+							width="400"
+							height="300"
 						/>
 						<div>
 							<div className={styles.postHeader}>
