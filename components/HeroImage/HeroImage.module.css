@@ -54,10 +54,6 @@
 }
 
 @media screen and (max-width: 1040px) {
-    .image {
-        padding-top: 10rem;
-    }
-
     .image .socialMedia {
         text-align: center;
         justify-content: center;
