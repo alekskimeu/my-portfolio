@@ -11,7 +11,7 @@ export const resumeData = [
 		],
 	},
 	{
-		title: "Technical Traiiner",
+		title: "Technical Trainer",
 		company: "Mahanaim College",
 		timeline: "June 2019 ~ Feb 2020",
 		description: "My duties:",

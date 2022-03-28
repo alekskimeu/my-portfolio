@@ -28,12 +28,12 @@ const Post = ({ post }) => {
 				className={styles.postImage}
 				layout="responsive"
 				width="400"
-				height="300"
+				height="200"
 			/>
 
 			<div className={styles.body}>
 				<Link href={`/blog/${post.id}`}>
-					<a className={styles.title}>{post.title.substr(0, 40)}...</a>
+					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
 					{post.excerpt.substr(0, 60)}...{" "}

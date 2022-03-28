@@ -17,7 +17,7 @@ export const educationData = [
 		description: "Achievements:",
 		duties: [
 			"Completed the 6 certifications in FreeCodeCamp's Web Development curriculum.",
-			"Completed a total of 30 projects.",
+			"Completed a total of 30 projects for the award of the certifications.",
 		],
 	},
 	{

@@ -33,7 +33,7 @@ export default function BlogPost({ post, posts }) {
 							className={styles.postImg}
 							layout="responsive"
 							width="400"
-							height="300"
+							height="200"
 						/>
 						<div>
 							<div className={styles.postHeader}>

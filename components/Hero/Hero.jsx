@@ -15,7 +15,7 @@ const Hero = () => {
 				style={{
 					border:
 						theme === "light"
-							? "1px solid #BB6464"
+							? "1px solid #222831"
 							: "1px solid rgba(231, 231, 231, .5)",
 				}}
 			>

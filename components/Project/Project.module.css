@@ -52,7 +52,7 @@
 }
 
 .project .projectCta a {
-    color: var(--link-light);
+    color: var(--primary-light);
     font-size: 1.2rem;
     font-weight: 500;
     transition: all .5s ease;

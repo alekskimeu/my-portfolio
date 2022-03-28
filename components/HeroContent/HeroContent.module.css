@@ -17,6 +17,11 @@
     margin-bottom: 1rem;
 }
 
+.content .description a {
+    color: var(--link);
+    font-weight: 500;
+}
+
 .content .btnDownload {
     display: inline-block;
     margin-top: 2rem;

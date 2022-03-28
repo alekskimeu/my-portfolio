@@ -3,13 +3,14 @@
 }
 
 .postPage .postWrapper {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
     margin-bottom: 5rem;
 }
 
 .postPage .postWrapper .postImg {
     width: 100%;
+    object-fit: cover;
 }
 
 .postPage .postHeader {

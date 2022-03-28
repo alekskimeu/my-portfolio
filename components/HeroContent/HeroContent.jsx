@@ -12,12 +12,12 @@ const HeroContent = () => {
 
 			<p className={styles.description}>
 				I&#39;m a passionate Software Developer with 3+ years of progressive
-				experience creating impactful solutions with technology.
+				experience creating solutions with technology.
 			</p>
 			<p className={styles.description}>
 				Apart from coding & learning new techs, I write about tech in my{" "}
 				<Link href="/blog">
-					<a>blog</a>
+					<a>BLOG</a>
 				</Link>{" "}
 				& about general life stuff on{" "}
 				<a href="#" target="_blank">
@@ -29,8 +29,8 @@ const HeroContent = () => {
 				href="https://drive.google.com/uc?export=download&id=1EjlxPcJzYvR8DArECErljA3CYzensdkj"
 				className={styles.btnDownload}
 				style={{
-					border: theme === "light" ? "2px solid #BB6464" : "2px solid white",
-					color: theme === "light" ? "#BB6464" : "white",
+					border: theme === "light" ? "2px solid #222831" : "2px solid white",
+					color: theme === "light" ? "#222831" : "white",
 				}}
 			>
 				Download CV <i className="fas fa-download"></i>

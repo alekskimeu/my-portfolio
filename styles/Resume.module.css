@@ -19,15 +19,22 @@
 
 .resume .resumeHeader {
     text-align: center;
-    padding: 3rem 0 2rem 0;
+    padding: 0 0 3rem 0;
 }
 
 .resume .resumeHeader .heading {
-    font-size: 2.4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 762px) {
     .resume .resumeWrapper::after {
         left: 31px;
+    }
+
+    .resume .resumeHeader .heading {
+        font-weight: 500;
+        font-size: 1.8rem;
     }
 }

@@ -26,7 +26,7 @@ const HeroImage = () => {
 						aria-label="Twitter"
 						rel="noreferrer"
 						target="_blank"
-						style={{ color: theme === "light" ? "#BB6464" : "white" }}
+						style={{ color: theme === "light" ? "#222831" : "white" }}
 					>
 						<i className="fab fa-twitter"></i>
 					</a>
@@ -35,7 +35,7 @@ const HeroImage = () => {
 						aria-label="LinkedIn"
 						target="_blank"
 						rel="noreferrer"
-						style={{ color: theme === "light" ? "#BB6464" : "white" }}
+						style={{ color: theme === "light" ? "#222831" : "white" }}
 					>
 						<i className="fab fa-linkedin"></i>
 					</a>
@@ -44,7 +44,7 @@ const HeroImage = () => {
 						aria-label="Github"
 						rel="noreferrer"
 						target="_blank"
-						style={{ color: theme === "light" ? "#BB6464" : "white" }}
+						style={{ color: theme === "light" ? "#222831" : "white" }}
 					>
 						<i className="fab fa-github"></i>
 					</a>

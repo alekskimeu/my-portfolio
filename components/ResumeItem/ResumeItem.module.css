@@ -60,12 +60,12 @@
 .resumeItem .resumeItemHeader .profession {
     font-weight: 500;
     font-size: 1.6rem;
-    color: rgb(24, 24, 24);
+    color: var(--primary-light);
     margin-bottom: 0.5rem;
 }
 
 .resumeItem .resumeItemHeader .company {
-    color: var(--text-light);
+    color: var(--primary-light);
     font-size: 1.2rem;
     font-weight: 400;
 }

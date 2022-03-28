@@ -20,7 +20,7 @@ export default function Resume() {
 			<div className={styles.resume}>
 				<div className="container">
 					<div className={styles.resumeHeader}>
-						<h1 className={styles.heading}>Work</h1>
+						<h1 className={styles.heading}>Work Experience</h1>
 					</div>
 					<div className={styles.resumeWrapper}>
 						{resumeData.map((item) => (
@@ -35,7 +35,7 @@ export default function Resume() {
 						))}
 					</div>
 
-					<div className={styles.resumeHeader}>
+					<div className={styles.resumeHeader} style={{ marginTop: "5rem" }}>
 						<h1 className={styles.heading}>Education</h1>
 					</div>
 					<div className={styles.resumeWrapper}>
