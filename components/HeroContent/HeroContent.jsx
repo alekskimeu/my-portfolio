@@ -26,7 +26,7 @@ const HeroContent = () => {
 			</p>
 
 			<a
-				href="#"
+				href="https://drive.google.com/uc?export=download&id=1EjlxPcJzYvR8DArECErljA3CYzensdkj"
 				className={styles.btnDownload}
 				style={{
 					border: theme === "light" ? "2px solid #BB6464" : "2px solid white",
