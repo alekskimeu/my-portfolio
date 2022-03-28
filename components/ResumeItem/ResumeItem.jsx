@@ -1,26 +1,21 @@
 import styles from "./ResumeItem.module.css";
 
-const ResumeItem = () => {
+const ResumeItem = ({ title, company, timeline, description, duties }) => {
 	return (
 		<div className={styles.resumeItem}>
 			<div className={styles.resumeItemHeader}>
 				<div>
-					<h1 className={styles.profession}>Web Developer</h1>
-					<h2 className={styles.company}>ZawadiZ</h2>
+					<h1 className={styles.profession}>{title}</h1>
+					<h2 className={styles.company}>{company}</h2>
 				</div>
-				<p className={styles.timeline}>May, 2021 ~ Present</p>
+				<p className={styles.timeline}>{timeline}</p>
 			</div>
 			<div className={styles.resumeBody}>
-				<p className={styles.description}>
-					The world breaks everyone, and afterwards, many are strong at the
-					broken places:
-				</p>
+				<p className={styles.description}>{description}</p>
 				<ul className={styles.resumeList}>
-					<li>Database Administration</li>
-					<li>Database Administration</li>
-					<li>Database Administration</li>
-					<li>Database Administration</li>
-					<li>Database Administration</li>
+					{duties.map((duty) => (
+						<li key={duty.index}>Build & maintain ZawadiZ website</li>
+					))}
 				</ul>
 			</div>
 		</div>

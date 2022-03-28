@@ -1,6 +1,9 @@
 import Head from "next/head";
 import { ResumeItem } from "../components";
 
+import { resumeData } from "../resume/resumeData";
+import { educationData } from "../resume/educationData";
+
 import styles from "../styles/Resume.module.css";
 
 export default function Resume() {
@@ -16,13 +19,36 @@ export default function Resume() {
 			</Head>
 			<div className={styles.resume}>
 				<div className="container">
-					<div className={styles.header}></div>
+					<div className={styles.resumeHeader}>
+						<h1 className={styles.heading}>Work</h1>
+					</div>
 					<div className={styles.resumeWrapper}>
-						<ResumeItem />
-						<ResumeItem />
-						<ResumeItem />
-						<ResumeItem />
-						<ResumeItem />
+						{resumeData.map((item) => (
+							<ResumeItem
+								key={item.index}
+								title={item.title}
+								company={item.company}
+								timeline={item.timeline}
+								description={item.description}
+								duties={item.duties}
+							/>
+						))}
+					</div>
+
+					<div className={styles.resumeHeader}>
+						<h1 className={styles.heading}>Education</h1>
+					</div>
+					<div className={styles.resumeWrapper}>
+						{educationData.map((item) => (
+							<ResumeItem
+								key={item.index}
+								title={item.title}
+								company={item.company}
+								timeline={item.timeline}
+								description={item.description}
+								duties={item.duties}
+							/>
+						))}
 					</div>
 				</div>
 			</div>

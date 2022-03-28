@@ -17,6 +17,15 @@
     margin-left: -3px;
 }
 
+.resume .resumeHeader {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
+
+.resume .resumeHeader .heading {
+    font-size: 2.4rem;
+}
+
 @media screen and (max-width: 762px) {
     .resume .resumeWrapper::after {
         left: 31px;
