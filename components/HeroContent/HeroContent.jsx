@@ -18,7 +18,7 @@ const HeroContent = () => {
 				Apart from coding & learning new techs, I write about tech in my{" "}
 				<Link href="/blog">
 					<a>blog</a>
-				</Link>
+				</Link>{" "}
 				& about general life stuff on{" "}
 				<a href="#" target="_blank">
 					BDADG
