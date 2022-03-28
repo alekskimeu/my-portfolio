@@ -21,6 +21,18 @@ export const educationData = [
 		],
 	},
 	{
+		title: "CISCO",
+		company: "Maseno University & CISCO Academy",
+		timeline: "Sep 2015 ~ Dec 2017",
+		description: "I studied:",
+		duties: [
+			"CCNA Routing & Switching",
+			"IP addressing & Subnetting",
+			"WAN technologies",
+			"Network security",
+		],
+	},
+	{
 		title: "BSc. IT",
 		company: "Maseno University",
 		timeline: "Sep 2014 ~ Dec 2018",
@@ -31,18 +43,6 @@ export const educationData = [
 			"OOP in Java",
 			"Computer Networks",
 			"Virtualization",
-		],
-	},
-	{
-		title: "CISCO",
-		company: "Maseno University & CISCO Academy",
-		timeline: "Sep 2015 ~ Dec 2017",
-		description: "I studied:",
-		duties: [
-			"CCNA Routing & Switching",
-			"IP addressing & Subnetting",
-			"WAN technologies",
-			"Network security",
 		],
 	},
 ];
