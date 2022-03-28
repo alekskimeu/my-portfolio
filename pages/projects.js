@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { Project } from "../components";
 
-import { projectsData } from "../projects/data";
+import { projectsData } from "../data/projects/data";
 
 import styles from "../styles/Projects.module.css";
 
-export default function Projects({ projects }) {
+export default function Projects() {
 	return (
 		<>
 			<Head>

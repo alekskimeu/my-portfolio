@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import { Hero, Post, Project, Skills } from "../components";
 import { getSortedPostsData } from "../lib/posts";
-import { projectsData } from "../projects/data";
+import { projectsData } from "../data/projects/data";
 import styles from "../styles/Home.module.css";
 
 export default function Home({ posts }) {

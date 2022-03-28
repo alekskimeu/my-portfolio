@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { ResumeItem } from "../components";
 
-import { resumeData } from "../resume/resumeData";
-import { educationData } from "../resume/educationData";
+import { resumeData } from "../data/resume/resumeData";
+import { educationData } from "../data/resume/educationData";
 
 import styles from "../styles/Resume.module.css";
 

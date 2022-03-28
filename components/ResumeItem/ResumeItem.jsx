@@ -14,7 +14,7 @@ const ResumeItem = ({ title, company, timeline, description, duties }) => {
 				<p className={styles.description}>{description}</p>
 				<ul className={styles.resumeList}>
 					{duties.map((duty) => (
-						<li key={duty.index}>Build & maintain ZawadiZ website</li>
+						<li key={duty.index}>{duty}</li>
 					))}
 				</ul>
 			</div>
