@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
-import image from "../../public/images/site/profile.jpg";
+import image from "../../public/images/site/profile.png";
 
 import styles from "./HeroImage.module.css";
 

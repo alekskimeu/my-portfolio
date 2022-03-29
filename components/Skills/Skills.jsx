@@ -10,7 +10,7 @@ const Skills = () => {
 		<div className={styles.skills}>
 			<div className="container">
 				<div className="section-header">
-					<h1 className="heading">Skillset</h1>
+					<h1 className="heading">Primary Skill set</h1>
 				</div>
 				<div className={styles.skillsWrapper}>
 					<div>
