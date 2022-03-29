@@ -38,7 +38,7 @@ export default function BlogPost({ post, posts }) {
 						<div>
 							<div className={styles.postHeader}>
 								<h1 className={styles.title}>{post.title}</h1>
-								<p className={styles.date}>{post.date}</p>
+								<p className={styles.date}>{dayjs(post.date).fromNow()}</p>
 							</div>
 
 							<p className={styles.ert}>
@@ -46,36 +46,39 @@ export default function BlogPost({ post, posts }) {
 							</p>
 						</div>
 
+						<div className={styles.postIntro}>
+							<p className={styles.intro}>{post.excerpt}</p>
+						</div>
+
 						<div
+							style={{ color: theme === "light" ? "#072227" : "white" }}
 							className={styles.postBody}
 							dangerouslySetInnerHTML={{ __html: post.content }}
 						/>
 					</div>
 				</div>
 
-				<div className={styles.relatedPosts}>
-					<div
-						className="container"
-						style={{
-							borderTop:
-								theme === "light"
-									? "1px solid rgb(231, 231, 231)"
-									: "1px solid #24242f",
-						}}
-					>
-						<div className="section-header" style={{ marginTop: "3rem" }}>
-							<h3 className="heading">Related posts</h3>
-							<Link href="/blog">
-								<a>
-									All posts <i className="fas fa-arrow-right-long"></i>
-								</a>
-							</Link>
-						</div>
-						<div className={styles.otherPosts}>
-							{posts.map((post) => (
-								<Post key={post.id} post={post} />
-							))}
-						</div>
+				<div
+					className={styles.relatedPosts}
+					style={{
+						borderTop:
+							theme === "light"
+								? "1px solid rgb(231, 231, 231)"
+								: "1px solid #24242f",
+					}}
+				>
+					<div className="section-header" style={{ marginTop: "3rem" }}>
+						<h3 className="heading">Related posts</h3>
+						<Link href="/blog">
+							<a>
+								All posts <i className="fas fa-arrow-right-long"></i>
+							</a>
+						</Link>
+					</div>
+					<div className={styles.otherPosts}>
+						{posts.map((post) => (
+							<Post key={post.id} post={post} />
+						))}
 					</div>
 				</div>
 			</div>

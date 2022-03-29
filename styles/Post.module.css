@@ -22,8 +22,7 @@
 
 .postPage .postHeader .title {
     font-weight: 500;
-    font-size: 2.2rem;
-    color: var(--primary);
+    font-size: 2rem;
 }
 
 .postPage .postHeader .date {
@@ -33,14 +32,23 @@
 .postPage .ert {
     margin-bottom: 2.5rem;
     font-size: 1.2rem;
-    color: var(--text);
     opacity: .8;
 }
 
+.postPage .postIntro {
+    margin-bottom: 2rem;
+}
+
+.postPage .postIntro .intro {
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
 .postPage .postBody p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 1.4;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .postPage .postBody pre  {
@@ -65,6 +73,10 @@
     font-weight: 500;
 }
 
+.postPage .postBody a {
+    text-transform: capitalize;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 642px){
     .postPage .postHeader {
@@ -84,10 +96,13 @@
 
 .postPage .relatedPosts {
     padding-top: 5rem;
+    max-width: 1250px;
+    margin: auto;
 }
 
 .postPage .otherPosts {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    margin-top: 3rem;
 }

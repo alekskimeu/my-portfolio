@@ -27,8 +27,8 @@ const Post = ({ post }) => {
 				alt={post.title}
 				className={styles.postImage}
 				layout="responsive"
-				width="400"
-				height="200"
+				width="300"
+				height="150"
 			/>
 
 			<div className={styles.body}>
@@ -36,7 +36,7 @@ const Post = ({ post }) => {
 					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
-					{post.excerpt.substr(0, 60)}...{" "}
+					{post.excerpt.substr(0, 100)}...{" "}
 					<Link href={`/blog/${post.id}`}>
 						<a className={styles.linkMore}>Read post</a>
 					</Link>
