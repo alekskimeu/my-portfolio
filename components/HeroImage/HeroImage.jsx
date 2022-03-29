@@ -16,7 +16,6 @@ const HeroImage = () => {
 				className={styles.photo}
 				width="200"
 				height="200"
-				layout="responsive"
 			/>
 			<h1 className={styles.name}>Alex Kimeu</h1>
 			<div className={styles.herocta}>

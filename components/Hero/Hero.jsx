@@ -19,8 +19,8 @@ const Hero = () => {
 							: "1px solid rgba(231, 231, 231, .5)",
 				}}
 			>
-				<HeroContent />
 				<HeroImage />
+				<HeroContent />
 			</div>
 		</div>
 	);

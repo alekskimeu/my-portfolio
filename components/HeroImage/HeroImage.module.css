@@ -1,5 +1,5 @@
 .image {
-    flex: .5;
+    flex: .6;
 }
 
 .image .photo {
@@ -12,7 +12,6 @@
 }
 
 .image .name {
-    text-align: center;
     margin-top: 1rem;
     font-weight: 500;
     font-size: 1.5rem;
@@ -22,7 +21,6 @@
 .image .herocta {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 3rem;
     margin-top: 1rem;
 }

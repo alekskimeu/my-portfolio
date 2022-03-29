@@ -8,8 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
-    padding: 1.5rem 2rem;
+    gap: 3rem;
+    padding: 2rem 3rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 962px) {
     .hero .container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
         gap: 1.5rem;
     }    
