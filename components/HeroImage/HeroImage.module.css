@@ -1,5 +1,10 @@
 .image {
-    flex: .6;
+    flex: .4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .image .photo {

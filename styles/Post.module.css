@@ -40,7 +40,8 @@
 }
 
 .postPage .postIntro .intro {
-    font-size: 1.3rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
     line-height: 1.4;
 }
 
@@ -51,9 +52,10 @@
 }
 
 .postPage .postBody p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     margin-top: 1rem;
+    line-height: 1.6;
 }
 
 .postPage .postBody pre  {
@@ -81,6 +83,17 @@
 .postPage .postBody a {
     text-transform: capitalize;
     font-weight: 600;
+    color: #d0adf0;
+    border-bottom: 2px solid #d0adf0;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.postPage .postBody a:hover {
+    opacity: .9;
 }
 
 .postPage .postBody h2 {

@@ -24,9 +24,10 @@
 
 .post .body .title {
     margin-top: 1rem;
-    color: var(--text-light);
+    color: var(--primary-light);
+    text-transform: capitalize;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -35,14 +36,18 @@
 }
 
 .post .body .excerpt {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     margin-top: 1rem;
     color: var(--text-light);
+    opacity: .9;
 }
 
 .post .body .linkMore {
-    color: var(--link-light);
+    color: #000;
+    border-bottom: 1px solid #000;
+    opacity: 1;
+    font-size: 1.3rem;
     font-weight: 500;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
