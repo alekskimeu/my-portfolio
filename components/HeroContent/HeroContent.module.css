@@ -1,6 +1,5 @@
 .content {
     flex: 1;
-    margin-bottom: 1.5rem;
 }
 
 .content .title {
@@ -49,7 +48,11 @@
 
 @media screen and (max-width: 962px) {
     .content {
-        padding: 0 2rem;
+        padding: 0 1rem;
+    }
+
+    .content .btnDownload {
+        margin-top: 1rem;
     }
 
     .content .description:nth-child(3) {
@@ -60,6 +63,18 @@
 @media screen and (max-width: 624px) {
     .content {
         margin-bottom: .5rem;
+    }
+
+    .content .title {
+        font-size: 1.4rem;
+    }
+
+    .content .description {
+        font-size: 1.3rem;
+    }
+
+    .content .btnDownload {
+        font-size: 1rem;
     }
 
 }

@@ -44,10 +44,15 @@
     line-height: 1.4;
 }
 
+.postPage .postBody img {
+    margin: 1rem 0;
+    width: 100%;
+    object-fit: cover;
+}
+
 .postPage .postBody p {
     font-size: 1.3rem;
     line-height: 1.4;
-    margin-bottom: 2rem;
     margin-top: 1rem;
 }
 
@@ -78,6 +83,10 @@
     font-weight: 600;
 }
 
+.postPage .postBody h2 {
+    margin-top: 3rem;
+}
+
 @media screen and (max-width: 642px){
     .postPage .postHeader {
         flex-direction: column;
@@ -87,6 +96,14 @@
 
     .postPage .postHeader .title {
         font-size: 1.8rem;
+    }
+
+    .postPage .postHeader .date {
+        font-size: 1rem;
+    }
+
+    .postPage .ert {
+        font-size: 1.05rem;
     }
 
     .postPage .postBody .description {
