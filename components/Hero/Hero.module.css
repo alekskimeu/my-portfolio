@@ -22,7 +22,7 @@
         flex-direction: column;
         text-align: center;
         gap: 1.5rem;
-        padding: 1rem;
+        padding: 1rem 0.5rem .5rem .5rem;
     }    
     
     .hero {
@@ -30,6 +30,7 @@
     }    
 
 }
+
 
 
 
