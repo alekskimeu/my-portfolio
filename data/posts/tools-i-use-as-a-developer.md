@@ -1,6 +1,6 @@
 ---
 title: 'Tools I use as a Developer'
-excerpt: 'As developers, we depend on a number of tools for our workflow. These tools ease our jobs and increase our productivity.'
+excerpt: 'As a developer, I use a number of tools for my workflow. These tools ease my job and significantly increase my productivity.'
 date: '2022-03-30'
 ---
 
