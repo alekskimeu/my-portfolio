@@ -1,8 +1,10 @@
 ---
 title: 'Tools I use as a Developer'
-excerpt: 'As developers, we depend on a number of tools for our workflow. These tools ease our jobs and increase our productivity. The following is a list of tools I regularly use to get my job done.'
+excerpt: 'As developers, we depend on a number of tools for our workflow. These tools ease our jobs and increase our productivity.'
 date: '2022-03-30'
 ---
+
+The following is a list of tools I regularly use to get my job done.
 
 ## [Favicon Generator](https://favicon.io/) 
 ![Favicon Generator](/images/posts/favicon.png)
