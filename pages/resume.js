@@ -20,7 +20,7 @@ export default function Resume() {
 			<div className={styles.resume}>
 				<div className="container">
 					<div className={styles.resumeHeader}>
-						<h1 className={styles.heading}>Work Experience</h1>
+						<h1 className={styles.heading}>Experience</h1>
 					</div>
 					<div className={styles.resumeWrapper}>
 						{resumeData.map((item) => (
