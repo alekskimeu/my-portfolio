@@ -31,12 +31,6 @@ const Skills = () => {
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image
-									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-									alt="JavaScript"
-									width={50}
-									height={50}
-								/>
-								<Image
 									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
 									alt="React"
 									width={50}
