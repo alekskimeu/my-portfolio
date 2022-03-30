@@ -1,6 +1,6 @@
 ---
 title: 'Hello World'
-excerpt: 'Hello World. Welcome to this space. This is my first post here and I figured I might as well start off by talking a bit about my journey in the vast world of code.'
+excerpt: 'Hello World. Welcome to this space. This is my first post here and I figured I might as well start off by reflecting a bit on my journey in the vast world of code so far. Here we go.'
 date: '2022-03-29'
 ---
 
