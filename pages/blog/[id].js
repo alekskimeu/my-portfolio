@@ -22,7 +22,7 @@ export default function BlogPost({ post, posts }) {
 		<>
 			<Head>
 				<title>{post.title}</title>
-				<meta name="description" content={`${post.excerpt}`} />
+				<meta name="description" content={post.excerpt} />
 			</Head>
 			<div className={styles.postPage}>
 				<div className="container">
