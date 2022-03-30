@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 			</Head>
 			<div className="wrapper">
 				<div className="wrap">
-					<Header />
+					{/* <Header /> */}
 					{children}
 				</div>
 				<Footer />

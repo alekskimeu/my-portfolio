@@ -24,7 +24,7 @@
 
 .post .body .title {
     margin-top: 1rem;
-    color: var(--primary-light);
+    color: #000;
     text-transform: capitalize;
     font-weight: 500;
     font-size: 1.5rem;
@@ -33,6 +33,10 @@
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
+}
+
+.post .body .title:hover {
+    opacity: .9;
 }
 
 .post .body .excerpt {
