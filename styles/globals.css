@@ -50,6 +50,7 @@ a {
 
 h1, h2, h3, h4, h5, h6, p, button, a, span {
   letter-spacing: 2px;
+  line-height: 1.4;
 }
 
 .section-header {
@@ -100,6 +101,10 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
   .section-header a i {
     display: none;
   }
+
+  .section-header {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -110,5 +115,12 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
 
   .section-header a {
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  h1, h2, h3, h4, h5, h6, p, button, a, span {
+    letter-spacing: 1.6px;
+    line-height: 1.3;
   }
 }

@@ -71,7 +71,9 @@
 }
 
 .resumeItem .resumeItemHeader .timeline {
-    font-style: italic;
+    opacity: .9;
+    color: var(--text-light);
+    font-weight: 500;
 }
 
 .resumeItem .resumeBody .description {
@@ -97,13 +99,10 @@
     .resumeItem .resumeItemHeader {
         flex-direction: column;
     }
-}
-
-@media screen and (max-width: 762px) {    
     .resumeItem {
         width: 93%;
-        padding-left: 70px;
-        padding-right: 25px;
+        padding-left: 30px;
+        padding-right: 20px;
         margin-left: 3rem;
     }
     
@@ -113,5 +112,20 @@
     
     .resumeItem:nth-child(even) {
         left: 0%;
+    }
+
+    .resumeItem:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .resumeItem .resumeItemHeader {
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .resumeItem .resumeBody {
+        display: none;
     }
 }
