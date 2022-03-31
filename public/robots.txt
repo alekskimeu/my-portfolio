@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://alex-kimeu.com/
+
+# Sitemaps
+Sitemap: https://alex-kimeu.com/sitemap.xml
