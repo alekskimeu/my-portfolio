@@ -67,7 +67,7 @@
 }
 
 .project .projectCta i {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -81,5 +81,21 @@
 
     .project .tech span {
         font-size: 1.1rem;
+    }
+
+    .project.projectCta a {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+
+@media screen and (max-width: 424px) {
+    .project {
+        padding: .6rem;
+    }
+
+    .project .tech {
+        display: none;
     }
 }

@@ -111,7 +111,33 @@
 }
 
 @media screen and (max-width: 600px) {
+    .post .body {
+        padding: 0.8rem;
+    }
+
     .post .footer span{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .post .postImageContainer {
+        display: none;
+    }
+
+    .post .body {
+        margin-top: 0.5rem;
+    }
+
+    .post .body .title {
+        margin-top: 0;
+    }
+
+    .post .body .excerpt {
+        margin-top: 0.5rem;
+    }
+
+    .post .footer {
+        padding: .5rem .8rem .8rem 0.8rem;
     }
 }

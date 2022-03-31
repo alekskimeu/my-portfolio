@@ -18,6 +18,7 @@ const HeroImage = () => {
 				height="200"
 			/>
 			<h1 className={styles.name}>Alex Kimeu</h1>
+			<h2 className={styles.profession}>Software Developer</h2>
 			<div className={styles.herocta}>
 				<div className={styles.socialMedia}>
 					<a

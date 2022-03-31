@@ -43,3 +43,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 424px) {
+    .projects, .blogPosts {
+        padding: 2rem 0;
+    }
+}

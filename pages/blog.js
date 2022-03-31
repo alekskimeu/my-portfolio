@@ -11,7 +11,7 @@ export default function Blog({ posts }) {
 	return (
 		<>
 			<Head>
-				{/* <title>Alex Kimeu - Blog</title> */}
+				<title>Alex Kimeu - Blog</title>
 				<meta name="description" content="No way he writes!" />
 				<meta name="keywords" content="Blog, Technical writing" />
 			</Head>

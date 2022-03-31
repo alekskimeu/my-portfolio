@@ -22,6 +22,8 @@ const Post = ({ post }) => {
 						: "3px 8px 16px #072227",
 			}}
 		>
+			<div className={styles.postImageContainer}>
+
 			<Image
 				src={`/images/posts/${imageName}.jpg`}
 				alt={post.title}
@@ -30,6 +32,7 @@ const Post = ({ post }) => {
 				width="300"
 				height="150"
 			/>
+			</div>
 
 			<div className={styles.body}>
 				<Link href={`/blog/${post.id}`}>

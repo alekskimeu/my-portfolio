@@ -67,12 +67,18 @@
     }    
 
     .skills .skillsCard {
-        margin-bottom: .3rem;
+        margin-bottom: .5rem;
     }
 }
 
 @media screen and (max-width: 700px) {
     .skills .skillsWrapper {
-        grid-template-columns: 1fr;
+        gap: 0.6rem;
     }    
+}
+
+@media screen and (max-width: 424px) {
+    .skills .skillsCard {
+        padding: 0.5rem;
+    }
 }
