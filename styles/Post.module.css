@@ -136,6 +136,12 @@
     margin-top: 3rem;
 }
 
+@media screen and (max-width: 642px) {
+    .postPage .otherPosts {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 424px) {
     .postPage .postIntro .intro {
         line-height: 1.3;
