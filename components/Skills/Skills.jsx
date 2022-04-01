@@ -18,8 +18,6 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								borderTop:
-									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"
@@ -50,8 +48,6 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								borderTop:
-									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"
@@ -82,8 +78,6 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								borderTop:
-									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"
@@ -115,8 +109,6 @@ const Skills = () => {
 						<div
 							className={styles.skillsCard}
 							style={{
-								borderTop:
-									theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"

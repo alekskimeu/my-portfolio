@@ -13,9 +13,7 @@ const Project = ({ project }) => {
 				boxShadow:
 					theme === "light"
 						? "3px 8px 16px rgb(231, 231, 231)"
-						: "3px 8px 16px #222831",
-				borderTop:
-					theme === "light" ? "5px solid #222831" : "5px solid #BB6464",
+						: "3px 8px 16px #222831"
 			}}
 		>
 			<h2 className={styles.title}>{project.title}</h2>
