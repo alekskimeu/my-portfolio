@@ -1,7 +1,7 @@
 ---
 title: 'Hello World'
 excerpt: 'Hello World. Welcome to this space. This is my first post here and I figured I might as well start off by reflecting a bit on my journey in the vast world of code so far. Here we go.'
-date: '2022-03-29'
+date: 'Mar 28 2022 11:10:39 GMT+0300'
 ---
 
 I was introduced to coding back in University where we did some Pascal, a bit of Java and PHP but I never really took it serious until 2020 when I decided to seriously teach myself coding. I quit my job to focus fully on learning and improving my skill set before getting back on the hunt for jobs. This was a really risky decision to make, but I'm glad I made it when I did. I guess sometimes we just have to take a leap to the void and see what happens.

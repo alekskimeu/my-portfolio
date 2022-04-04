@@ -71,6 +71,26 @@
     -o-border-radius: .3rem;
 }
 
+.postPage blockquote {
+    background-color: whitesmoke;
+    padding: .8rem;
+}
+
+.postPage blockquote p {
+    line-height: 1.4;
+    padding: .5rem;
+    font-size: 1.35rem;
+    color: var(--text-light);
+}
+
+.postPage blockquote li {
+    line-height: 1.4;
+    padding: .5rem;
+    font-size: 1.35rem;
+    color: var(--text-light);
+}
+
+
 .postPage p img {
     max-width: 100%;
 }
@@ -124,9 +144,9 @@
 }
 
 .postPage .relatedPosts {
-    padding-top: 5rem;
     max-width: 1250px;
     margin: auto;
+    padding: 0 1rem;
 }
 
 .postPage .otherPosts {

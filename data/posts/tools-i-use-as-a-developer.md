@@ -1,7 +1,7 @@
 ---
 title: 'Tools I use as a Developer'
 excerpt: 'As a developer, I use a number of tools for my workflow. These tools ease my job and significantly increase my productivity.'
-date: '2022-03-30'
+date: 'Mar 29 2022 11:10:39 GMT+0300'
 ---
 
 The following is a list of tools I regularly use to get my job done.
