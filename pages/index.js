@@ -55,7 +55,7 @@ export default function Home({ posts }) {
 
 // Fetch posts & projects
 export async function getStaticProps() {
-	const posts = getSortedPostsData().slice(0, 2);
+	const posts = getSortedPostsData().slice(0, 3);
 
 	return {
 		props: { posts },
