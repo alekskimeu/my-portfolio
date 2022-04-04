@@ -21,7 +21,7 @@ const Skills = () => {
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #222831",
+										: "5px 8px 16px #072227",
 							}}
 						>
 							<div className={styles.skillsHeader}>
@@ -51,7 +51,7 @@ const Skills = () => {
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #222831",
+										: "5px 8px 16px #072227",
 							}}
 						>
 							<div className={styles.skillsHeader}>
@@ -81,7 +81,7 @@ const Skills = () => {
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #222831",
+										: "5px 8px 16px #072227",
 							}}
 						>
 							<div className={styles.skillsHeader}>
@@ -112,7 +112,7 @@ const Skills = () => {
 								boxShadow:
 									theme === "light"
 										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #222831",
+										: "5px 8px 16px #072227",
 							}}
 						>
 							<div className={styles.skillsHeader}>
