@@ -14,10 +14,6 @@
     -o-transition: all .5s ease;
 }
 
-.project:hover {
-    box-shadow: 4px 8px 16px rgb(231, 231, 231);
-}
-
 .project .title {
     font-weight: 500;
     font-size: 1.4rem;

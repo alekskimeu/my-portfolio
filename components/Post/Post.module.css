@@ -13,10 +13,6 @@
     -o-transition: all .5s ease;
 }
 
-.post:hover {
-    box-shadow: 4px 8px 16px rgba(231, 231, 231);
-}
-
 .post .body {
     padding: 0.6rem 1.5rem;
     margin-top: 1rem;
