@@ -13,6 +13,7 @@ I took on [FreeCodeCamp's](https://www.freecodecamp.org/) Web Development curric
 Still I didn't lose track. I checked out Crash courses on Youtube, read blog posts and documentation and with time things started to make sense and everything started feeling just like home. I was learning, growing and having fun at the same time. It was an amazing experience. The joy I felt whenever I completed a certification and got the certificate with my name on it is immeasurable. 
 
 In July 2020, I signed up on [Codewars](https://codewars.com) and started practicing coding by solving katas (coding challenges).  Slowly by slowly my confidence started building and I started feeling more like a developer. I'm still active on Codewars, regularly solving problems on the platform and competing with peers and colleagues. I have completed a total of <b>406 katas</b> so far and currently rank at <b>5 kyu</b> with a <b>503 honor</b>.
+Check out my [Codewars profile](https://www.codewars.com/users/alexkimeu)
 
 ![Codewars](/images/posts/codewars-hello.png)
 
