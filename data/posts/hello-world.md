@@ -22,7 +22,7 @@ By the time I completed the last certification in the curriculum, my confidence 
 
 It took months of consistent learning, a lot of discipline and commitment, but it paid off eventually. Learning any skill requires a lot of discipline and commitment. To master any skill you have to put in a crazy amount of hours, stay consistent and practice but it's really worth it. 
 
-The best thing about acquiring a skill is that no one can ever take that away from you. You may even lose your job, but a skill is something you will always have and you can use to get yourself back on the ground and keep going.
+The best thing about acquiring a skill is that no one can ever take that away from you. You may even lose your job, but a skill is something you will always have and you can use to get back on the ground and keep going.
 
 I'm not yet where I want to be. I'm still way off but I'm proud of what I've achieved so far. I continue learning every day to improve my skills, grow and keep up with the dynamic tech industry. There's always something new to learn especially in technology and as developers, we are learners for life.
 
