@@ -4,7 +4,9 @@ excerpt: 'Hello World. Welcome to this space. This is my first post here and I f
 date: 'Mar 25 2022 11:10:39 GMT+0300'
 ---
 
-I was introduced to coding back in University where we did some Pascal, a bit of Java and PHP but I never really took it serious until 2020 when I decided to seriously teach myself coding. I quit my job to focus fully on learning and improving my skill set before getting back on the hunt for jobs. This was a really risky decision to make, but I'm glad I made it when I did. I guess sometimes we just have to take a leap to the void and see what happens.
+I was introduced to coding back in University where we did some Pascal, a bit of Java and PHP but I never really took it serious until 2020 when I decided to seriously teach myself coding. 
+
+I quit my job in February 2020 to focus fully on learning and improving my skill set before getting back on the hunt for jobs. This was a risky decision to make, but I needed to make it. I needed to grow. I needed to jump out of my comfort zone and push myself to new heights. I needed to make a full switch into the world of Software. I needed to prove to myself that I could rise up to challenges and overcome them, and boy did I do that!
 
 I took on [FreeCodeCamp's](https://www.freecodecamp.org/) Web Development curriculum and committed to learning on almost a daily basis for the next 7 months. I learned through the curriculum, made notes and built and rebuilt the projects. Some sections, particularly JavaScript (I had not written any JavaScript prior to 2020), proved so hard that I had to take a break from the curriculum to try research more on them. 
 
@@ -14,9 +16,13 @@ In July 2020, I signed up on [Codewars](https://codewars.com) and started practi
 
 In October 2020, I participated in my first ever [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and managed to make a total of 12 valid PRs. This was my first time ever to create a PR and contribute to open source. Throughout the whole month, I learned how to collaborate on projects with other developers, how to create PRs and contribute to open source. It felt nice getting the Hacktoberfest swag T-Shirt and laptop stickers.
 
-By the time I completed the last certification in the curriculum, my confidence had grown and I had added some valuable skills in my skill set. I updated my resume and started applying for jobs and on May 2021 I got my first ever job as a Web Developer. I am really happy that the effort and the hours I put into learning were not in vain. I'm grateful for FreeCodeCamp. The platform helped me learn and become a developer. 
+By the time I completed the last certification in the curriculum, my confidence had grown and I had added some valuable skills in my skill set. I updated my resume and started applying for jobs and on May 2021 I got my first ever job as a Web Developer. I am really happy that the effort and the hours I put into learning were not in vain. I'm grateful for FreeCodeCamp. The platform helped me learn and become an actual developer. 
 
-I'm not yet where I want to be. I'm still way off but I'm proud of what I've achieved so far. I continue learning every day to improve my skills and to grow. There's always something new to learn especially in technology and as developers, we are learners for life.
+I'm not yet where I want to be. I'm still way off but I'm proud of what I've achieved so far. I continue learning every day to improve my skills, grow and keep up with the dynamic tech industry. There's always something new to learn especially in technology and as developers, we are learners for life.
+
+Of course learning any skill requires a lot of discipline and commitment. To master any skill you have to put in a crazy amount of hours, stay consistent and practice but it's really worth it. 
+
+The best thing about acquiring a skill is that no one can ever take that away from you. You may even lose your job, but a skill is something you will always have and you can use to get yourself back on the ground and keep going.
 
 It's amazing that we live in an age where we can make many possibilities with technology and I'm ready to collaborate with other developers in my career to develop products geared to improve performance and accelerate business processes.
 
