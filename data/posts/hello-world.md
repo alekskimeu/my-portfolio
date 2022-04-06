@@ -6,7 +6,7 @@ date: 'Mar 25 2022 11:10:39 GMT+0300'
 
 I was introduced to coding back in University where we did some Pascal, a bit of Java and PHP but I never really took it serious until 2020 when I decided to seriously teach myself coding. 
 
-I quit my job in February 2020 to focus fully on learning and improving my skill set before getting back on the hunt for jobs. This was a risky decision to make, but I needed to make it. I needed to grow. I needed to jump out of my comfort zone and push myself to new heights. I needed to make a full switch into the world of Software. I needed to prove to myself that I could rise up to challenges and overcome them, and boy did I do that!
+I quit my job in February 2020 to focus fully on learning and improving my skill set before getting back on the hunt for jobs. This was a risky decision to make, but I needed to make it. I needed to grow. I needed to jump out of my comfort zone and push myself to new heights. I needed to make a full switch into the world of Software. I needed to prove to myself that I could rise up to challenges, and boy did I do that!
 
 I took on [FreeCodeCamp's](https://www.freecodecamp.org/) Web Development curriculum and committed to learning on almost a daily basis for the next 7 months. I learned through the curriculum, made notes and built and rebuilt the projects. Some sections, particularly JavaScript (I had not written any JavaScript prior to 2020), proved so hard that I had to take a break from the curriculum to try research more on them. 
 
