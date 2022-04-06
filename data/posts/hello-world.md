@@ -26,3 +26,6 @@ The best thing about acquiring a skill is that no one can ever take that away fr
 
 It's amazing that we live in an age where we can make many possibilities with technology and I'm ready to collaborate with other developers in my career to develop products geared to improve performance and accelerate business processes.
 
+<br>
+
+Thanks for reading!

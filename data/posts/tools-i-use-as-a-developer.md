@@ -101,3 +101,7 @@ To improve my skills in Data Structures and Algorithms, critical thinking and pr
 - <b>[Brave](https://brave.com/):</b> Web Browser
 
 - <b>[Tabby](https://tabby.sh/):</b> Terminal
+
+<br>
+
+Thanks for reading!
