@@ -12,17 +12,18 @@ I took on [FreeCodeCamp's](https://www.freecodecamp.org/) Web Development curric
 
 Still I didn't lose track. I checked out Crash courses on Youtube, read blog posts and documentation and with time things started to make sense and everything started feeling just like home. I was learning, growing and having fun at the same time. It was an amazing experience. The joy I felt whenever I completed a certification and got the certificate with my name on it is immeasurable. 
 
-In July 2020, I signed up on [Codewars](https://codewars.com) and started practicing coding by solving katas (coding challenges).  Slowly by slowly my confidence started building and I started feeling more like a developer. I'm still active on Codewars, regularly solving problems on the platform and competing with peers and colleagues.
+In July 2020, I signed up on [Codewars](https://codewars.com) and started practicing coding by solving katas (coding challenges).  Slowly by slowly my confidence started building and I started feeling more like a developer. I'm still active on Codewars, regularly solving problems on the platform and competing with peers and colleagues. I have completed a total of <b>406 katas</b> so far and rank at <b>5 kyu</b> with a <b>503 honor</b>.
 
 In October 2020, I participated in my first ever [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and managed to make a total of 12 valid PRs. This was my first time ever to create a PR and contribute to open source. Throughout the whole month, I learned how to collaborate on projects with other developers, how to create PRs and contribute to open source. It felt nice getting the Hacktoberfest swag T-Shirt and laptop stickers.
 
 By the time I completed the last certification in the curriculum, my confidence had grown and I had added some valuable skills in my skill set. I updated my resume and started applying for jobs and on May 2021 I got my first ever job as a Web Developer. I am really happy that the effort and the hours I put into learning were not in vain. I'm grateful for FreeCodeCamp. The platform helped me learn and become an actual developer. 
 
-I'm not yet where I want to be. I'm still way off but I'm proud of what I've achieved so far. I continue learning every day to improve my skills, grow and keep up with the dynamic tech industry. There's always something new to learn especially in technology and as developers, we are learners for life.
-
-Of course learning any skill requires a lot of discipline and commitment. To master any skill you have to put in a crazy amount of hours, stay consistent and practice but it's really worth it. 
+It took months of consistent learning, a lot of discipline and commitment, but it paid off eventually. Learning any skill requires a lot of discipline and commitment. To master any skill you have to put in a crazy amount of hours, stay consistent and practice but it's really worth it. 
 
 The best thing about acquiring a skill is that no one can ever take that away from you. You may even lose your job, but a skill is something you will always have and you can use to get yourself back on the ground and keep going.
+
+I'm not yet where I want to be. I'm still way off but I'm proud of what I've achieved so far. I continue learning every day to improve my skills, grow and keep up with the dynamic tech industry. There's always something new to learn especially in technology and as developers, we are learners for life.
+
 
 It's amazing that we live in an age where we can make many possibilities with technology and I'm ready to collaborate with other developers in my career to develop products geared to improve performance and accelerate business processes.
 
