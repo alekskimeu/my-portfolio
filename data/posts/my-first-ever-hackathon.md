@@ -22,7 +22,7 @@ When we heard about this for the first time, my friends and I brushed it off. We
 
 3. We didn't know much about Health Systems. How they work, store and process data.
 
-I know these reasons are pretty dumb but that's how we felt back then. We spent a couple of days debating about this whether to go or not. Eventually, we made up our minds and decided we had nothing to lose by participating and that it would be an awesome learning opportunity for us and we registered for the Hackathon.
+I know these reasons are pretty dumb but that's how we felt back then. We spent a couple of days debating about this, whether to go or not. Eventually, we made up our minds and decided we had nothing to lose by participating and that it would be an awesome learning opportunity for us and we registered for the Hackathon.
 
 The first day of the Hackathon I was really nervous but I tried to remain calm and collected. The venue was one of the computer labs at the university. 
 
