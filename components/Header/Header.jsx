@@ -52,7 +52,7 @@ const Header = () => {
 					) : (
 						<LightModeIcon
 							className={styles.themeToggle}
-							style={{ color: "gold" }}
+							style={{ color: "#ffffff" }}
 							onClick={() => setTheme("light")}
 						/>
 					)}
