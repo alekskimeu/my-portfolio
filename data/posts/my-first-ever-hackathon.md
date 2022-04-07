@@ -73,7 +73,7 @@ The whole Hackathon experience was awesome. This was the first Hackathon I ever 
 
 I got to meet Christine who would later introduce and coach us in [Laravel](https://laravel.com/) and <b>Git Version control</b>.
 
-Had I missed this, I would have missed an incredible learning opportunity and a chance to meet awesome people. I'm glad I attended this.
+Had I missed this, I would have missed an incredible learning opportunity and a chance to meet awesome people. I'm glad I showed up.
 
 *“The willingness to show up changes us. It makes us a little braver each time.” ~ Brené Brown*
 
