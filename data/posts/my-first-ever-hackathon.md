@@ -10,7 +10,7 @@ As defined in [TechTarget](https://www.techtarget.com/searchcio/definition/hacka
 
 ![TechMedics](/images/posts/tech-medics.jpg)
 
-The time is September 2017. I was a 3rd year in the University majoring in IT. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
+The time is September 2017. I was a 3rd year in <b>Maseno University</b> majoring in IT. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
 
 The goal of the Hackathon was to introduce the participants to Health Systems used in Kenya, specifically the [DHIS2](https://dhis2.org/), and to have the participants work on prototypes to try and address some of the shortcomings of the system.
 
