@@ -1,6 +1,6 @@
 ---
 title: 'My First Ever Hackathon'
-excerpt: 'A couple days ago I posted a photo of me and my friends presenting a prototype in a Hackathon almost 5 yrs ago and they both commented reminiscing the whole experience we had back then, so I thought I could write something about the event.'
+excerpt: 'A couple days ago I posted a photo of me and my friends presenting a prototype in a Hackathon almost 5 years ago and they both commented reminiscing the whole experience we had back then, so I thought I could write something about the event.'
 date: 'Apr 07 2022 12:05:39 GMT+0300'
 ---
 
