@@ -123,6 +123,10 @@
     font-weight: 500;
 }
 
+.postPage .postBody ol {
+    padding-left: 2rem;
+}
+
 @media screen and (max-width: 642px){
     .postPage .postHeader {
         flex-direction: column;
