@@ -164,6 +164,10 @@
     .postPage .otherPosts {
         grid-template-columns: 1fr;
     }
+
+    .postPage .postIntro .intro, .postPage .postBody p, .postPage .postBody .description, .postPage blockquote p, .postPage blockquote li {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 424px) {
