@@ -111,12 +111,17 @@
         padding: 0.8rem;
     }
 
+    .post .body .title {
+        font-size: 1.5rem;
+    }
+
     .post .body .excerpt {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .post .body .linkMore {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 
     .post .footer span{
