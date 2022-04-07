@@ -30,6 +30,8 @@ I'm not yet where I want to be. I'm still way off but I'm proud of what I've ach
 
 It's amazing that we live in an age where we can make many possibilities with technology and I'm ready to collaborate with other developers in my career to develop products geared to improve performance and accelerate business processes.
 
+*“Life takes on meaning when you become motivated, set goals and charge after them in an unstoppable manner.” ~Les Brown*
+
 <br>
 
 Thanks for reading!
