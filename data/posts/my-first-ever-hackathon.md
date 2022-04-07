@@ -50,7 +50,7 @@ We were asked to divide ourselves into groups of 3 or 4 and this is where I ende
 
 We introduced ourselves to each other in the team, gave our team a cool codename <b>'TechMedics'</b>, settled down in our table and analyzed the problems on the board. We ended up picking a problem that addressed Kisumu county Health sector and could be solved by developing a custom Health Dashboard for the county to allow for easier access of health data within the county, allow for data filtering and make it easy for the county health sector to make informed decisions. Sounds easy? Well, not at that time.
 
-To be able to achieve this, we at least needed to study the [DHIS2 Web API](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-235/web-api.html) documentation and understand it, create a user in the[DHIS2](https://dhis2.org/) test database and create a Dashboard with the data fetched from the system's test Database through the API. At that time, this was one hell of a task. It was my first time to hear the term API.
+To be able to achieve this, we at least needed to study the [DHIS2 Web API](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-235/web-api.html) documentation and understand it, create a user in the [DHIS2](https://dhis2.org/) test database and create a Dashboard with the data fetched from the system's test Database through the API. At that time, this was one hell of a task. It was my first time to hear the term API.
 
 The documentation was super confusing at that time. I remember reading through it and at some point feeling, *'Yeah, this can actually work'*, then at the next point, *'Oh crap! How the heck are we supposed to deal with all this?'*
 
