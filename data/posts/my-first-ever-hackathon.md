@@ -8,7 +8,9 @@ A <b>Hackathon</b> is an event where people come together and collaboratively wo
 
 As defined in [TechTarget](https://www.techtarget.com/searchcio/definition/hackathon#:~:text=A%20hackathon%2C%20also%20known%20as,an%20event%20marked%20by%20endurance.), a hackathon is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program.
 
-![TechMedics](/images/posts/tech-medics.jpg)
+| ![TechMedics](/images/posts/tech-medics.jpg) |
+|:--:| 
+| *Myself, Steve & Christine Presenting our prototype* |
 
 The time is September 2017. I was a 3rd year in <b>Maseno University</b> majoring in <b>IT</b>. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
 
@@ -32,7 +34,9 @@ We worked at the computer lab for the 3 days with a couple of tea breaks and lun
 
 The food was awesome. We had smokies, sweet potatoes, yams, bread and mandazis with tea for the tea breaks and chicken, rice, chapatis and beef for lunch.
 
-![Food](/images/posts/tea.jpg)
+| ![Food](/images/posts/tea.jpg) |
+|:--:| 
+| *During tea break* |
 
 We were asked to divide ourselves into groups of 3 or 4 and this is where I ended up in a team with [Steve](https://ke.linkedin.com/in/stephenodhiamboodipo) and [Christine](https://www.linkedin.com/in/christine-njoroge-70385211a/). 
 
@@ -40,7 +44,9 @@ We were asked to divide ourselves into groups of 3 or 4 and this is where I ende
 
 <b>Christine</b> was majoring in <b>Computer Technology</b> and had a unique passion for coding. She was more knowledgeable in coding and it felt nice having her in our team. She understood systems, APIs and Databases. We could depend on her for the Hackathon-:) She was already friends with Steve. I had seen her around but never really got to meet her until that day.
 
-![Teams working](/images/posts/teams.jpg)
+| ![Teams working](/images/posts/teams.jpg) |
+|:--:| 
+| *Working in teams* |
 
 We introduced ourselves to each other in the team, gave our team a cool codename <b>'TechMedics'</b>, settled down in our table and analyzed the problems on the board. We ended up picking a problem that addressed Kisumu county Health sector and could be solved by developing a custom Health Dashboard for the county to allow for easier access of health data within the county, allow for data filtering and make it easy for the county health sector to make informed decisions. Sounds easy? Well, not at that time.
 
@@ -57,7 +63,9 @@ The final day of the Hackathon was the most nervy one. We had to present our app
 One by one the teams made their presentations. Each presentation was followed by a bunch of questions from the other participants, our lecturers and the judges. Eventually, the nervy moment was all over. All the teams had presented and it was time for the judges to evaluate the presentations 
 and announce the winners.
 
-![Teams Presenting](/images/posts/presentation.jpg)
+| ![Teams Presenting](/images/posts/presentation.jpg) |
+|:--:| 
+| *Presentation time* |
 
 To cut the long story short, our team didn't make it to top 3. We were number 4. Number one, 2 and 3 received their prizes a couple weeks after the Hackathon. Our team got a follow up call to showcase our prototype at Kisumu County Health offices a week after the Hackathon. 
 
