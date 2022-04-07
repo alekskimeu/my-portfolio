@@ -4,6 +4,7 @@ export { default as Hero } from "./Hero/Hero";
 export { default as HeroContent } from "./HeroContent/HeroContent";
 export { default as HeroImage } from "./HeroImage/HeroImage";
 export { default as Layout } from "./Layout/Layout";
+export { default as NoItems } from './NoItems/NoItems';
 export { default as Post } from "./Post/Post";
 export { default as Project } from "./Project/Project";
 export { default as ResumeItem } from "./ResumeItem/ResumeItem";

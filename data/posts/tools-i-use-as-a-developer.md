@@ -95,6 +95,13 @@ To stay updated on technology news. I use this platform to read tech articles, b
 
 To improve my skills in Data Structures and Algorithms, critical thinking and problem solving. This platform allows you to have a healthy competition with other developers in the platform as you solve the katas (What challenges are referred to in Codewars). It's possible to follow other users on the platform and track their Codewars progress.
 
+
+## [Postman](https://www.postman.com//)
+
+![Postman](/images/posts/postman.png)
+
+To test out my APIs. Postman makes it use to test out the endpoints of an API.
+
 ## Bonus
 - <b>[Ubuntu](https://ubuntu.com/):</b> Operating System
 
