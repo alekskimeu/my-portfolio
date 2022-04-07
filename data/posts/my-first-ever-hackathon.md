@@ -42,7 +42,7 @@ We were asked to divide ourselves into groups of 3 or 4 and this is where I ende
 
 We introduced ourselves to each other in the team, gave our team a cool codename <b>'TechMedics'</b>, settled down in our table and analyzed the problems on the board. We ended up picking a problem that addressed Kisumu county Health sector and could be solved by developing a custom Health Dashboard for the county to allow for easier access of health data within the county and make it easy for the county health sector to make informed decisions. Sounds easy? Well, not at that time.
 
-To be able to achieve this, we at least needed to study the [DHIS2 Web API](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-235/web-api.html) Web API documentation and understand it, create a user in the[DHIS2](https://dhis2.org/) test database and create a Dashboard with the data fetched from the system's test Database through the API. At that time, this was one hell of a task. It was my first time to hear the term API.
+To be able to achieve this, we at least needed to study the [DHIS2 Web API](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-235/web-api.html) documentation and understand it, create a user in the[DHIS2](https://dhis2.org/) test database and create a Dashboard with the data fetched from the system's test Database through the API. At that time, this was one hell of a task. It was my first time to hear the term API.
 
 The documentation was super confusing at that time. I remember reading through it and at some point feeling 'Yeah, this can actually work', then at the next point, 'Oh crap! How the heck are we supposed to deal with all this?'
 
@@ -57,14 +57,14 @@ and announce the winners.
 
 ![Teams Presenting](/images/posts/presentation.jpg)
 
-
 To cut the long story short, our team didn't make it to top 3. We were number 4. Number one, 2 and 3 received their prizes a couple weeks after the Hackathon. Our team got a follow up call to showcase our prototype at Kisumu County Health offices a week after the Hackathon. 
 
 The whole Hackathon experience was awesome. This was the first Hackathon I ever attended. It was 3 days full of learning and growing. I learned a lot. How to approach technical problems and work with a team to address them. 
+
 I got to meet Christine who would later introduce and coach us in [Laravel](https://laravel.com/) and <b>Git Version control</b>.
 
 Had I missed this, I would have missed an incredible learning opportunity and a chance to meet awesome people. I'm glad I attended this.
 
-*“The willingness to show up changes us, It makes us a little braver each time.” ~ Brené Brown*
+*“The willingness to show up changes us. It makes us a little braver each time.” ~ Brené Brown*
 
 Thanks for reading!
