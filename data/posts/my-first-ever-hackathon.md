@@ -28,7 +28,9 @@ The first day of the Hackathon I was really nervous but I tried to remain calm a
 
 The Health IT team introduced us to the Health System and the problems we will be trying to address for the next 3 or so days.
 
-We worked at the computer lab for the 3 days with a couple of tea breaks and lunch break everyday. The food was awesome. We had smokies, sweet potatoes, yams, bread and mandazis with tea for the tea breaks and chicken, rice, chapatis and beef for lunch.
+We worked at the computer lab for the 3 days with a couple of tea breaks and lunch break everyday. 
+
+The food was awesome. We had smokies, sweet potatoes, yams, bread and mandazis with tea for the tea breaks and chicken, rice, chapatis and beef for lunch.
 
 ![Food](/images/posts/tea.jpg)
 
