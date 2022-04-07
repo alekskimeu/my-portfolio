@@ -8,7 +8,7 @@ date: 'Apr 07 2022 12:05:39 GMT+0300'
 
 A <b>Hackathon</b> is an event where people come together and collaboratively work to solve problems. 
 
-As defied in [TechTarget](https://www.techtarget.com/searchcio/definition/hackathon#:~:text=A%20hackathon%2C%20also%20known%20as,an%20event%20marked%20by%20endurance.), a hackathon is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program.
+As defined in [TechTarget](https://www.techtarget.com/searchcio/definition/hackathon#:~:text=A%20hackathon%2C%20also%20known%20as,an%20event%20marked%20by%20endurance.), a hackathon is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program.
 
 The time is September 2017. I was a 3rd year in the University majoring in IT. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
 
