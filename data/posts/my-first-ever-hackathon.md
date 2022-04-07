@@ -16,11 +16,11 @@ The goal of the Hackathon was to introduce the participants to Health Systems us
 
 When we heard about this for the first time, my friends and I brushed it off. We were not interested in this for a number of reasons:
 
-1. We didn't consider ourselves programmers. It's worth noting that at that time, we didn't have much focus on programming. We were more focussed on computer networking and <b>CISCO</b> technology. Therefore, we felt we didn't have what it takes to participate in a programming Hackathon.
+- We didn't consider ourselves programmers. It's worth noting that at that time, we didn't have much focus on programming. We were more focussed on computer networking and <b>CISCO</b> technology. Therefore, we felt we didn't have what it takes to participate in a programming Hackathon.
 
-2. We were afraid of embarrassing ourselves in front of 2nd years who were also participating in the Hackathon and who considered us as more informed, more knowledgeable seniors.
+- We were afraid of embarrassing ourselves in front of 2nd years who were also participating in the Hackathon and who considered us as more informed, more knowledgeable seniors.
 
-3. We didn't know much about Health Systems. How they work, store and process data.
+- We didn't know much about Health Systems. How they work, store and process data.
 
 I know these reasons are kind of dumb but that's how we felt back then. We spent a couple of days debating about this whether to go or not. Eventually, we made up our minds and decided we had nothing to lose by participating and that it would be an awesome learning opportunity for us and we registered for the Hackathon.
 
