@@ -32,9 +32,11 @@ We worked at the computer lab for the 3 days with a couple of tea breaks and lun
 
 ![Food](/images/posts/tea.jpg)
 
-We were asked to divide ourselves into groups of 3 or 4 and this is where I ended up in a team with [Steve](https://ke.linkedin.com/in/stephenodhiamboodipo) and <b>Christine</b>. Steve was my classmate, majoring in <b>IT</b> as well and my friend from day one in the university. He was the first person I met on the admission day. He was great in Public speaking and presentation skills. He could clearly explain problems and the solutions to solve them.
+We were asked to divide ourselves into groups of 3 or 4 and this is where I ended up in a team with [Steve](https://ke.linkedin.com/in/stephenodhiamboodipo) and [Christine](https://www.linkedin.com/in/christine-njoroge-70385211a/). 
 
-[Christine](https://www.linkedin.com/in/christine-njoroge-70385211a/) was majoring in <b>Computer Technology</b> and had a unique passion for coding. She was more knowledgeable in coding and it felt nice having her in our team. She understood systems, APIs and Databases. We could depend on her for the Hackathon-:) She was already friends with Steve. I had seen her around but never really got to meet her until that day.
+<b>Steve</b> was my classmate, majoring in <b>IT</b> as well and my friend from day one in the university. He was the first person I met on the admission day. He was great in Public speaking and presentation skills. He could clearly explain problems and the solutions to solve them.
+
+<b>Christine</b> was majoring in <b>Computer Technology</b> and had a unique passion for coding. She was more knowledgeable in coding and it felt nice having her in our team. She understood systems, APIs and Databases. We could depend on her for the Hackathon-:) She was already friends with Steve. I had seen her around but never really got to meet her until that day.
 
 ![Teams working](/images/posts/teams.jpg)
 
