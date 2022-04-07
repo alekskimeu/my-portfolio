@@ -44,9 +44,9 @@ We introduced ourselves to each other in the team, gave our team a cool codename
 
 To be able to achieve this, we at least needed to study the [DHIS2 Web API](https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-235/web-api.html) documentation and understand it, create a user in the[DHIS2](https://dhis2.org/) test database and create a Dashboard with the data fetched from the system's test Database through the API. At that time, this was one hell of a task. It was my first time to hear the term API.
 
-The documentation was super confusing at that time. I remember reading through it and at some point feeling *'Yeah, this can actually work'*, then at the next point, *'Oh crap! How the heck are we supposed to deal with all this?'*
+The documentation was super confusing at that time. I remember reading through it and at some point feeling, *'Yeah, this can actually work'*, then at the next point, *'Oh crap! How the heck are we supposed to deal with all this?'*
 
-There was authentication to deal with, API calls to fetch the data from the Database and visual representation of the data on the custom Dashboard. It was just too much at that time. I almost gave up after the first day. I remember thinking of not showing up the second day. 
+There was authentication to deal with, API calls to fetch the data from the Database, visual representation of the data on the custom Dashboard and data filtering functionality. It was just too much at that time. I almost gave up after the first day. I remember thinking of not showing up the second day. 
 
 However, I showed up and we kept pushing together as a team, thinking of different approaches and trying to come up with the best one to address the problem. Eventually, we managed to create a prototype (with a few bugs of course -:), after a lot of docs reading, a couple of sleepless nights and a little help from the Health IT project team.
 
