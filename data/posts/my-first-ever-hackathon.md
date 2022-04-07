@@ -10,7 +10,7 @@ As defined in [TechTarget](https://www.techtarget.com/searchcio/definition/hacka
 
 ![TechMedics](/images/posts/tech-medics.jpg)
 
-The time is September 2017. I was a 3rd year in <b>Maseno University</b> majoring in IT. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
+The time is September 2017. I was a 3rd year in <b>Maseno University</b> majoring in <b>IT</b>. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
 
 The goal of the Hackathon was to introduce the participants to Health Systems used in Kenya, specifically the [DHIS2](https://dhis2.org/), and to have the participants work on prototypes to try and address some of the shortcomings of the system.
 
@@ -32,7 +32,7 @@ We worked at the computer lab for the 3 days with a couple of tea breaks and lun
 
 ![Food](/images/posts/tea.jpg)
 
-We were asked to divide ourselves into groups of 3 or 4 and this is where I ended up in a team with [Steve](https://ke.linkedin.com/in/stephenodhiamboodipo) and <b>Christine</b>. Steve was my classmate, majoring in IT as well and my friend from day one in University. He was the first person I met on the admission day. He was great in Public speaking and presentation skills. He could clearly explain problems and the solution to solve them.
+We were asked to divide ourselves into groups of 3 or 4 and this is where I ended up in a team with [Steve](https://ke.linkedin.com/in/stephenodhiamboodipo) and <b>Christine</b>. Steve was my classmate, majoring in <b>IT</b> as well and my friend from day one in the university. He was the first person I met on the admission day. He was great in Public speaking and presentation skills. He could clearly explain problems and the solutions to solve them.
 
 [Christine](https://www.linkedin.com/in/christine-njoroge-70385211a/) was majoring in <b>Computer Technology</b> and had a unique passion for coding. She was more knowledgeable in coding and it felt nice having her in our team. She understood systems, APIs and Databases. We could depend on her for the Hackathon-:) She was already friends with Steve. I had seen her around but never really got to meet her until that day.
 
