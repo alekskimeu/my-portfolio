@@ -46,7 +46,7 @@ The documentation was super confusing at that time. I remember reading through i
 
 There was authentication to deal with, API calls to fetch the data from the Database and visual representation of the data on the custom Dashboard. It was just too much at that time. I almost gave up after the first day. I remember thinking of not showing up the second day. 
 
-However, I showed up and we kept pushing together as a team, thinking of different approaches and trying to come up with the best one to address the problem. Eventually, we managed to create a prototype, after a lot of docs reading, a couple of sleepless nights and a little help from the Health IT project team.
+However, I showed up and we kept pushing together as a team, thinking of different approaches and trying to come up with the best one to address the problem. Eventually, we managed to create a prototype (with a few bugs of course -:), after a lot of docs reading, a couple of sleepless nights and a little help from the Health IT project team.
 
 The final day of the Hackathon was the most nervy one. We had to present our approach to addressing the problem we handled and showcase a working prototype before the other teams, our lecturers, the Health IT project team and a panel of judges.
 
