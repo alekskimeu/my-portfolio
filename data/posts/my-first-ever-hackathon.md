@@ -61,7 +61,7 @@ and announce the winners.
 To cut the long story short, our team didn't make it to top 3. We were number 4. Number one, 2 and 3 received their prizes a couple weeks after the Hackathon. Our team got a follow up call to showcase our prototype at Kisumu County Health offices a week after the Hackathon. 
 
 The whole Hackathon experience was awesome. This was the first Hackathon I ever attended. It was 3 days full of learning and growing. I learned a lot. How to approach technical problems and work with a team to address them. 
-I got to meet Christine who would later introduce and coach us in [Laravel](https://laravel.com/) and <b>Git Version control</b> (Story for another day).
+I got to meet Christine who would later introduce and coach us in [Laravel](https://laravel.com/) and <b>Git Version control</b>.
 
 Had I missed this, I would have missed an incredible learning opportunity and a chance to meet awesome people. I'm glad I attended this.
 
