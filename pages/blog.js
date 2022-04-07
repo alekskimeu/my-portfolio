@@ -1,10 +1,17 @@
 import Head from "next/head";
-import { Post } from "../components";
+
+
+
 import { useTheme } from "next-themes";
 
-import { getSortedPostsData } from "../lib/posts";
 
+
+import { Post } from "../components";
+import { getSortedPostsData } from "../lib/posts";
 import styles from "../styles/Blog.module.css";
+
+
+// TODO: Add Postman to the list of tools I use
 
 export default function Blog({ posts }) {
 	const { theme, setTheme } = useTheme();
