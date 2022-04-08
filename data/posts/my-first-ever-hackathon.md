@@ -10,7 +10,7 @@ As defined in [TechTarget](https://www.techtarget.com/searchcio/definition/hacka
 
 | ![TechMedics](/images/posts/tech-medics.jpg) |
 |:--:| 
-| *Myself, Steve & Christine Presenting our prototype* |
+| *Myself, Steve & Christine presenting our prototype* |
 
 The time is September 2017. I was a 3rd year in <b>Maseno University</b> majoring in <b>IT</b>. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
 
