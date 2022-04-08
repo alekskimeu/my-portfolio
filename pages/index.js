@@ -1,6 +1,13 @@
 import Head from "next/head";
 
-import { Hero, Posts, Projects, Services, Skills } from "../components";
+import {
+	Contact,
+	Hero,
+	Posts,
+	Projects,
+	Services,
+	Skills,
+} from "../components";
 import { getSortedPostsData } from "../lib/posts";
 
 export default function Home({ posts }) {
@@ -20,6 +27,7 @@ export default function Home({ posts }) {
 				<Services />
 				<Projects />
 				<Posts posts={posts} />
+				<Contact />
 			</main>
 		</>
 	);
