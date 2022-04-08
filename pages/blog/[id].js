@@ -23,6 +23,11 @@ export default function BlogPost({ post, posts }) {
 			<Head>
 				<title>{post.title}</title>
 				<meta name="description" content={post.excerpt} />
+				<script
+					async
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6707931957101558"
+					crossOrigin="anonymous"
+				></script>
 			</Head>
 			<div className={styles.postPage}>
 				<div className="container">
