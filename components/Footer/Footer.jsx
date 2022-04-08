@@ -16,7 +16,11 @@ const Footer = () => {
 		>
 			<div className={styles.container}>
 				<p className={styles.copy}>
-					&copy; <span>Alex Kimeu</span>
+					<span>
+						With <i className="fas fa-heart"></i> by{" "}
+						<a href="https://twitter.com/alekskimeu">Alex</a>{" "}
+					</span>
+					&copy;
 					{new Date().getFullYear()}
 				</p>
 			</div>

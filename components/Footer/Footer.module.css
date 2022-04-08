@@ -15,10 +15,14 @@
 }
 
 .footer .copy {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
-.footer .copy span {
-    margin-right: .6rem;
+.footer .copy a {
+    color: var(--link);
+}
+
+.footer .copy i {
+    color: red;
 }
