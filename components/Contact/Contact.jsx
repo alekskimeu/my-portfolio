@@ -10,9 +10,10 @@ const Contact = () => {
 		<div className={styles.contact}>
 			<div className="container">
 				<div className={styles.customHeader}>
-					<h1 className={styles.heading}>Work with me</h1>
+					<h1 className={styles.heading}>Wanna Work with me?</h1>
 					<p className={styles.description}>
-						I&#39;m available for freelance projects
+						I&#39;m available for freelance projects. <br />
+						Shoot me an email
 					</p>
 				</div>
 				<Link href="mailto:kimeualeks@gmail.com">
