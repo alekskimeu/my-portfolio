@@ -18,7 +18,13 @@ const Footer = () => {
 				<p className={styles.copy}>
 					<span>
 						With <i className="fas fa-heart"></i> by{" "}
-						<a href="https://twitter.com/alekskimeu">Alex</a>{" "}
+						<a
+							href="https://twitter.com/alekskimeu"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Alex
+						</a>{" "}
 					</span>
 					&copy;
 					{new Date().getFullYear()}
