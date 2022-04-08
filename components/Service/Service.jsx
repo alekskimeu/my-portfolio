@@ -8,8 +8,8 @@ const Service = ({ service }) => {
 		<div
 			className={styles.service}
 			style={{
-				border: theme === "light" ? "none" : "2px solid white",
-				borderTop: theme === "light" ? "2px solid #072227" : "2px solid white",
+				border: theme === "light" ? "none" : "1px solid white",
+				borderTop: theme === "light" ? "2px solid #072227" : "1px solid white",
 				boxShadow:
 					theme === "light"
 						? "5px 8px 16px rgb(231, 231, 231)"

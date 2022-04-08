@@ -15,8 +15,8 @@ const Hero = () => {
 				style={{
 					border:
 						theme === "light"
-							? "1px solid #222831"
-							: "1px solid rgba(231, 231, 231, .5)",
+							? "1px solid rgba(231, 231, 231)"
+							: "1px solid #2e313d",
 				}}
 			>
 				<HeroImage />

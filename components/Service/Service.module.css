@@ -23,7 +23,7 @@
     position: absolute;
     content: "";
     border: none;
-    background-color: white;
+    background-color: rgba(231, 231, 231);
     height: 1px;
     width: 60px;
     bottom: 0;

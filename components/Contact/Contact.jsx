@@ -9,7 +9,15 @@ const Contact = () => {
 	return (
 		<div className={styles.contact}>
 			<div className="container">
-				<div className={styles.customHeader}>
+				<div
+					className={styles.customHeader}
+					style={{
+						borderTop:
+							theme === "light"
+								? "1px solid rgba(231, 231, 231)"
+								: "1px solid #2e313d",
+					}}
+				>
 					<h1 className={styles.heading}>Wanna Work with me?</h1>
 					<p className={styles.description}>
 						I&#39;m available for freelance projects. <br />
