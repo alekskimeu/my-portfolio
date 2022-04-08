@@ -15,7 +15,7 @@ export const servicesData = [
 		icon: <CallToActionIcon />,
 	},
 	{
-		title: "Mobile Development",
+		title: "Mobile App Development",
 		description: "Android & IOS apps development",
 		icon: <PhoneAndroidIcon />,
 	},
