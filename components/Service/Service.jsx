@@ -5,7 +5,12 @@ const Service = ({ service }) => {
 	const { theme, setTheme } = useTheme();
 
 	return (
-		<div className={styles.service}>
+		<div
+			className={styles.service}
+			style={{
+				border: theme === "light" ? "2px solid #072227" : "2px solid white",
+			}}
+		>
 			{service.icon}
 			<div className={styles.content}>
 				<h1
