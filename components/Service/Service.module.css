@@ -1,0 +1,77 @@
+.service {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border: 2px solid white;
+    padding: 1.5rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+
+.service .title {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: .6rem;
+    padding-bottom: .3rem;
+    color: white;
+    position: relative;
+}
+
+.service .title::after {
+    position: absolute;
+    content: "";
+    border: none;
+    background-color: white;
+    height: 1px;
+    width: 60px;
+    bottom: 0;
+    left: 0;
+}
+
+.service .description {
+    color: white;
+    opacity: .9;
+    font-size: 1.3rem;
+}
+
+.service .MuiSvgIcon-root {
+    color: white;
+    opacity: .8;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.service:hover .MuiSvgIcon-root {
+    opacity: .8;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+@media screen and (max-width: 724px) {
+    .service {
+        padding: .6rem;
+        margin-bottom: 1rem;
+    }
+
+    .service .title::after {
+        display: none;
+    }
+
+    .service .description {
+        display: none;
+    }
+
+    .service .title {
+        border-bottom: none;
+        font-size: 1.3rem;
+    }
+}
