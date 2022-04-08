@@ -58,6 +58,10 @@
 
 @media screen and (max-width: 724px) {
     .service {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0.6rem;
         padding: .6rem;
         margin-bottom: 1rem;
     }

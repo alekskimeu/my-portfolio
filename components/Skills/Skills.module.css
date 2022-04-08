@@ -82,3 +82,10 @@
         padding: 0.5rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .skills .skillsWrapper {
+        grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+}
