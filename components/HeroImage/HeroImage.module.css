@@ -43,6 +43,7 @@
 }
 
 .image .socialMedia a {
+    opacity: .9;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

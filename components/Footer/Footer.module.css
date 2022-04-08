@@ -17,6 +17,7 @@
 .footer .copy {
     font-size: 1.1rem;
     font-weight: 400;
+    opacity: .8;
 }
 
 .footer .copy a {
