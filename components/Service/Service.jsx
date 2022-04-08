@@ -9,6 +9,10 @@ const Service = ({ service }) => {
 			className={styles.service}
 			style={{
 				border: theme === "light" ? "2px solid #072227" : "2px solid white",
+				boxShadow:
+					theme === "light"
+						? "5px 8px 16px rgb(231, 231, 231)"
+						: "5px 8px 16px #072227",
 			}}
 		>
 			{service.icon}
