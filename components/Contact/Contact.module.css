@@ -22,10 +22,10 @@
 .contact a {
     display: inline-block;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 1rem;
     font-size: 1.2rem;
-    padding: .8rem 1.2rem;
+    padding: 1rem 3.6rem;
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
     -moz-border-radius: .3rem;
