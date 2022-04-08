@@ -1,0 +1,22 @@
+.projects {
+    padding: 6rem 0 3rem 0;
+}
+
+.projects .projectsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1120px) {
+    .projects .projectsWrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .projects {
+        padding: 2rem 0;
+    }
+}
