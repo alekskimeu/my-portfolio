@@ -25,7 +25,7 @@ const Project = ({ project }) => {
 			<div className={styles.projectCta}>
 				<Link href={`${project.code}`}>
 					<a target="_blank">
-						<i className="fab fa-github"></i> Code
+						<i className="fab fa-github"></i> Source
 					</a>
 				</Link>
 				<Link href={`${project.demo}`}>

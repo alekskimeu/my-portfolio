@@ -16,6 +16,7 @@
 
 .project .title {
     font-weight: 500;
+    opacity: .9;
     font-size: 1.4rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
@@ -28,12 +29,14 @@
     line-height: 1.4;
     color: var(--text-light);
     margin-bottom: .8rem;
+    opacity: .8;
 }
 
 .project .tech {
     margin-bottom: 1.3rem;
     font-size: 1.2rem;
     color: var(--text-light);
+    opacity: .8;
 }
 
 .project .tech span {
@@ -48,6 +51,7 @@
 }
 
 .project .projectCta a {
+    opacity: .9;
     color: var(--primary-light);
     font-size: 1.2rem;
     font-weight: 500;

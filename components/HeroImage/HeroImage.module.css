@@ -20,13 +20,14 @@
     margin-top: 1rem;
     font-weight: 500;
     font-size: 1.5rem;
+    opacity: .9;
 }
 
 .image .profession {
     margin: 0.5rem 0;
     font-weight: 400;
     font-size: 1.4rem;
-    display: none;
+    opacity: .8;
 }
 
 .image .herocta {
@@ -43,7 +44,7 @@
 }
 
 .image .socialMedia a {
-    opacity: .9;
+    opacity: .7;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

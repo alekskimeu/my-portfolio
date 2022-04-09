@@ -23,10 +23,12 @@
 .postPage .postHeader .title {
     font-weight: 500;
     font-size: 2rem;
+    opacity: .9;
 }
 
 .postPage .postHeader .date {
     color: var(--text);
+    opacity: .8;
 }
 
 .postPage .ert {
@@ -43,6 +45,7 @@
     line-height: 1.6;
     font-size: 1.4rem;
     line-height: 1.4;
+    opacity: .8;
 }
 
 .postPage .postBody img {
@@ -55,9 +58,11 @@
     font-size: 1.4rem;
     margin-top: 1rem;
     line-height: 1.6;
+    opacity: .8;
 }
 
 .postPage .postBody pre  {
+    opacity: .8;
     max-width: 100%;
     font-size: 1.1rem;
     line-height: 1.4;
@@ -81,6 +86,7 @@
     padding: .5rem;
     font-size: 1.35rem;
     color: var(--text-light);
+    opacity: .8;
 }
 
 .postPage blockquote li {
@@ -88,6 +94,7 @@
     padding: .5rem;
     font-size: 1.35rem;
     color: var(--text-light);
+    opacity: .8;
 }
 
 
@@ -101,6 +108,7 @@
 
 .postPage .postBody a {
     text-transform: capitalize;
+    opacity: .8;
     font-weight: 400;
     color: #d0adf0;
     border-bottom: 2px solid #d0adf0;
@@ -112,11 +120,12 @@
 }
 
 .postPage .postBody a:hover {
-    opacity: .9;
+    opacity: .8;
 }
 
 .postPage .postBody h2 {
     margin-top: 3rem;
+    opacity: .9;
 }
 
 .postPage .postBody b {
