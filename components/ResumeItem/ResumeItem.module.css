@@ -61,16 +61,18 @@
     font-size: 1.4rem;
     color: var(--primary-light);
     margin-bottom: 0.5rem;
+    opacity: .9;
 }
 
 .resumeItem .resumeItemHeader .company {
     color: var(--primary-light);
     font-size: 1.2rem;
     font-weight: 400;
+    opacity: .8;
 }
 
 .resumeItem .resumeItemHeader .timeline {
-    opacity: .9;
+    opacity: .7;
     color: var(--text-light);
     font-weight: 500;
 }
@@ -80,19 +82,19 @@
     margin-bottom: 0.5rem;
     line-height: 1.4;
     color: var(--primary-light);
+    opacity: .9;
 }
 
 .resumeItem .resumeBody .resumeList {
     list-style-type: disc;
     padding-left: 2rem;
-    color: var(--text-light);
+    color: #555555;
     line-height: 1.4;
+    opacity: .9;  
 }
 
 .resumeItem .resumeBody .resumeList li {
     font-size: 1.3rem;
-    color: var(--text-light);
-    opacity: .9;
 }
 
 @media screen and (max-width: 762px) {    
