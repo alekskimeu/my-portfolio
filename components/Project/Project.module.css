@@ -27,15 +27,16 @@
 .project .description {
     font-size: 1.3rem;
     line-height: 1.4;
-    color: var(--text-light);
+    color: #334257;
     margin-bottom: .8rem;
     opacity: .8;
+    font-weight: normal;
 }
 
 .project .tech {
     margin-bottom: 1.3rem;
     font-size: 1.2rem;
-    color: var(--text-light);
+    color: #334257;
     opacity: .8;
 }
 

@@ -15,7 +15,10 @@ const Footer = () => {
 			}}
 		>
 			<div className={styles.container}>
-				<p className={styles.copy}>
+				<p
+					className={styles.copy}
+					style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
+				>
 					<span>
 						With <i className="fas fa-heart"></i> by{" "}
 						<a

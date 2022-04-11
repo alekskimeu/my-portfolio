@@ -17,13 +17,13 @@
 .footer .copy {
     font-size: 1.1rem;
     font-weight: 400;
-    opacity: .8;
+    opacity: .6;
     text-align: center;
 }
 
 .footer .copy a {
     color: white;
-    opacity: 1;
+    opacity: .8;
     font-weight: 600;
 }
 

@@ -39,8 +39,8 @@
     font-size: 1.4rem;
     line-height: 1.4;
     margin-top: 1rem;
-    color: var(--text-light);
-    opacity: .9;
+    color: #334257;
+    opacity: .8;
 }
 
 .post .body .linkMore {
