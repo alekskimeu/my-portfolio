@@ -28,7 +28,7 @@ I know these reasons are pretty dumb but that's how we felt back then. We spent 
 
 The first day of the Hackathon I was really nervous but I tried to remain calm and collected. The venue was one of the computer labs at the university. 
 
-The Health IT team introduced us to the Health System and the problems we will be trying to address for the next 3 or so days.
+The Health IT project team introduced us to the Health System and the problems we will be trying to address for the next 3 or so days.
 
 We worked at the computer lab for the 3 days with a couple of tea breaks and lunch break everyday. 
 
