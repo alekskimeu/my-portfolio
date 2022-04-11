@@ -19,7 +19,10 @@ const Contact = () => {
 					}}
 				>
 					<h1 className={styles.heading}>Wanna Work with me?</h1>
-					<p className={styles.description}>
+					<p
+						className={styles.description}
+						style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
+					>
 						I&#39;m available for freelance projects. <br />
 						Shoot me an email
 					</p>

@@ -26,7 +26,7 @@ const Service = ({ service }) => {
 				</h1>
 				<p
 					className={styles.description}
-					style={{ color: theme === "light" ? "#072227" : "white" }}
+					style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
 				>
 					{service.description}
 				</p>

@@ -10,11 +10,17 @@ const HeroContent = () => {
 		<div className={styles.content}>
 			<h1 className={styles.title}>Hello, World 👋</h1>
 
-			<p className={styles.description}>
+			<p
+				className={styles.description}
+				style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
+			>
 				I&#39;m a passionate Software Developer with 3+ years of progressive
 				experience creating solutions with technology.
 			</p>
-			<p className={styles.description}>
+			<p
+				className={styles.description}
+				style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
+			>
 				Apart from coding & learning new techs, I write about tech in my{" "}
 				<Link href="/blog">
 					<a>BLOG</a>
