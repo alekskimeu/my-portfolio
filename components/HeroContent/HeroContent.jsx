@@ -14,7 +14,7 @@ const HeroContent = () => {
 				className={styles.description}
 				style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
 			>
-				I&#39;m a passionate Software Developer with 3+ years of progressive
+				Dedicated & passionate Software Developer with 3+ years of progressive
 				experience creating solutions with technology.
 			</p>
 			<p
