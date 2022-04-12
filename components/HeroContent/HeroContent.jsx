@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 
@@ -6,16 +7,24 @@ import styles from "./HeroContent.module.css";
 const HeroContent = () => {
 	const { theme, setTheme } = useTheme();
 
+	const [intro, setIntro] = useState(
+		"Who am I? Not entirely sure. Every day I'm still trynna figure it out."
+	);
+
+	setTimeout(() => {
+		setIntro(
+			"Oh, wait! I'm a dedicated & passionate Software Developer with 3+ years of progressive experience creating solutions with technology."
+		);
+	}, 5000);
+
 	return (
 		<div className={styles.content}>
 			<h1 className={styles.title}>Hello, World 👋</h1>
-
 			<p
 				className={styles.description}
 				style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
 			>
-				Dedicated & passionate Software Developer with 3+ years of progressive
-				experience creating solutions with technology.
+				{intro}
 			</p>
 			<p
 				className={styles.description}
