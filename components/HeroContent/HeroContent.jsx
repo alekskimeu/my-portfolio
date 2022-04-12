@@ -7,6 +7,8 @@ import styles from "./HeroContent.module.css";
 const HeroContent = () => {
 	const { theme, setTheme } = useTheme();
 
+	const [showDownload, setShowDownload] = useState(false);
+
 	const [intro, setIntro] = useState(
 		"Who am I? Not entirely sure. Every day I'm still trynna figure it out."
 	);
@@ -15,6 +17,7 @@ const HeroContent = () => {
 		setIntro(
 			"Oh, wait! I'm a dedicated & passionate Software Developer with 3+ years of progressive experience creating solutions with technology."
 		);
+		setShowDownload(true);
 	}, 5000);
 
 	return (
@@ -40,16 +43,18 @@ const HeroContent = () => {
 				</a>
 			</p>
 
-			<a
-				href="https://drive.google.com/uc?export=download&id=1EjlxPcJzYvR8DArECErljA3CYzensdkj"
-				className={styles.btnDownload}
-				style={{
-					border: theme === "light" ? "2px solid #222831" : "2px solid white",
-					color: theme === "light" ? "#222831" : "white",
-				}}
-			>
-				Download CV <i className="fas fa-download"></i>
-			</a>
+			{showDownload ? (
+				<a
+					href="https://drive.google.com/uc?export=download&id=1EjlxPcJzYvR8DArECErljA3CYzensdkj"
+					className={styles.btnDownload}
+					style={{
+						border: theme === "light" ? "2px solid #222831" : "2px solid white",
+						color: theme === "light" ? "#222831" : "white",
+					}}
+				>
+					Download CV <i className="fas fa-download"></i>
+				</a>
+			) : null}
 		</div>
 	);
 };
