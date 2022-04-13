@@ -24,6 +24,7 @@
     font-weight: 500;
     font-size: 2rem;
     opacity: .9;
+    color: var(--link);
 }
 
 .postPage .postHeader .date {
@@ -110,8 +111,8 @@
     text-transform: capitalize;
     opacity: .8;
     font-weight: 400;
-    color: #d0adf0;
-    border-bottom: 2px solid #d0adf0;
+    color: var(--link);
+    border-bottom: 2px solid var(--link);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

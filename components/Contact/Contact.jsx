@@ -28,13 +28,7 @@ const Contact = () => {
 					</p>
 				</div>
 				<Link href="mailto:kimeualeks@gmail.com">
-					<a
-						style={{
-							color: theme === "light" ? "#072227" : "white",
-							border:
-								theme === "light" ? "2px solid #072227" : "2px solid white",
-						}}
-					>
+					<a>
 						Email me<i className="fas fa-paper-plane"></i>
 					</a>
 				</Link>

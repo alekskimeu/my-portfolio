@@ -34,10 +34,6 @@ const HeroContent = () => {
 			<a
 				href="https://drive.google.com/uc?export=download&id=1EjlxPcJzYvR8DArECErljA3CYzensdkj"
 				className={styles.btnDownload}
-				style={{
-					border: theme === "light" ? "2px solid #222831" : "2px solid white",
-					color: theme === "light" ? "#222831" : "white",
-				}}
 			>
 				Download CV <i className="fas fa-download"></i>
 			</a>

@@ -1,23 +1,25 @@
-import React from 'react';
+import { useTheme } from "next-themes";
 
-import Post from '../Post/Post';
-import styles from './Posts.module.css';
+import Post from "../Post/Post";
+import styles from "./Posts.module.css";
 
 const Posts = ({ posts }) => {
-  return (
-    <div className={styles.blogPosts}>
-      <div className="container">
-        <div className="section-header">
-          <h1 className="heading">Latest posts</h1>
-        </div>
-        <div className={styles.posts}>
-          {posts.map(post => (
-            <Post key={post.index} post={post} />
-          ))}
-        </div>
-      </div>
-    </div>
-  );
+	const { theme, setTheme } = useTheme();
+
+	return (
+		<div className={styles.blogPosts}>
+			<div className="container">
+				<div className="section-header">
+					<h1 className="heading">Latest posts</h1>
+				</div>
+				<div className={styles.posts}>
+					{posts.map((post) => (
+						<Post key={post.index} post={post} />
+					))}
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Posts;

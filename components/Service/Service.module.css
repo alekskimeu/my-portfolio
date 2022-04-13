@@ -2,6 +2,7 @@
     display: flex;
     gap: 2rem;
     align-items: center;
+    border-top: 3px solid var(--link);
     padding: 1.5rem;
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
@@ -36,8 +37,9 @@
     font-size: 1.3rem;
 }
 
-.service .MuiSvgIcon-root {
-    color: white;
+.service .icon {
+    font-size: 1.6rem;
+    color: var(--link);
     opacity: .7;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -46,7 +48,7 @@
     -o-transition: all .5s ease;
 }
 
-.service:hover .MuiSvgIcon-root {
+.service:hover .icon {
     opacity: .8;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);

@@ -20,7 +20,7 @@
 
 .post .body .title {
     margin-top: 1rem;
-    color: #000;
+    color: var(--link);
     text-transform: capitalize;
     font-weight: 500;
     font-size: 1.5rem;
