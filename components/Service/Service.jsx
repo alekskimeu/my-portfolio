@@ -11,7 +11,7 @@ const Service = ({ service }) => {
 				boxShadow:
 					theme === "light"
 						? "5px 8px 16px rgb(231, 231, 231)"
-						: "5px 8px 16px #3A3845",
+						: "5px 8px 16px #141E27",
 			}}
 		>
 			<div className={styles.icon}>{service.icon}</div>

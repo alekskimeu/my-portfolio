@@ -8,7 +8,6 @@
     text-transform: uppercase;
     font-weight: 600;
     opacity: .9;
-    color: var(--link);
 }
 
 .content .description {
@@ -20,13 +19,12 @@
 }
 
 .content .description a {
-    color: var(--link);
+    color: var(--white);
+    text-decoration: underline;
     font-weight: 500;
 }
 
 .content .btnDownload {
-    color: var(--link);
-    border: 2px solid var(--link);
     display: inline-block;
     margin-top: 2rem;
     padding: .8rem;

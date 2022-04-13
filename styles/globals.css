@@ -64,8 +64,7 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
   font-weight: 500;
   font-size: 1.7rem;
   position: relative;
-  opacity: .9;
-  color: var(--link);
+  opacity: .8;
 }
 
 .section-header a {
