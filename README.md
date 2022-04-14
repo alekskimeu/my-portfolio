@@ -1,7 +1,7 @@
 
 # Portfolio
 
-My personal website and blog page. I created it to help me learn [Next JS](https://nextjs.org/docs/getting-started), showcase my Tech skills & share what I learn on the Blog page. Check it out.
+My personal website and blog page. I created it to help me learn [Next JS](https://nextjs.org/docs/getting-started), showcase my Tech skills & share what I learn on the Blog page. Check it out: [Portfolio](https://alex-kimeu.com)
 
 ## Authors
 
