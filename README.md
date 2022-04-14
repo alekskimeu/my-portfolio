@@ -43,3 +43,5 @@ Start the server
 Contributions are always welcome!
 
 Found a bug or have an idea on how this can be improved? Go ahead and submit a PR.
+
+You can also take a look at the [issues](https://github.com/alekskimeu/my-portfolio/issues) section to get started.
