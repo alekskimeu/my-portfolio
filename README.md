@@ -38,4 +38,8 @@ Start the server
 ```bash
   npm run dev
 ```
+## Contributing
 
+Contributions are always welcome!
+
+Found a bug or have an idea on how this can be improved? Go ahead and submit a PR.
