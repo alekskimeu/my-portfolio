@@ -22,8 +22,9 @@
 }
 
 .footer .copy a {
-    opacity: .8;
     font-weight: 600;
+    text-decoration: underline;
+    opacity: 1;
 }
 
 .footer .copy i {

@@ -35,7 +35,7 @@ const HeroContent = () => {
 				href="https://drive.google.com/uc?export=download&id=1EjlxPcJzYvR8DArECErljA3CYzensdkj"
 				className={styles.btnDownload}
 				style={{
-					border: theme === "light" ? "2px solid #072227" : "2px solid white",
+					border: theme === "light" ? "1px solid #072227" : "1px solid white",
 					color: theme === "light" ? "#072227" : "white",
 				}}
 			>

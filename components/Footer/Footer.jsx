@@ -25,6 +25,7 @@ const Footer = () => {
 							href="https://twitter.com/alekskimeu"
 							target="_blank"
 							rel="noreferrer"
+							style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
 						>
 							Alex
 						</a>{" "}
