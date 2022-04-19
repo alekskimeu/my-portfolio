@@ -15,10 +15,6 @@
     .blogPosts .posts {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .blogPosts .posts .post:last-child {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 642px) {
