@@ -14,16 +14,22 @@ const Skills = () => {
 	});
 
 	return (
-		<div className={styles.skills} data-aos="fade-up" data-aos-duration="1000">
+		<div className={styles.skills}>
 			<div className="container">
-				<div className="section-header">
+				<div
+					className="section-header"
+					data-aos="fade-up"
+					data-aos-duration="1000"
+				>
 					<h1 className="heading">Primary Skill Set</h1>
 				</div>
 				<div className={styles.skillsWrapper}>
-					<div data-aos="fade-up" data-aos-duration="1000">
+					<div>
 						{" "}
 						<div
 							className={styles.skillsCard}
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							style={{
 								borderTop:
 									theme === "light" ? "2px solid #072227" : "1px solid white",
@@ -52,10 +58,12 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div data-aos="fade-up" data-aos-duration="1000">
+					<div>
 						{" "}
 						<div
 							className={styles.skillsCard}
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							style={{
 								borderTop:
 									theme === "light" ? "2px solid #072227" : "1px solid white",
@@ -84,10 +92,12 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div data-aos="fade-up" data-aos-duration="1000">
+					<div>
 						{" "}
 						<div
 							className={styles.skillsCard}
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							style={{
 								borderTop:
 									theme === "light" ? "2px solid #072227" : "1px solid white",
@@ -117,10 +127,12 @@ const Skills = () => {
 						</div>
 					</div>
 
-					<div data-aos="fade-up" data-aos-duration="1000">
+					<div>
 						{" "}
 						<div
 							className={styles.skillsCard}
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							style={{
 								borderTop:
 									theme === "light" ? "2px solid #072227" : "1px solid white",

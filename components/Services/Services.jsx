@@ -14,14 +14,14 @@ const Services = () => {
 	return (
 		<div className={styles.services}>
 			<div className="container">
-				<div className="section-header">
-					<h1 className="heading">Services</h1>
-				</div>
 				<div
-					className={styles.servicesWrapper}
+					className="section-header"
 					data-aos="fade-up"
 					data-aos-duration="1000"
 				>
+					<h1 className="heading">Services</h1>
+				</div>
+				<div className={styles.servicesWrapper}>
 					{servicesData.map((service) => (
 						<Service key={service.index} service={service} />
 					))}

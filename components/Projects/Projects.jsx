@@ -15,13 +15,13 @@ const Projects = () => {
 	});
 
 	return (
-		<div
-			className={styles.projects}
-			data-aos="fade-up"
-			data-aos-duration="1000"
-		>
+		<div className={styles.projects}>
 			<div className="container">
-				<div className="section-header">
+				<div
+					className="section-header"
+					data-aos="fade-up"
+					data-aos-duration="1000"
+				>
 					<h1 className="heading">Projects</h1>
 				</div>
 				<div className={styles.projectsWrapper}>

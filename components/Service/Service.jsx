@@ -1,8 +1,17 @@
+import { useEffect } from "react";
 import { useTheme } from "next-themes";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+
 import styles from "./Service.module.css";
 
 const Service = ({ service }) => {
 	const { theme, setTheme } = useTheme();
+
+	useEffect(() => {
+		AOS.init();
+	});
 
 	return (
 		<div
@@ -17,6 +26,8 @@ const Service = ({ service }) => {
 						? "3px solid #072227"
 						: "3px solid rgba(231, 231, 231)",
 			}}
+			data-aos="fade-up"
+			data-aos-duration="1000"
 		>
 			<div
 				className={styles.icon}

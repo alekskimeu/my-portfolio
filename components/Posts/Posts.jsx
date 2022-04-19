@@ -15,13 +15,13 @@ const Posts = ({ posts }) => {
 	});
 
 	return (
-		<div
-			className={styles.blogPosts}
-			data-aos="fade-up"
-			data-aos-duration="1000"
-		>
+		<div className={styles.blogPosts}>
 			<div className="container">
-				<div className="section-header">
+				<div
+					className="section-header"
+					data-aos="fade-up"
+					data-aos-duration="1000"
+				>
 					<h1 className="heading">Latest posts</h1>
 				</div>
 				<div className={styles.posts}>
