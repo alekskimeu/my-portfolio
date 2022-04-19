@@ -4,14 +4,14 @@
 
 .content .title {
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 600;
     opacity: .9;
 }
 
 .content .description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.4;
     font-weight: 400;
     margin-bottom: 1rem;
