@@ -66,7 +66,7 @@
 
 .resumeItem .resumeItemHeader .company {
     color: var(--primary-light);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
     opacity: .8;
 }
@@ -78,7 +78,7 @@
 }
 
 .resumeItem .resumeBody .description {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     margin-bottom: 0.5rem;
     line-height: 1.3;
     color: var(--primary-light);
@@ -94,7 +94,7 @@
 }
 
 .resumeItem .resumeBody .resumeList li {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
 }
 
 @media screen and (max-width: 762px) {    
@@ -118,6 +118,15 @@
 
     .resumeItem:not(:last-child) {
         margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .resumeItem .resumeBody .description, .resumeItem .resumeBody .resumeList li {
+        font-size: 1.3rem;
+    }
+    .resumeItem .resumeItemHeader .company {
+        font-size: 1.2rem;
     }
 }
 

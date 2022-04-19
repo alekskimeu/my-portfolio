@@ -18,6 +18,7 @@
     padding-bottom: .3rem;
     border-bottom: 1px solid rgb(231, 231, 231);
     color: var(--primary-light);
+    opacity: .7;
 }
 
 .skills .skillsContainer {

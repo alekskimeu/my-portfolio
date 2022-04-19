@@ -7,11 +7,11 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 600;
-    opacity: .9;
+    opacity: .7;
 }
 
 .content .description {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     line-height: 1.4;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -70,6 +70,10 @@
 
     .content .title {
         font-size: 1.5rem;
+    }
+
+    .content .description {
+        font-size: 1.3rem;
     }
 
     .content .btnDownload {

@@ -16,7 +16,7 @@
 
 .project .title {
     font-weight: 500;
-    opacity: .9;
+    opacity: .7;
     font-size: 1.4rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
@@ -25,7 +25,7 @@
 }
 
 .project .description {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     line-height: 1.4;
     color: #334257;
     margin-bottom: .8rem;
@@ -72,13 +72,13 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 624px) {
     .project {
         padding: 0.6rem 1rem;
     }
 
     .project .title {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin-bottom: 0.6rem;
     }    
 

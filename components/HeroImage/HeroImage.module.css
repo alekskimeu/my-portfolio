@@ -20,13 +20,13 @@
     margin-top: 1rem;
     font-weight: 600;
     font-size: 1.4rem;
-    opacity: .9;
+    opacity: .7;
 }
 
 .image .profession {
     margin: 0.5rem 0;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     opacity: .7;
 }
 
@@ -79,6 +79,12 @@
 
     .image .socialMedia i {
         font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .image .profession {
+        font-size: 1.3rem;
     }
 }
 

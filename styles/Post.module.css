@@ -44,7 +44,7 @@
 .postPage .postIntro .intro {
     line-height: 1.6;
     line-height: 1.4;
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     opacity: .7;
     font-weight: 400;
 }
@@ -56,7 +56,7 @@
 }
 
 .postPage .postBody p {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     margin-top: 1rem;
     line-height: 1.6;
     opacity: .7;
@@ -85,7 +85,7 @@
 .postPage blockquote p {
     line-height: 1.4;
     padding: .5rem;
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     color: var(--text-light);
     opacity: .7;
 }
@@ -180,7 +180,7 @@
     }
 
     .postPage .postIntro .intro, .postPage .postBody p, .postPage .postBody .description, .postPage blockquote p, .postPage blockquote li {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 
