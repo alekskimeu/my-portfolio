@@ -1,7 +1,7 @@
 export const projectsData = [
 	{
 		title: "Portfolio",
-		description: "My portfolio website",
+		description: "My portfolio website & Blog page",
 		techs: ["React", "Next JS", "Markdown"],
 		code: "https://github.com/alekskimeu/my-portfolio",
 		demo: "https://alex-kimeu.com",
