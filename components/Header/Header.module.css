@@ -37,6 +37,7 @@
 .header .menu a {
     text-transform: uppercase;
     color: var(--text);
+    opacity: .8;
     font-size: 1.2rem;
     font-weight: 500;
     transition: all .5s ease;
@@ -48,6 +49,7 @@
 
 .header .menu a:hover {
     color: var(--link);
+    opacity: 1;
 }
 
 @media screen and (max-width: 672px) {
