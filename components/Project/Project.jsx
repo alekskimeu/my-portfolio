@@ -1,10 +1,18 @@
+import { useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import styles from "./Project.module.css";
 
 const Project = ({ project }) => {
 	const { theme, setTheme } = useTheme();
+
+	useEffect(() => {
+		AOS.init();
+	});
 
 	return (
 		<div
@@ -16,6 +24,8 @@ const Project = ({ project }) => {
 						? "3px 8px 16px rgb(231, 231, 231)"
 						: "3px 8px 16px #072227",
 			}}
+			data-aos="fade-up"
+			data-aos-duration="1000"
 		>
 			<h2 className={styles.title}>{project.title}</h2>
 			<p className={styles.description}>{project.description}</p>

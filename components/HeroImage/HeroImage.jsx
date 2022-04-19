@@ -1,5 +1,8 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import image from "../../public/images/site/profile.png";
 
@@ -7,9 +10,12 @@ import styles from "./HeroImage.module.css";
 
 const HeroImage = () => {
 	const { theme, setTheme } = useTheme();
+	useEffect(() => {
+		AOS.init();
+	});
 
 	return (
-		<div className={styles.image}>
+		<div className={styles.image} data-aos="fade-up" data-aos-duration="1000">
 			<Image
 				src={image}
 				alt="Alex Kimeu"

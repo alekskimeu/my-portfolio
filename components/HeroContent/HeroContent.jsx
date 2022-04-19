@@ -1,14 +1,20 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import styles from "./HeroContent.module.css";
 
 const HeroContent = () => {
 	const { theme, setTheme } = useTheme();
+	useEffect(() => {
+		AOS.init();
+	});
 
 	return (
-		<div className={styles.content}>
+		<div className={styles.content} data-aos="fade-up" data-aos-duration="1000">
 			<h1 className={styles.title}>Hello, World 👋</h1>
 			<p
 				className={styles.description}

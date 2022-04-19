@@ -1,19 +1,26 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import styles from "./Skills.module.css";
 
 const Skills = () => {
 	const { theme, setTheme } = useTheme();
+	useEffect(() => {
+		AOS.init();
+	});
 
 	return (
-		<div className={styles.skills}>
+		<div className={styles.skills} data-aos="fade-up" data-aos-duration="1000">
 			<div className="container">
 				<div className="section-header">
 					<h1 className="heading">Primary Skill Set</h1>
 				</div>
 				<div className={styles.skillsWrapper}>
-					<div>
+					<div data-aos="fade-up" data-aos-duration="1000">
 						{" "}
 						<div
 							className={styles.skillsCard}
@@ -45,7 +52,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div>
+					<div data-aos="fade-up" data-aos-duration="1000">
 						{" "}
 						<div
 							className={styles.skillsCard}
@@ -77,7 +84,7 @@ const Skills = () => {
 							</div>
 						</div>
 					</div>
-					<div>
+					<div data-aos="fade-up" data-aos-duration="1000">
 						{" "}
 						<div
 							className={styles.skillsCard}
@@ -110,7 +117,7 @@ const Skills = () => {
 						</div>
 					</div>
 
-					<div>
+					<div data-aos="fade-up" data-aos-duration="1000">
 						{" "}
 						<div
 							className={styles.skillsCard}

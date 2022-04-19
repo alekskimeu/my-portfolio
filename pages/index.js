@@ -1,4 +1,6 @@
 import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import {
 	Contact,
@@ -9,8 +11,13 @@ import {
 	Skills,
 } from "../components";
 import { getSortedPostsData } from "../lib/posts";
+import { useEffect } from "react";
 
 export default function Home({ posts }) {
+	useEffect(() => {
+		AOS.init();
+	});
+
 	return (
 		<>
 			<Head>

@@ -1,11 +1,18 @@
+import { useEffect } from "react";
 import Head from "next/head";
+import AOS from "aos";
+
 import { Project } from "../components";
 
 import { projectsData } from "../data/projects/data";
 
 import styles from "../styles/Projects.module.css";
+import "aos/dist/aos.css";
 
 export default function Projects() {
+	useEffect(() => {
+		AOS.init();
+	});
 	return (
 		<>
 			<Head>
@@ -15,7 +22,11 @@ export default function Projects() {
 			</Head>
 			<div className={styles.projects}>
 				<div className="container">
-					<div className={styles.projectsWrapper}>
+					<div
+						className={styles.projectsWrapper}
+						data-aos="fade-up"
+						data-aos-duration="1000"
+					>
 						{projectsData.map((project) => (
 							<Project key={project.id} project={project} />
 						))}
@@ -25,4 +36,3 @@ export default function Projects() {
 		</>
 	);
 }
-
