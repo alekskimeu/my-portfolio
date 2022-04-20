@@ -46,7 +46,7 @@ const Post = ({ post }) => {
 					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
-					{post.excerpt.substr(0, 40)}...{" "}
+					{post.excerpt.substr(0, 80)}...{" "}
 					<Link href={`/blog/${post.id}`}>
 						<a className={styles.linkMore}>Read post</a>
 					</Link>
