@@ -67,14 +67,14 @@
 .resumeItem .resumeItemHeader .company {
     color: var(--primary-light);
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 400;
     opacity: .8;
 }
 
 .resumeItem .resumeItemHeader .timeline {
     opacity: .7;
     color: var(--text-light);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .resumeItem .resumeBody .description {
@@ -83,7 +83,7 @@
     line-height: 1.3;
     color: var(--primary-light);
     opacity: .9;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .resumeItem .resumeBody .resumeList {
@@ -96,7 +96,7 @@
 .resumeItem .resumeBody .resumeList li {
     line-height: 1.4;
     font-size: 1.35rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 762px) {    
