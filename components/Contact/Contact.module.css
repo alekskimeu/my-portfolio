@@ -19,6 +19,7 @@
 .contact .customHeader .description {
     font-size: 1.4rem;
     opacity: .6;
+    font-weight: 300;
 }
 
 .contact a {

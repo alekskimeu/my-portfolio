@@ -46,7 +46,7 @@
     line-height: 1.4;
     font-size: 1.35rem;
     opacity: .7;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .postPage .postBody img {
@@ -57,10 +57,12 @@
 }
 
 .postPage .postBody p {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 1.35rem;
     margin-top: 1rem;
     line-height: 1.6;
     opacity: .7;
+    font-weight: 300;
 }
 
 .postPage .postBody pre  {
@@ -68,6 +70,7 @@
     max-width: 100%;
     font-size: 1.1rem;
     line-height: 1.4;
+    font-weight: 300;
     margin-bottom: 2rem;
     background-color: whitesmoke;
     padding: 1rem;
@@ -84,6 +87,7 @@
 }
 
 .postPage blockquote p {
+    font-weight: 300;
     line-height: 1.4;
     padding: .5rem;
     font-size: 1.35rem;
@@ -92,6 +96,7 @@
 }
 
 .postPage blockquote li {
+    font-weight: 300;
     line-height: 1.4;
     padding: .5rem;
     font-size: 1.35rem;
@@ -109,9 +114,9 @@
 }
 
 .postPage .postBody a {
+    font-weight: 300;
     text-transform: capitalize;
     opacity: .7;
-    font-weight: 400;
     color: var(--link);
     border-bottom: 2px solid var(--link);
     transition: all .5s ease;

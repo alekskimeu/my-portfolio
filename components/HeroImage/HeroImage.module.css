@@ -18,14 +18,14 @@
 
 .image .name {
     margin-top: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.4rem;
     opacity: .7;
 }
 
 .image .profession {
     margin: 0.5rem 0;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.35rem;
     opacity: .7;
 }
