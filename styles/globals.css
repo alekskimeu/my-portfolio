@@ -23,7 +23,6 @@ html {
 
 body {
   font-family: 'Dosis', sans-serif;
-  /* font-family: 'Titillium Web', sans-serif; */
 }
 
 .wrapper {
@@ -36,7 +35,7 @@ body {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 2rem;
 }
