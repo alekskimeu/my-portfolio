@@ -8,19 +8,27 @@ I don't know much about other fields, but technology is dynamic and therefore th
 
 Your company might decide to change their technology stack one day and require you to learn the new stack or you may land a job in a company that uses different technologies from the ones you are familiar with. In any of these cases, you'll have no choice but to dive in and learn. Therefore, continuous learning is important especially for developers. We are students for life.
 
+![Learn](/images/posts/learn.jpg)
+
 Of course learning a new technology is not easy. One needs to put in a lot of time, practice and patience. However, using the method that works best for you can simplify the whole learning process a great deal. 
 
 In this article, I'll share what works best for me whenever learning a new technology.
 
 ## 1. Reading the Documentation
 
+![Reading Docs](/images/posts/docs.jpg)
+
 Whenever I want to learn a new technology, the technology's official documentation is my go-to place. In the docs, I get a general overview of the technology, familiarize myself with the technology's fundamentals and get to know how it works under the hood. Some technologies have clear documentations with examples that can get you started quickly. Some even have a step by step tutorial building a small application using the technology. Following this helps  me understand the technology much better through a practical approach.
 
 ## 2. Watching a Crash Course
 
+![Watching a Crash Course](/images/posts/tutorial.jpg)
+
 A crash course is a short course that teaches you the basics of a technology such as its syntax, data types, e.t.c Sometimes when I can't get the hang on the technology I'm trying to learn by reading the docs, I look up a Crash course on Youtube. Most crash courses go through the basics of the technology: Syntax, data types, functions, e.t.c. Some even go a step further to build a small application using the technology to give the viewers a practical guide.
 
 ## 3. Building a Project
+
+![Build a project](/images/posts/building-project.jpg)
 
 The best way to learn coding is by building stuff. After getting an idea of how the technology works and its basics, I venture into building a small project to make myself understand the technology better. This is the best part. I get to learn by writing code to build something. I get to learn by doing. Through this, a lot of things start making sense and becoming clear. 
 
@@ -28,13 +36,19 @@ You may read the docs and lots of blog posts or even take many courses but you'l
 
 ## 4. Watching a Tutorial 
 
+![Watching a Tutorial](/images/posts/tutorial.jpg)
+
 Sometimes I watch a tutorial to get an idea on how to build a large project with the technology I'm learning. When I watch the tutorial, I try to rebuild the same project in the tutorial and try to extend it by adding more features to it. This exposes me to building large applications with the technology and helps improve my knowledge.
 
 ## 5. Sharing What I Learn
 
+![Sharing What I Learn](/images/posts/sharing.jpg)
+
 To teach is to learn. Whenever I'm learning something new, I share what I learn on platforms such as: Twitter, LinkedIn, this Blog and developers groups on WhatsApp and Telegram. By explaining the concepts I learn to others, I understand them better.
 
 ## 6. Consistency
+
+![Consistency](/images/posts/consistency.jpg)
 
 *"Success doesn't come from what you do occasionally. It comes from what you do consistently."* ~ Marie Forleo
 
@@ -42,9 +56,13 @@ Whenever I'm learning a new skill, I always want to remain consistent for effect
 
 ## 7. Practice
 
+![Practice](/images/posts/practice.jpg)
+
 I've heard of Malcolm Gladwell's 10,000 Rule, that in order to become world class in any field, you need 10,000 hours of deliberate practice. Practice is really important for one to master a skill. I practice by building projects starting with small simple ones, since this is a new technology, and advance as I go. This gives me an opportunity to practically use the technology and see how it works.
 
 ## 8. Patience
+
+![Patience](/images/posts/patience.jpg)
 
 I'm aware that mastering a skill/technology takes time and therefore, I'm patient with myself whenever learning. I don't expect to master the technology and build a large application in a short period of time. By acknowledging that learning a new skill takes time, I have a smooth and efficient learning process.
 
@@ -53,5 +71,7 @@ I'm aware that mastering a skill/technology takes time and therefore, I'm patien
 *“We now accept the fact that learning is a lifelong process of keeping abreast of change. And the most pressing task is to teach people how to learn.” ~ Peter Drucker.*
 
 <br>
+
+Images from [Unsplash](https://unsplash.com/)
 
 Thanks for reading!
