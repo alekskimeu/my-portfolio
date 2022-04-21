@@ -37,7 +37,7 @@ const Post = ({ post }) => {
 					className={styles.postImage}
 					layout="responsive"
 					width="300"
-					height="150"
+					height="180"
 				/>
 			</div>
 
