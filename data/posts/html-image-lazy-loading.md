@@ -24,7 +24,7 @@ Fortunately, the HTML <b>img</b> element has a <b>loading</b> attribute which al
 
 With lazy loading, you can ensure that images are loaded only when needed to be shown. This improves the website's performance, saves data costs, ensures a better user experience and also contributes to ranking higher on google.
 
-![Image Lazy loading](/images/posts/image-lazy-loading.jpeg)
+![Image Lazy loading](/images/posts/image-lazy-loading.png)
 
 Even though lazy loading is great, it should <b>NOT</b> be used on all images. Images that are immediately on device's viewport without scrolling should be loaded normally. Those that are far below the device's viewport can be fetched only when the user scrolls near them with lazy loading.
 
