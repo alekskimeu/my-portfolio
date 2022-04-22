@@ -17,9 +17,7 @@ Fortunately, the HTML <b>img</b> element has a <b>loading</b> attribute which al
 <br>
 
 > - <b>auto</b> -> Browser's default loading. Loads the images normally. Same behavior as when no loading specified.
-
 > - <b>lazy</b> -> Instructs the Browser to defer loading of off-screen images until the user scrolls near them.
-
 > - <b>eager</b> -> Loads the images immediately, regardless of where their location on the webpage.
 
 With lazy loading, you can ensure that images are loaded only when needed to be shown. This improves the website's performance, saves data costs, ensures a better user experience and also contributes to ranking higher on google.
