@@ -17,12 +17,19 @@ export default function BlogPost({ post, posts }) {
 	dayjs.extend(relativeTime);
 
 	const imageName = post.title.split(" ").join("-").toLowerCase();
-
 	return (
 		<>
 			<Head>
 				<title>{post.title}</title>
 				<meta name="description" content={post.excerpt} />
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:site" content="@alekskimeu" />
+				<meta name="twitter:title" content={post.title} />
+				<meta name="twitter:description" content={post.excerpt} />
+				<meta
+					name="twitter:image"
+					content={`https://alex-kimeu.com/_next/image?url=%2Fimages%2Fposts%2F${imageName}.jpg&w=640&q=75`}
+				/>
 			</Head>
 			<div className={styles.postPage}>
 				<div className="container">
