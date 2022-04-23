@@ -26,6 +26,7 @@ With lazy loading, you can ensure that images are loaded only when needed to be 
 
 Even though lazy loading is great, it should <b>NOT</b> be used on all images. Images that are immediately on device's viewport without scrolling should be loaded normally. Those that are far below the device's viewport can be fetched only when the user scrolls near them with lazy loading.
 
-<br>
+
+Originally published [here](https://alex-kimeu.com/blog)
 
 Thanks for reading!
