@@ -74,6 +74,40 @@ const Skills = () => {
 							}}
 						>
 							<div className={styles.skillsHeader}>
+								<h1 className={styles.heading}>State Libraries</h1>
+							</div>
+							<div className={styles.skillsContainer}>
+								<Image
+									src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
+									alt="Redux"
+									width={50}
+									height={50}
+								/>
+								<Image
+									src="https://pbs.twimg.com/profile_images/1377116487933030410/kyyHFjc2_400x400.jpg"
+									alt="Recoil"
+									width={50}
+									height={50}
+								/>
+							</div>
+						</div>
+					</div>
+					<div>
+						{" "}
+						<div
+							className={styles.skillsCard}
+							data-aos="fade-up"
+							data-aos-duration="1000"
+							style={{
+								borderTop:
+									theme === "light" ? "2px solid #072227" : "1px solid white",
+								boxShadow:
+									theme === "light"
+										? "5px 8px 16px rgb(231, 231, 231)"
+										: "5px 8px 16px #072227",
+							}}
+						>
+							<div className={styles.skillsHeader}>
 								<h1 className={styles.heading}>Backend</h1>
 							</div>
 							<div className={styles.skillsContainer}>
