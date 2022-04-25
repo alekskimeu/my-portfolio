@@ -33,6 +33,6 @@ It's amazing that we live in an age where we can make many possibilities with te
 *“Life takes on meaning when you become motivated, set goals and charge after them in an unstoppable manner.” ~Les Brown*
 
 
-Originally published [here](https://alex-kimeu.com/blog)
-
 Thanks for reading!
+
+*Originally published [here](https://alex-kimeu.com/blog)*

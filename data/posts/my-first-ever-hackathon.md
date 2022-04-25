@@ -78,6 +78,6 @@ Had I missed this, I would have missed an incredible learning opportunity and a 
 *“The willingness to show up changes us. It makes us a little braver each time.” ~ Brené Brown*
 
 
-Originally published [here](https://alex-kimeu.com/blog)
-
 Thanks for reading!
+
+*Originally published [here](https://alex-kimeu.com/blog)*

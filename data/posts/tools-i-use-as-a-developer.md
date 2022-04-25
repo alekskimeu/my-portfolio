@@ -110,6 +110,6 @@ To test out my APIs. Postman makes it use to test out the endpoints of an API.
 - <b>[Tabby](https://tabby.sh/):</b> Terminal
 
 
-Originally published [here](https://alex-kimeu.com/blog)
-
 Thanks for reading!
+
+*Originally published [here](https://alex-kimeu.com/blog)*
