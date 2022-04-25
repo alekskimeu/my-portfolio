@@ -17,8 +17,6 @@
     font-size: 1.4rem;
     margin-bottom: 1.5rem;
     padding-bottom: .3rem;
-    border-bottom: 1px solid rgb(231, 231, 231);
-    color: var(--primary-light);
     opacity: .7;
 }
 
@@ -30,8 +28,7 @@
 }
 
 .skills .skillsCard {
-    background-color: var(--white);
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: .3rem;
     -webkit-border-radius: .3rem;
     -moz-border-radius: .3rem;

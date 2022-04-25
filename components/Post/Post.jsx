@@ -24,8 +24,12 @@ const Post = ({ post }) => {
 			style={{
 				boxShadow:
 					theme === "light"
-						? "3px 8px 16px rgb(231, 231, 231)"
-						: "3px 8px 16px #072227",
+						? "5px 8px 16px rgb(231, 231, 231)"
+						: "5px 8px 16px #000",
+				borderBottom:
+					theme === "light"
+						? "1px solid rgba(231, 231, 231)"
+						: "3px solid #2e313d",
 			}}
 			data-aos="fade-up"
 			data-aos-duration="1000"

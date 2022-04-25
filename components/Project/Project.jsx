@@ -18,7 +18,10 @@ const Project = ({ project }) => {
 		<div
 			className={styles.project}
 			style={{
-				borderTop: theme === "light" ? "2px solid #072227" : "1px solid white",
+				border:
+					theme === "light"
+						? "1px solid rgba(231, 231, 231)"
+						: "1px solid #7E7474",
 				boxShadow:
 					theme === "light"
 						? "3px 8px 16px rgb(231, 231, 231)"
@@ -27,7 +30,17 @@ const Project = ({ project }) => {
 			data-aos="fade-up"
 			data-aos-duration="1000"
 		>
-			<h2 className={styles.title}>{project.title}</h2>
+			<h2
+				className={styles.title}
+				style={{
+					borderBottom:
+						theme === "light"
+							? "1px solid rgba(231, 231, 231)"
+							: "1px solid #7E7474",
+				}}
+			>
+				{project.title}
+			</h2>
 			<p className={styles.description}>{project.description}</p>
 			<p className={styles.tech}>
 				<span>Techs:</span> {project.techs.join(", ")}
