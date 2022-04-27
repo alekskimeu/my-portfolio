@@ -2,14 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 :root {
-  /* LIght theme */
-  --white: #fff;
-  --black: #000;
-  --background-light: whitesmoke;
-  --primary-light: #072227;
-  --text-light: #222831;
   --link: #F56D91;
-
   --card-bg: #0f1724;
   --body-bg: #090f19;
   --text-main: #ddebff;
@@ -40,7 +33,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   padding: 0 2rem;
 }

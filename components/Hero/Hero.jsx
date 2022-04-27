@@ -8,8 +8,8 @@ const Hero = () => {
 	return (
 		<div className={styles.hero}>
 			<div className={styles.container}>
-				<HeroImage />
 				<HeroContent />
+				<HeroImage />
 			</div>
 		</div>
 	);

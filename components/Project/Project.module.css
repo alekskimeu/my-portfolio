@@ -17,6 +17,7 @@
 
 .project .title {
     color: var(--text-main);
+    opacity: .9;
     font-weight: 400;
     font-size: 1.4rem;
     margin-bottom: 1rem;
@@ -28,7 +29,7 @@
     font-size: 1.35rem;
     line-height: 1.4;
     margin-bottom: .8rem;
-    opacity: .8;
+    opacity: .7;
     font-weight: 400;
 }
 

@@ -29,13 +29,13 @@
 
 .postPage .postHeader .date {
     color: var(--text-main);
-    opacity: .8;
+    opacity: .7;
 }
 
 .postPage .ert {
     margin-bottom: 2.5rem;
     font-size: 1.2rem;
-    opacity: .8;
+    opacity: .7;
     color: var(--text-main);
 
 }
@@ -96,7 +96,7 @@
     padding: .5rem;
     font-size: 1.35rem;
     color: var(--text-main);
-    opacity: .8;
+    opacity: .7;
 }
 
 .postPage blockquote li {

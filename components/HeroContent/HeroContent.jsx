@@ -13,10 +13,10 @@ const HeroContent = () => {
 
 	return (
 		<div className={styles.content} data-aos="fade-up" data-aos-duration="1000">
-			<h1 className={styles.title}>Hello, World 👋</h1>
+			<h1 className={styles.title}>Hello, World! I&#39;m ALEX KIMEU</h1>
 			<p className={styles.description}>
-				I&#39;m a dedicated & passionate Software Developer with 3+ years of
-				progressive experience creating solutions with technology.
+				A dedicated & passionate Software Developer with 3+ years of progressive
+				experience creating solutions with technology.
 			</p>
 			<p className={styles.description}>
 				Apart from coding & learning new techs, I write about tech in my{" "}
