@@ -7,24 +7,28 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 500;
-    opacity: .7;
+    opacity: .9;
+    color: var(--text-main);
 }
 
 .content .description {
+    color: var(--text-main);
     font-size: 1.4rem;
     line-height: 1.4;
     font-weight: 400;
     margin-bottom: 1rem;
-    opacity: .7;
+    opacity: .8;
 }
 
 .content .description a {
-    color: var(--white);
+    color: var(--text-main);
     text-decoration: underline;
     font-weight: 400;
 }
 
 .content .btnDownload {
+    border: 1px solid var(--text-main);
+    color: var(--text-main);
     display: inline-block;
     margin-top: 2rem;
     padding: .8rem;

@@ -1,4 +1,6 @@
 .project {
+    background-color: var(--body-bg);
+    box-shadow: 4px 8px 16px var(--body-bg);
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: .3rem;
@@ -14,14 +16,15 @@
 }
 
 .project .title {
+    color: var(--text-main);
     font-weight: 400;
-    opacity: .7;
     font-size: 1.4rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
 }
 
 .project .description {
+    color: var(--text-main);
     font-size: 1.35rem;
     line-height: 1.4;
     margin-bottom: .8rem;
@@ -32,11 +35,14 @@
 .project .tech {
     margin-bottom: 1.3rem;
     font-size: 1.2rem;
-    opacity: .8;
+    opacity: .7;
+    font-weight: 400;
+    color: var(--text-main);
 }
 
 .project .tech span {
     font-weight: 400;
+    color: var(--text-main);
     font-size: 1.3rem;
 }
 
@@ -47,7 +53,10 @@
 }
 
 .project .projectCta .link {
-    opacity: .8;
+    opacity: .9;
+    color: var(--text-main);
+    background-color: var(--body-bg);
+    padding: 0.1rem .2rem;
     font-size: 1.2rem;
     font-weight: 400;
     transition: all .5s ease;
@@ -55,15 +64,20 @@
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
 }
 
 .project .projectCta a:hover {
-    opacity: .9;
+    opacity: 1;
 }
 
 .project .projectCta i {
     font-size: 1rem;
-    opacity: .8;
+    opacity: .9;
 }
 
 @media screen and (max-width: 624px) {

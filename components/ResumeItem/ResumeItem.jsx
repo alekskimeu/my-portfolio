@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { useTheme } from "next-themes";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -7,8 +6,6 @@ import "aos/dist/aos.css";
 import styles from "./ResumeItem.module.css";
 
 const ResumeItem = ({ title, company, timeline, description, duties }) => {
-	const { theme, setTheme } = useTheme();
-
 	useEffect(() => {
 		AOS.init();
 	});
@@ -16,7 +13,6 @@ const ResumeItem = ({ title, company, timeline, description, duties }) => {
 	return (
 		<div
 			className={styles.resumeItem}
-			style={{ border: theme === "light" ? "2px solid lightgray" : "none" }}
 			data-aos="fade-up"
 			data-aos-duration="1000"
 		>

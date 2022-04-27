@@ -10,7 +10,7 @@
     content: '';
     position: absolute;
     width: 1px;
-    background-color: lightgray;
+    background-color: rgba(231, 231, 231, .5);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -26,7 +26,8 @@
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: var(--link);
+    color: var(--text-main);
+    opacity: .9;
 }
 
 @media screen and (max-width: 762px) {

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-import { useTheme } from "next-themes";
 import AOS from "aos";
 
 import { Post } from "../components";
@@ -9,7 +8,6 @@ import styles from "../styles/Blog.module.css";
 import "aos/dist/aos.css";
 
 export default function Blog({ posts }) {
-	const { theme, setTheme } = useTheme();
 	const [query, setQuery] = useState("");
 
 	useEffect(() => {
@@ -27,12 +25,7 @@ export default function Blog({ posts }) {
 			</Head>
 			<main className={styles.blog}>
 				<div className="container">
-					<div
-						className={styles.search}
-						style={{
-							background: theme === "light" ? "rgb(231, 231, 231)" : "white",
-						}}
-					>
+					<div className={styles.search}>
 						<i className="fas fa-search"></i>
 						<input
 							type="search"
@@ -41,9 +34,6 @@ export default function Blog({ posts }) {
 							className={styles.searchInput}
 							value={query}
 							onChange={(e) => setQuery(e.target.value)}
-							style={{
-								background: theme === "light" ? "rgb(231, 231, 231)" : "white",
-							}}
 						/>
 					</div>
 					<div

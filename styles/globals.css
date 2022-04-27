@@ -9,6 +9,10 @@
   --primary-light: #072227;
   --text-light: #222831;
   --link: #F56D91;
+
+  --card-bg: #0f1724;
+  --body-bg: #090f19;
+  --text-main: #ddebff;
 }
 
 * {
@@ -23,6 +27,7 @@ html {
 
 body {
   font-family: 'Dosis', sans-serif;
+  background-color: var(--body-bg);
 }
 
 .wrapper {
@@ -64,7 +69,7 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
   font-weight: 500;
   font-size: 1.7rem;
   position: relative;
-  opacity: .8;
+  color: var(--text-main);
 }
 
 .section-header a {
@@ -141,6 +146,6 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
     right: 0;
     bottom: -.5rem;
     margin: auto;
-    background-color: var(--link);
+    background-color: rgba(231, 231, 231, .5);
   }
 }

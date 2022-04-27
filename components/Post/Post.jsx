@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useTheme } from "next-themes";
 
 import * as dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
@@ -13,27 +12,12 @@ import "aos/dist/aos.css";
 const Post = ({ post }) => {
 	dayjs.extend(relativeTime);
 
-	const { theme, setTheme } = useTheme();
 	const imageName = post.title.split(" ").join("-").toLowerCase();
 	useEffect(() => {
 		AOS.init();
 	});
 	return (
-		<div
-			className={styles.post}
-			style={{
-				boxShadow:
-					theme === "light"
-						? "5px 8px 16px rgb(231, 231, 231)"
-						: "5px 8px 16px #000",
-				borderBottom:
-					theme === "light"
-						? "1px solid rgba(231, 231, 231)"
-						: "3px solid #2e313d",
-			}}
-			data-aos="fade-up"
-			data-aos-duration="1000"
-		>
+		<div className={styles.post} data-aos="fade-up" data-aos-duration="1000">
 			<div className={styles.postImageContainer}>
 				<Image
 					src={`/images/posts/${imageName}.jpg`}

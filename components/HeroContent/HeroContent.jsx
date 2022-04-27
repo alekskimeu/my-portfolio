@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Link from "next/link";
-import { useTheme } from "next-themes";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +7,6 @@ import "aos/dist/aos.css";
 import styles from "./HeroContent.module.css";
 
 const HeroContent = () => {
-	const { theme, setTheme } = useTheme();
 	useEffect(() => {
 		AOS.init();
 	});
@@ -16,17 +14,11 @@ const HeroContent = () => {
 	return (
 		<div className={styles.content} data-aos="fade-up" data-aos-duration="1000">
 			<h1 className={styles.title}>Hello, World 👋</h1>
-			<p
-				className={styles.description}
-				style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
-			>
+			<p className={styles.description}>
 				I&#39;m a dedicated & passionate Software Developer with 3+ years of
 				progressive experience creating solutions with technology.
 			</p>
-			<p
-				className={styles.description}
-				style={{ color: theme === "light" ? "#334257" : "#EEEEEE" }}
-			>
+			<p className={styles.description}>
 				Apart from coding & learning new techs, I write about tech in my{" "}
 				<Link href="/blog">
 					<a>BLOG</a>
@@ -40,10 +32,6 @@ const HeroContent = () => {
 			<a
 				href="https://drive.google.com/uc?export=download&id=1EjlxPcJzYvR8DArECErljA3CYzensdkj"
 				className={styles.btnDownload}
-				style={{
-					border: theme === "light" ? "1px solid #072227" : "1px solid white",
-					color: theme === "light" ? "#072227" : "white",
-				}}
 			>
 				Download CV <i className="fas fa-download"></i>
 			</a>

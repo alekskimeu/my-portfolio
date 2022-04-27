@@ -1,26 +1,11 @@
 import Link from "next/link";
-import { useTheme } from "next-themes";
-
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
 
 import styles from "./Header.module.css";
 import Image from "next/image";
 
 const Header = () => {
-	const { theme, setTheme } = useTheme();
-
 	return (
-		<header
-			className={styles.header}
-			style={{
-				background: theme === "light" ? "#ffffff" : "#121212",
-				borderBottom:
-					theme === "light"
-						? "1px solid rgb(231, 231, 231)"
-						: "1px solid #2e313d",
-			}}
-		>
+		<header className={styles.header}>
 			<nav className={styles.navbar}>
 				<Link href="/">
 					<a className={styles.logo}>
@@ -40,22 +25,6 @@ const Header = () => {
 					<Link href="/blog">
 						<a>Blog</a>
 					</Link>
-				</div>
-
-				<div className={styles.toggle}>
-					{theme === "light" ? (
-						<DarkModeIcon
-							className={styles.themeToggle}
-							style={{ color: "#2e313d" }}
-							onClick={() => setTheme("dark")}
-						/>
-					) : (
-						<LightModeIcon
-							className={styles.themeToggle}
-							style={{ color: "#ffffff" }}
-							onClick={() => setTheme("light")}
-						/>
-					)}
 				</div>
 			</nav>
 		</header>

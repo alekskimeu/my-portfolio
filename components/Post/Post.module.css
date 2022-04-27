@@ -1,4 +1,6 @@
 .post {
+    background-color: var(--card-bg);
+    box-shadow: 4px 8px 16px var(--body-bg);
     margin-bottom: 1rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
@@ -20,8 +22,9 @@
 .post .body .title {
     margin-top: 1rem;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.5rem;
+    color: var(--text-main);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -39,12 +42,14 @@
     margin-top: 1rem;
     font-weight: 400;
     opacity: .8;
+    color: var(--text-main);
 }
 
 .post .body .linkMore {
+    color: var(--text-main);
     opacity: 1;
     font-size: 1.35rem;
-    font-weight: 400;
+    font-weight: 500;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -84,15 +89,17 @@
 }
 
 .post .footer span {
+    color: var(--text-main);
     display: flex;
     align-items: center;
     gap: 0.3rem;
     font-size: 1.1rem;
-    opacity: .8;
+    opacity: .7;
 }
 
 .post .footer .date {
-    opacity: .8;
+    color: var(--text-main);
+    opacity: .7;
     font-size: 1rem;
 }
 

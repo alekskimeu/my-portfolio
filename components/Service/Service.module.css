@@ -1,5 +1,7 @@
 .service {
     display: flex;
+    background-color: var(--card-bg);
+    box-shadow: 4px 8px 16px var(--body-bg);
     gap: 2rem;
     align-items: center;
     padding: 1.5rem;
@@ -15,7 +17,8 @@
     font-size: 1.4rem;
     margin-bottom: .6rem;
     padding-bottom: .3rem;
-    opacity: .8;
+    opacity: .9;
+    color: var(--text-main);
     position: relative;
 }
 
@@ -32,15 +35,16 @@
 }
 
 .service .description {
-    opacity: .6;
+    opacity: .8;
     font-size: 1.35rem;
     font-weight: 400;
+    color: var(--text-main);
 }
 
 .service .icon {
     font-size: 1.6rem;
-    color: var(--link);
-    opacity: .7;
+    color: var(--text-main);
+    opacity: .6;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

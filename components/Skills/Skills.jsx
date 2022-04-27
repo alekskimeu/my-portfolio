@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Image from "next/image";
-import { useTheme } from "next-themes";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +7,6 @@ import "aos/dist/aos.css";
 import styles from "./Skills.module.css";
 
 const Skills = () => {
-	const { theme, setTheme } = useTheme();
 	useEffect(() => {
 		AOS.init();
 	});
@@ -30,29 +28,9 @@ const Skills = () => {
 							className={styles.skillsCard}
 							data-aos="fade-up"
 							data-aos-duration="1000"
-							style={{
-								boxShadow:
-									theme === "light"
-										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #000",
-								border:
-									theme === "light"
-										? "1px solid rgba(231, 231, 231)"
-										: "1px solid #7E7474",
-							}}
 						>
 							<div className={styles.skillsHeader}>
-								<h1
-									className={styles.heading}
-									style={{
-										borderBottom:
-											theme === "light"
-												? "1px solid rgba(231, 231, 231)"
-												: "1px solid #7E7474",
-									}}
-								>
-									Frontend
-								</h1>
+								<h1 className={styles.heading}>Frontend</h1>
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image
@@ -76,29 +54,9 @@ const Skills = () => {
 							className={styles.skillsCard}
 							data-aos="fade-up"
 							data-aos-duration="1000"
-							style={{
-								boxShadow:
-									theme === "light"
-										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #000",
-								border:
-									theme === "light"
-										? "1px solid rgba(231, 231, 231)"
-										: "1px solid #7E7474",
-							}}
 						>
 							<div className={styles.skillsHeader}>
-								<h1
-									className={styles.heading}
-									style={{
-										borderBottom:
-											theme === "light"
-												? "1px solid rgba(231, 231, 231)"
-												: "1px solid #7E7474",
-									}}
-								>
-									State
-								</h1>
+								<h1 className={styles.heading}>State</h1>
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image
@@ -122,29 +80,9 @@ const Skills = () => {
 							className={styles.skillsCard}
 							data-aos="fade-up"
 							data-aos-duration="1000"
-							style={{
-								boxShadow:
-									theme === "light"
-										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #000",
-								border:
-									theme === "light"
-										? "1px solid rgba(231, 231, 231)"
-										: "1px solid #7E7474",
-							}}
 						>
 							<div className={styles.skillsHeader}>
-								<h1
-									className={styles.heading}
-									style={{
-										borderBottom:
-											theme === "light"
-												? "1px solid rgba(231, 231, 231)"
-												: "1px solid #7E7474",
-									}}
-								>
-									Backend
-								</h1>
+								<h1 className={styles.heading}>Backend</h1>
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image
@@ -169,29 +107,9 @@ const Skills = () => {
 							className={styles.skillsCard}
 							data-aos="fade-up"
 							data-aos-duration="1000"
-							style={{
-								boxShadow:
-									theme === "light"
-										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #000",
-								border:
-									theme === "light"
-										? "1px solid rgba(231, 231, 231)"
-										: "1px solid #7E7474",
-							}}
 						>
 							<div className={styles.skillsHeader}>
-								<h1
-									className={styles.heading}
-									style={{
-										borderBottom:
-											theme === "light"
-												? "1px solid rgba(231, 231, 231)"
-												: "1px solid #7E7474",
-									}}
-								>
-									Mobile
-								</h1>
+								<h1 className={styles.heading}>Mobile</h1>
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image
@@ -216,29 +134,9 @@ const Skills = () => {
 							className={styles.skillsCard}
 							data-aos="fade-up"
 							data-aos-duration="1000"
-							style={{
-								boxShadow:
-									theme === "light"
-										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #000",
-								border:
-									theme === "light"
-										? "1px solid rgba(231, 231, 231)"
-										: "1px solid #7E7474",
-							}}
 						>
 							<div className={styles.skillsHeader}>
-								<h1
-									className={styles.heading}
-									style={{
-										borderBottom:
-											theme === "light"
-												? "1px solid rgba(231, 231, 231)"
-												: "1px solid #7E7474",
-									}}
-								>
-									Database
-								</h1>
+								<h1 className={styles.heading}>Database</h1>
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image
@@ -263,29 +161,9 @@ const Skills = () => {
 							className={styles.skillsCard}
 							data-aos="fade-up"
 							data-aos-duration="1000"
-							style={{
-								boxShadow:
-									theme === "light"
-										? "5px 8px 16px rgb(231, 231, 231)"
-										: "5px 8px 16px #000",
-								border:
-									theme === "light"
-										? "1px solid rgba(231, 231, 231)"
-										: "1px solid #7E7474",
-							}}
 						>
 							<div className={styles.skillsHeader}>
-								<h1
-									className={styles.heading}
-									style={{
-										borderBottom:
-											theme === "light"
-												? "1px solid rgba(231, 231, 231)"
-												: "1px solid #7E7474",
-									}}
-								>
-									VCS
-								</h1>
+								<h1 className={styles.heading}>VCS</h1>
 							</div>
 							<div className={styles.skillsContainer}>
 								<Image

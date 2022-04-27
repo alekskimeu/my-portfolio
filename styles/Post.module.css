@@ -24,10 +24,11 @@
     font-weight: 500;
     font-size: 1.8rem;
     opacity: .9;
+    color: var(--text-main);
 }
 
 .postPage .postHeader .date {
-    color: var(--text);
+    color: var(--text-main);
     opacity: .8;
 }
 
@@ -35,6 +36,8 @@
     margin-bottom: 2.5rem;
     font-size: 1.2rem;
     opacity: .8;
+    color: var(--text-main);
+
 }
 
 .postPage .postIntro {
@@ -47,6 +50,7 @@
     font-size: 1.35rem;
     opacity: .7;
     font-weight: 400;
+    color: var(--text-main);
 }
 
 .postPage .postBody img {
@@ -62,6 +66,7 @@
     line-height: 1.6;
     opacity: .7;
     font-weight: 400;
+    color: var(--text-main);
 }
 
 .postPage .postBody pre  {
@@ -90,8 +95,8 @@
     line-height: 1.4;
     padding: .5rem;
     font-size: 1.35rem;
-    color: var(--text-light);
-    opacity: .7;
+    color: var(--text-main);
+    opacity: .8;
 }
 
 .postPage blockquote li {
@@ -131,6 +136,7 @@
 .postPage .postBody h2 {
     margin-top: 3rem;
     font-weight: 500;
+    color: var(--text-main);
     opacity: .8;
 }
 
