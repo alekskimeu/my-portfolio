@@ -116,7 +116,7 @@ const Skills = () => {
 									src="https://reactnative.dev/img/header_logo.svg"
 									alt="React Native"
 									width={32}
-									height={32}
+									height={28}
 								/>
 								<Image
 									src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png"

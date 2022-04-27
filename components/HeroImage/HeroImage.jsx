@@ -18,8 +18,8 @@ const HeroImage = () => {
 				src={image}
 				alt="Alex Kimeu"
 				className={styles.photo}
-				width="200"
-				height="200"
+				width={200}
+				height={200}
 			/>
 			<h1 className={styles.name}>Alex Kimeu</h1>
 			<h2 className={styles.profession}>Software Developer</h2>

@@ -12,8 +12,8 @@ const Header = () => {
 						<a className={styles.logo}>
 							<Image
 								src="/favicon-32x32.png"
-								height="35"
-								width="35"
+								height={32}
+								width={32}
 								alt="Logo"
 							/>
 						</a>
