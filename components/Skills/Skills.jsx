@@ -20,7 +20,7 @@ const Skills = () => {
 					data-aos-duration="1000"
 				>
 					<h1 className="heading">Primary Skill Set</h1>
-					<h4 className="subheading">Technologies I work with</h4>
+					<h2 className="subheading">Technologies I work with</h2>
 				</div>
 				<div className={styles.skillsWrapper}>
 					<div>
