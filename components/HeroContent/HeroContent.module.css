@@ -1,5 +1,13 @@
 .content {
-    flex: .8;
+    flex: 1;
+    background-color: var(--card-bg);
+    box-shadow: 4px 8px 16px var(--body-bg);
+    padding: 1.5rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 
 .content .title {
@@ -27,9 +35,9 @@
 }
 
 .content .btnDownload {
-    border: 1px solid rgba(231, 231, 231, .5);
-    background-color: var(--card-bg);
-    color: rgba(231, 231, 231, .9);
+    border: 1px solid var(--text-minor);
+    background-color: var(--border);
+    color: var(--text-main);
     display: inline-block;
     margin-top: 2rem;
     padding: .8rem;
@@ -58,6 +66,7 @@
 @media screen and (max-width: 962px) {
     .content {
         padding: 0 1rem;
+        background-color: transparent;
     }
 
     .content .btnDownload {
