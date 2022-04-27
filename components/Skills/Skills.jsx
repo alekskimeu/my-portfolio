@@ -40,9 +40,9 @@ const Skills = () => {
 									height={32}
 								/>
 								<Image
-									src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg"
+									src="/images/site/nextjs.jpg"
 									alt="Next"
-									width={32}
+									width={61}
 									height={32}
 								/>
 							</div>

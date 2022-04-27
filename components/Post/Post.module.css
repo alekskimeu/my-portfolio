@@ -43,7 +43,7 @@
     margin-top: 1rem;
     font-weight: 400;
     opacity: .7;
-    color: var(--text-main);
+    color: var(--text-minor);
 }
 
 .post .body .linkMore {

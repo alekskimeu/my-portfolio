@@ -39,12 +39,12 @@
     opacity: .6;
     font-size: 1.35rem;
     font-weight: 400;
-    color: var(--text-main);
+    color: var(--text-minor);
 }
 
 .service .icon {
     font-size: 1.6rem;
-    color: var(--text-main);
+    color: var(--text-minor);
     opacity: .6;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
