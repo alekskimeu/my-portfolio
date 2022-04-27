@@ -1,5 +1,6 @@
 .service {
     display: flex;
+    width: 100%;
     background-color: var(--card-bg);
     box-shadow: 4px 8px 16px var(--body-bg);
     gap: 2rem;
