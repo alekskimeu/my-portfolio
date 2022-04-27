@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 624px) {
     .project {
-        padding: 0.6rem 1rem;
+        padding: 1rem;
     }
 
     .project .title {
@@ -112,10 +112,6 @@
 
 
 @media screen and (max-width: 424px) {
-    .project {
-        padding: .6rem;
-    }
-
     .project .tech {
         display: none;
     }

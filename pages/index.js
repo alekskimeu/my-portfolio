@@ -30,11 +30,11 @@ export default function Home({ posts }) {
 			</Head>
 			<main>
 				<Hero />
-				<Skills />
+				{/* <Skills /> */}
 				<Services />
 				<Projects />
-				<Posts posts={posts} />
 				<Contact />
+				<Posts posts={posts} />
 			</main>
 		</>
 	);

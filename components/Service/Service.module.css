@@ -1,8 +1,8 @@
 .service {
     display: flex;
     width: 100%;
-    background-color: var(--card-bg);
-    box-shadow: 4px 8px 16px var(--body-bg);
+    background-color: var(--body-bg);
+    box-shadow: 4px 8px 16px var(--card-bg);
     gap: 2rem;
     align-items: center;
     padding: 1.5rem;

@@ -1,5 +1,6 @@
 .services {
-    padding: 3rem 0;
+    padding: 4rem 0;
+    background-color: var(--card-bg);
 }
 
 .services .servicesWrapper {

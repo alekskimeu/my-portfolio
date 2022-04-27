@@ -117,10 +117,9 @@
 }
 
 .postPage .postBody a {
-    color: var(--link);
+    color: var(--text-main);
     font-weight: 500;
     text-transform: capitalize;
-    opacity: .7;
     text-decoration: underline;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;

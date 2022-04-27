@@ -1,5 +1,5 @@
 .hero {
-    padding: 10rem 1rem 3rem 1rem;
+    padding: 10rem 1rem 5rem 1rem;
 }
 
 .hero .container {
@@ -18,11 +18,6 @@
         text-align: center;
         gap: 1.5rem;
     }    
-    
-    .hero {
-        padding: 7rem 1rem 2rem 1rem;
-    }    
-
 }
 
 
