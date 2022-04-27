@@ -13,13 +13,13 @@
     font-size: 1.8rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    opacity: .9;
+    opacity: .8;
     color: var(--text-main);
 }
 
 .contact .customHeader .description {
-    font-size: 1.4rem;
-    opacity: .8;
+    font-size: 1.35rem;
+    opacity: .7;
     color: var(--text-main);
     font-weight: 400;
 }

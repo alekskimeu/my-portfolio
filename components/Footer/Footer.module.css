@@ -19,6 +19,7 @@
     font-weight: 400;
     opacity: .6;
     text-align: center;
+    color: var(--text-main);
 }
 
 .footer .copy a {

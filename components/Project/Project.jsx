@@ -21,12 +21,12 @@ const Project = ({ project }) => {
 			<div className={styles.projectCta}>
 				<Link href={`${project.code}`}>
 					<a target="_blank" className={styles.link}>
-						<i className="fab fa-github"></i> source
+						<i className="fab fa-github"></i> Code
 					</a>
 				</Link>
 				<Link href={`${project.demo}`}>
 					<a target="_blank" className={styles.link}>
-						<i className="fas fa-link"></i> live
+						<i className="fas fa-link"></i> Visit
 					</a>
 				</Link>
 			</div>

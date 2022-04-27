@@ -6,7 +6,8 @@
     max-width: 600px;
     margin: auto;
     margin-bottom: 4rem;
-    border: 1px solid rgb(231, 231, 231);
+    background-color: var(--border);
+    border: 1px solid rgba(231, 231, 231, .5);
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -19,18 +20,29 @@
 }
 
 .blog .search i {
-    color: gray;
+    color: rgba(231, 231, 231, .7);
     margin-left: .5rem;
     font-size: 1rem;
 }
 
 .blog .search .searchInput {
+    background-color: var(--border);
     border: none;
     padding: .5rem;
     width: 100%;
     outline-width: 0;
     font-size: 1.1rem;
-    color: #222831;
+    color: var(--text-main);
+    opacity: .8;
+}
+
+.blog .search .searchInput:active {
+    background-color: var(--border);
+    color: var(--text-main);
+}
+
+.blog .search .searchInput i {
+    color: var(--text-main);
 }
 
 .blog .postsWrapper {
