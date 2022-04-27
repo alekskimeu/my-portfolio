@@ -54,9 +54,6 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
 }
 
 .section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 2rem;
 }
 
@@ -66,6 +63,14 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
   position: relative;
   color: var(--text-main);
   opacity: .8;
+  margin-bottom: 1rem;
+}
+
+.section-header .subheading {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--text-minor);
+  opacity: .7;
 }
 
 .section-header a {
@@ -111,6 +116,10 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
     font-weight: 500;
   }
 
+  .section-header .subheading {
+    font-size: 1.3rem;
+  }
+
   .section-header a {
     font-size: 1.3rem;
   }
@@ -125,6 +134,7 @@ h1, h2, h3, h4, h5, h6, p, button, a, span {
   .section-header {
     justify-content: center;
     text-align: center;
+    margin-bottom: 2.5rem;
   }
   
   .section-header .heading {

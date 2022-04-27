@@ -20,6 +20,7 @@ const Posts = ({ posts }) => {
 					data-aos-duration="1000"
 				>
 					<h1 className="heading">Latest posts</h1>
+					<h4 className="subheading">Sometimes I write. Check it out</h4>
 				</div>
 				<div className={styles.posts}>
 					{posts.map((post) => (

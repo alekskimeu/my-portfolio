@@ -20,6 +20,7 @@ const Services = () => {
 					data-aos-duration="1000"
 				>
 					<h1 className="heading">Services</h1>
+					<h4 className="subheading">Need any of these services?</h4>
 				</div>
 				<div className={styles.servicesWrapper}>
 					{servicesData.map((service) => (

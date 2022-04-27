@@ -23,6 +23,7 @@ const Projects = () => {
 					data-aos-duration="1000"
 				>
 					<h1 className="heading">Projects</h1>
+					<h4 className="subheading">Take a look at some of my projects</h4>
 				</div>
 				<div className={styles.projectsWrapper}>
 					{projects.map((project) => (
