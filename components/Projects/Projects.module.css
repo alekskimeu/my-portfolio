@@ -1,5 +1,5 @@
 .projects {
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 .projects .projectsWrapper {
@@ -12,13 +12,6 @@
 @media screen and (max-width: 600px) {
     .projects .projectsWrapper {
         grid-template-columns: 1fr;
-        gap: 0.6rem;
+        gap: 1rem;
     }
-}
-
-@media screen and (max-width: 424px) {
-    .projects .projectsWrapper {
-        gap: 0.5rem;
-    }
-
 }

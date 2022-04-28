@@ -18,10 +18,6 @@
 }
 
 @media screen and (max-width: 642px) {
-    .blogPosts {
-        padding: 3rem 1rem;
-    }
-
     .blogPosts .posts {
         grid-template-columns: 1fr;
     }
