@@ -13,6 +13,10 @@
 }
 
 @media screen and (max-width: 962px) {
+    .hero {
+        padding-bottom: 3rem;
+    }
+
     .hero .container {
         flex-direction: column-reverse;
         text-align: center;
@@ -22,19 +26,6 @@
 
 @media screen and (max-width: 624px) {
     .hero {
-        padding: 7rem 1rem 3rem 1rem;
+        padding-top: 8rem;
     }
 }
-
-
-
-
-
-/* 
-- React
-- Chakra
-- Next
-- Tailwind
-- Node
-- 
-*/

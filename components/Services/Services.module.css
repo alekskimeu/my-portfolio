@@ -10,6 +10,12 @@
     gap: 2rem;
 }
 
+@media screen and (max-width: 962px) {
+    .services {
+        padding: 1rem;
+    }    
+}
+
 @media screen and (max-width: 600px) {
     .services .servicesWrapper {
         gap: 0.6rem;
