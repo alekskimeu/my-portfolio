@@ -16,7 +16,7 @@ export default function Projects() {
 	return (
 		<>
 			<Head>
-				<title>Alex Kimeu - Projects</title>
+				<title>Projects | Alex Kimeu</title>
 				<meta name="description" content="Software projects I have worked on" />
 				<meta name="keywords" content="Tech projects" />
 			</Head>

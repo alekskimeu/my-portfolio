@@ -21,7 +21,7 @@ export default function Home({ posts }) {
 	return (
 		<>
 			<Head>
-				<title>Alex Kimeu - Homepage </title>
+				<title>Homepage | Alex Kimeu</title>
 				<meta
 					name="description"
 					content="Software Developer | Limitless learner | Blogger"

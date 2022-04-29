@@ -16,7 +16,7 @@ export default function Resume() {
 	return (
 		<>
 			<Head>
-				<title>Alex Kimeu - Resume</title>
+				<title>Resume | Alex Kimeu</title>
 				<meta name="description" content="Resume" />
 				<meta
 					name="keywords"
