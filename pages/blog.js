@@ -37,9 +37,14 @@ export default function Blog({ posts, featured }) {
 						/>
 					</div>
 					<div className={styles.featuredPosts}>
-						{featured.map((post) => (
-							<Post key={post.index} post={post} />
-						))}
+						{featured
+							.filter(
+								(post) =>
+									post.content.includes(query) || post.title.includes(query)
+							)
+							.map((post) => (
+								<Post key={post.index} post={post} />
+							))}
 					</div>
 
 					<div
