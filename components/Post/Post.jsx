@@ -4,18 +4,14 @@ import Link from "next/link";
 
 import * as dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
-import AOS from "aos";
 
 import styles from "./Post.module.css";
-import "aos/dist/aos.css";
 
 const Post = ({ post }) => {
 	dayjs.extend(relativeTime);
 
 	const imageName = post.title.split(" ").join("-").toLowerCase();
-	useEffect(() => {
-		AOS.init();
-	});
+
 	return (
 		<div className={styles.post}>
 			<div className={styles.postImageContainer}>
