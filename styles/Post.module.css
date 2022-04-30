@@ -170,7 +170,6 @@
     .postPage .postBody .description {
         line-height: 1.2;
     }
-}
 
 .postPage .relatedPosts {
     max-width: 1250px;
@@ -185,8 +184,7 @@
     margin-top: 3rem;
 }
 
-@media screen and (max-width: 642px) {
-    .postPage .otherPosts {
+.postPage .otherPosts {
         grid-template-columns: 1fr;
     }
 

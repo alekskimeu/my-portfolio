@@ -16,3 +16,9 @@
     color: #fff;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 642px) {
+    .aboutInfo .description {
+        font-size: 1.3rem;
+    }
+}
