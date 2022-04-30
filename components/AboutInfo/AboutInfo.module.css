@@ -15,6 +15,7 @@
 .aboutInfo .description a {
     position: relative;
     font-weight: 500;
+    color: var(--text-main);
 }
 
 .aboutInfo .description a::after {
