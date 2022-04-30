@@ -1,5 +1,18 @@
 .blogPosts {
-    padding: 5rem 0 2rem 0;
+    padding: 3rem 0 2rem 0;
+}
+
+.blogPosts .container {
+    border-top: 1px solid rgba(231, 231, 231, .1);
+    max-width: 1160px;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.blogPosts .featuredPosts {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 8rem;
 }
 
 .blogPosts .posts {
@@ -8,7 +21,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1.2rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -18,7 +31,21 @@
 }
 
 @media screen and (max-width: 642px) {
-    .blogPosts .posts {
+    .blogPosts .posts, .blogPosts .featuredPosts {
         grid-template-columns: 1fr;
+    }
+
+    .blogPosts .featuredPosts {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .blogPosts .featuredPosts {
+        margin-bottom: 4rem;
+    }
+
+    .blogPosts .posts {
+        border-top: 1px solid rgba(231, 231, 231, .1);
+        padding-top: 5rem;
     }
 }

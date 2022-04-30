@@ -13,7 +13,7 @@ import {
 import { getSortedPostsData } from "../lib/posts";
 import { useEffect } from "react";
 
-export default function Home({ posts }) {
+export default function Home({ posts, featured }) {
 	useEffect(() => {
 		AOS.init();
 	});
@@ -21,20 +21,19 @@ export default function Home({ posts }) {
 	return (
 		<>
 			<Head>
-				<title>Homepage | Alex Kimeu</title>
+				<title>Home | Alex Kimeu</title>
 				<meta
 					name="description"
 					content="Software Developer | Limitless learner | Blogger"
 				/>
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
-			<main>
+			<main style={{ padding: "0 2rem" }}>
 				<Hero />
-				{/* <Skills /> */}
-				<Services />
-				<Projects />
-				<Contact />
-				<Posts posts={posts} />
+				{/* <Services /> */}
+				{/* <Projects /> */}
+				{/* <Contact /> */}
+				<Posts posts={posts} featured={featured} />
 			</main>
 		</>
 	);
@@ -42,9 +41,10 @@ export default function Home({ posts }) {
 
 // Fetch posts & projects
 export async function getStaticProps() {
-  const posts = getSortedPostsData().slice(0, 3);
+	const posts = getSortedPostsData().slice(0, 6);
+	const featured = getSortedPostsData().filter((post) => post.featured);
 
-  return {
-    props: { posts }
-  };
+	return {
+		props: { posts, featured },
+	};
 }

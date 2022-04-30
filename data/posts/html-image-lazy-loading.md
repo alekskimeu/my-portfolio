@@ -1,6 +1,7 @@
 ---
 title: 'HTML Image Lazy Loading'
 excerpt: 'Using images on a website comes with a number of advantages: Helps capture the attention of users, increases user dwell time which is a key factor for google ranking, visually conveys message to the users (Studies show that people remember 80% what they see and only 20% what they read), e.t.c'
+featured: false
 date: 'Apr 04 2022 11:10:39 GMT+0300'
 ---
 

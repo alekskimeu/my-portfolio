@@ -1,27 +1,17 @@
 .hero {
-    padding: 10rem 1rem 5rem 1rem;
+    padding: 12rem 1rem 5rem 1rem;
 }
 
 .hero .container {
     max-width: 1100px;
     padding: 0 2rem;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5rem;
 }
 
 @media screen and (max-width: 962px) {
     .hero {
         padding-bottom: 3rem;
-    }
-
-    .hero .container {
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 1.5rem;
-    }    
+    }  
 }
 
 @media screen and (max-width: 624px) {

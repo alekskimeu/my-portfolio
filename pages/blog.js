@@ -7,7 +7,7 @@ import { getSortedPostsData } from "../lib/posts";
 import styles from "../styles/Blog.module.css";
 import "aos/dist/aos.css";
 
-export default function Blog({ posts }) {
+export default function Blog({ posts, featured }) {
 	const [query, setQuery] = useState("");
 
 	useEffect(() => {
@@ -36,6 +36,12 @@ export default function Blog({ posts }) {
 							onChange={(e) => setQuery(e.target.value)}
 						/>
 					</div>
+					<div className={styles.featuredPosts}>
+						{featured.map((post) => (
+							<Post key={post.index} post={post} />
+						))}
+					</div>
+
 					<div
 						className={styles.postsWrapper}
 						data-aos="fade-up"
@@ -58,9 +64,12 @@ export default function Blog({ posts }) {
 
 export async function getStaticProps() {
 	const posts = getSortedPostsData();
+	const featured = posts.filter((post) => post.featured);
+
 	return {
 		props: {
 			posts,
+			featured,
 		},
 	};
 }

@@ -1,6 +1,6 @@
 .post {
     background-color: var(--card-bg);
-    box-shadow: 4px 8px 16px var(--body-bg);
+    box-shadow: 2px 4px 8px var(--body-bg);
     margin-bottom: 1rem;
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
@@ -48,6 +48,7 @@
 
 .post .body .linkMore {
     color: var(--text-main);
+    text-decoration: underline;
     opacity: 1;
     font-size: 1.35rem;
     font-weight: 500;

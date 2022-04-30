@@ -4,14 +4,14 @@
     width: 100%;
     top: 0;
     z-index: 1;
-    background-color: var(--card-bg);
+    padding: 0 2rem;
+    background-color: var(--body-bg);
 }
 
 .header .navbar {
     height: 100%;
-    max-width: 1100px;
+    max-width: 1160px;
     margin: auto;
-    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -13,7 +13,7 @@ const HeroImage = () => {
 	});
 
 	return (
-		<div className={styles.image} data-aos="fade-up" data-aos-duration="1000">
+		<div className={styles.image}>
 			<Image
 				src={image}
 				alt="Alex Kimeu"
