@@ -22,7 +22,11 @@ const Posts = ({ posts, featured }) => {
 						<Post key={post.index} post={post} />
 					))}
 				</div>
-				<div className={styles.posts}>
+				<div
+					className={styles.posts}
+					data-aos="fade-up"
+					data-aos-duration="1000"
+				>
 					{posts.map((post) => (
 						<Post key={post.index} post={post} />
 					))}

@@ -30,9 +30,6 @@ export default function Home({ posts, featured }) {
 			</Head>
 			<main style={{ padding: "0 2rem" }}>
 				<Hero />
-				{/* <Services /> */}
-				{/* <Projects /> */}
-				{/* <Contact /> */}
 				<Posts posts={posts} featured={featured} />
 			</main>
 		</>
