@@ -8,6 +8,7 @@ export const resumeData = [
 			"Build & maintain ZawadiZ website",
 			"Social media management",
 			"Search Engine Optimization",
+			"General tech support"
 		],
 	},
 	{

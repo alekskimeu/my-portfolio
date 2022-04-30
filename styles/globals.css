@@ -25,6 +25,10 @@ body {
   background-color: var(--body-bg);
 }
 
+img {
+  pointer-events: none;
+}
+
 .wrapper {
   min-height: 100vh;
   position: relative;

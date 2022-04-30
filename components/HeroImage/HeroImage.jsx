@@ -3,7 +3,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import image from "../../public/images/site/profile.png";
+import image from "../../public/images/site/profile.jpg";
 
 import styles from "./HeroImage.module.css";
 
