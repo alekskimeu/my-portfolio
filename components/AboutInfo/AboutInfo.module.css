@@ -13,7 +13,6 @@
 }
 
 .aboutInfo .description a {
-    color: #fff;
     position: relative;
     font-weight: 500;
 }
@@ -24,7 +23,7 @@
     height: 1px;
     width: 100%;
     border: none;
-    background-color: white;
+    background-color: var(--text-main);
     bottom: -.1rem;
     left: 0;
 }
