@@ -49,13 +49,12 @@ export const educationData = [
 		title: "KCSE",
 		company: "Jamhuri High School",
 		timeline: "Feb 2010 ~ Nov 2013",
-		description: "I studied:",
+		description: "Achievements:",
 		duties: [
 			"Participated in Provincial & National Mathematics contests",
 			"Participated in Music Festival",
 			"Library prefect",
 			"Journalism club member",
-			"Played football",
 		],
 	},
 ];
