@@ -15,17 +15,21 @@ const AboutInfo = () => {
 				, & occasionally play King of The Hill on TryHackMe.
 			</p>
 			<p className={styles.description}>
-				You can find my work on{" "}
-				<a href="" target="_blank" rel="noreferrer">
-					Github
-				</a>
-			</p>
-			<p className={styles.description}>
 				I&#39;m available for freelance projects. Shoot me an{" "}
-				<a href="" target="_blank" rel="noreferrer">
+				<a href="mailto:kimeualeks@gmail.com" target="_blank" rel="noreferrer">
 					Email
 				</a>{" "}
 				& let&#39;s work together.
+			</p>
+			<p className={styles.description}>
+				You can find my work on{" "}
+				<a
+					href="https://github.com/alekskimeu"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Github
+				</a>
 			</p>
 		</div>
 	);
