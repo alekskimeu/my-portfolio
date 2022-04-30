@@ -17,7 +17,7 @@ const Post = ({ post }) => {
 		AOS.init();
 	});
 	return (
-		<div className={styles.post} data-aos="fade-up" data-aos-duration="1000">
+		<div className={styles.post}>
 			<div className={styles.postImageContainer}>
 				<Image
 					src={`/images/posts/${imageName}.jpg`}
