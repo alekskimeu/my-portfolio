@@ -10,7 +10,7 @@ const AboutInfo = () => {
 			<p className={styles.description}>
 				Apart from coding & learning new techs, I write about tech in my{" "}
 				<Link href="/blog">
-					<a>BLOG</a>
+					<a>Blog</a>
 				</Link>
 				, & occasionally play King of The Hill on TryHackMe.
 			</p>

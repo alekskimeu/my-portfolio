@@ -14,7 +14,19 @@
 
 .aboutInfo .description a {
     color: #fff;
-    text-decoration: underline;
+    position: relative;
+    font-weight: 500;
+}
+
+.aboutInfo .description a::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    bottom: -.1rem;
+    left: 0;
 }
 
 @media screen and (max-width: 642px) {
