@@ -16,15 +16,12 @@ const Header = () => {
 					<Link href="/">
 						<a>Home</a>
 					</Link>
-					<Link href="/">
+					<Link href="/about">
 						<a>About</a>
 					</Link>
 					<Link href="/resume">
 						<a>Resume</a>
 					</Link>
-					{/* <Link href="/projects">
-						<a>Projects</a>
-					</Link> */}
 					<Link href="/blog">
 						<a>Blog</a>
 					</Link>

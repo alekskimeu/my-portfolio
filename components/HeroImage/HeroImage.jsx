@@ -14,13 +14,15 @@ const HeroImage = () => {
 
 	return (
 		<div className={styles.image}>
-			<Image
-				src={image}
-				alt="Alex Kimeu"
-				className={styles.photo}
-				width={200}
-				height={200}
-			/>
+			<div className={styles.imageContainer}>
+				<Image
+					src={image}
+					alt="Alex Kimeu"
+					className={styles.photo}
+					width={200}
+					height={200}
+				/>
+			</div>
 			<h1 className={styles.name}>Alex Kimeu</h1>
 			<h2 className={styles.profession}>Software Developer</h2>
 			<div className={styles.herocta}>
