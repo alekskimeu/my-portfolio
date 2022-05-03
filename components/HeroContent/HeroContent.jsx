@@ -15,7 +15,7 @@ const HeroContent = () => {
 		<div className={styles.content} data-aos="fade-up" data-aos-duration="1000">
 			<h1 className={styles.title}>Hello, World 👋! </h1>
 			<p className={styles.description}>
-				I&#39;m a dedicated & passionate Software Developer with 3+ years of
+				I&#39;m a dedicated & passionate Software Developer with 2+ years of
 				progressive experience creating solutions with technology.
 			</p>
 			<p className={styles.description}>
