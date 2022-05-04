@@ -2,14 +2,7 @@ import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import {
-	Contact,
-	Hero,
-	Posts,
-	Projects,
-	Services,
-	Skills,
-} from "../components";
+import { FeaturedPosts, Hero, Posts } from "../components";
 import { getSortedPostsData } from "../lib/posts";
 import { useEffect } from "react";
 
@@ -30,7 +23,8 @@ export default function Home({ posts, featured }) {
 			</Head>
 			<main style={{ padding: "0 2rem" }}>
 				<Hero />
-				<Posts posts={posts} featured={featured} />
+				<FeaturedPosts featured={featured} />
+				<Posts posts={posts} />
 			</main>
 		</>
 	);
