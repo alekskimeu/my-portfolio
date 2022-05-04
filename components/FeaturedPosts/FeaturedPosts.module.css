@@ -1,5 +1,5 @@
 .blogPosts {
-    padding: 3rem 0 2rem 0;
+    padding: 2rem 0;
 }
 
 .blogPosts .container {
@@ -12,7 +12,7 @@
 .blogPosts .featuredPosts {
     display: flex;
     gap: 1.5rem;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 642px) {
@@ -23,9 +23,5 @@
     .blogPosts .featuredPosts {
         display: grid;
         grid-template-columns: 1fr;
-    }
-
-    .blogPosts .featuredPosts {
-        margin-bottom: 4rem;
     }
 }
