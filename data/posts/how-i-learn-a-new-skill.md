@@ -5,7 +5,7 @@ featured: false
 date: 'Apr 20 2022 13:00:39 GMT+0300'
 ---
 
-I don't know much about other fields, but technology is dynamic and therefore the need to keep learning to keep up with the ever changing industry. There's always something new to learn in technology.
+I don't know much about other fields, but technology is dynamic and therefore the need to keep learning to keep up with the ever changing industry. 
 
 Your company might decide to change their technology stack one day and require you to learn the new stack or you may land a job in a company that uses different technologies from the ones you are familiar with. 
 
