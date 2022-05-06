@@ -5,7 +5,7 @@ const AboutInfo = () => {
 		<div className={styles.aboutInfo}>
 			<p className={styles.description}>
 				Hello, my name is Alex Kimeu and I&#39;m a Software Developer based in
-				Nairobi Kenya.
+				Nairobi, Kenya.
 			</p>
 			<p className={styles.description}>
 				Apart from coding & learning new techs, I write about tech in my{" "}
