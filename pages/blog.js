@@ -68,8 +68,8 @@ export default function Blog({ posts, featured }) {
 }
 
 export async function getStaticProps() {
-	const posts = getSortedPostsData();
-	const featured = posts.filter((post) => post.featured);
+	const posts = getSortedPostsData().filter((post) => !post.featured);
+	const featured = getSortedPostsData().filter((post) => post.featured);
 
 	return {
 		props: {
