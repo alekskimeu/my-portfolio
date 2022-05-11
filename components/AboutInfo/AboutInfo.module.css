@@ -12,26 +12,22 @@
     opacity: .8;
 }
 
-.aboutInfo .description a {
+.aboutInfo .description .link {
     position: relative;
     font-weight: 500;
     color: var(--text-main);
 }
 
-.aboutInfo .description a::after {
+.aboutInfo .description .link::after {
     position: absolute;
     content: "";
     height: 1px;
     width: 100%;
     border: none;
     background-color: var(--text-main);
-    bottom: -.1rem;
+    bottom: -.05rem;
     left: 0;
 }
-
-/* 
-
-*/
 
 @media screen and (max-width: 642px) {
     .aboutInfo .description {
