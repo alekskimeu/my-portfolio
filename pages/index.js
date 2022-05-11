@@ -22,7 +22,6 @@ export default function Home({ posts, featured }) {
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
 			<main style={{ padding: "0 2rem" }}>
-				<Hero />
 				<FeaturedPosts featured={featured} />
 				<Posts posts={posts} />
 			</main>
