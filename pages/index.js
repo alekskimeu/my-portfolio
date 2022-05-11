@@ -1,15 +1,19 @@
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { FeaturedPosts, Hero, Posts } from "../components";
+import { FeaturedPosts, Posts } from "../components";
 import { getSortedPostsData } from "../lib/posts";
-import { useEffect } from "react";
+
+import styles from "../styles/Home.module.css";
 
 export default function Home({ posts, featured }) {
 	useEffect(() => {
 		AOS.init();
 	});
+
+	const [query, setQuery] = useState("");
 
 	return (
 		<>
@@ -21,7 +25,18 @@ export default function Home({ posts, featured }) {
 				/>
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
-			<main style={{ padding: "0 2rem" }}>
+			<main className={styles.home}>
+				<div className={styles.search}>
+					<i className="fas fa-search"></i>
+					<input
+						type="search"
+						name="query"
+						placeholder="Search Article"
+						className={styles.searchInput}
+						value={query}
+						onChange={(e) => setQuery(e.target.value)}
+					/>
+				</div>
 				<FeaturedPosts featured={featured} />
 				<Posts posts={posts} />
 			</main>
