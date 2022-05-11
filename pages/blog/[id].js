@@ -82,10 +82,12 @@ export default function BlogPost({ post, posts }) {
 							</a>
 						</Link>
 					</div>
-					<div className={styles.otherPosts}>
-						{posts.map((post) => (
-							<Post key={post.id} post={post} />
-						))}
+					<div className={styles.relatedPosts}>
+						<div className={styles.otherPosts}>
+							{posts.map((post) => (
+								<Post key={post.id} post={post} />
+							))}
+						</div>
 					</div>
 				</div>
 			</div>

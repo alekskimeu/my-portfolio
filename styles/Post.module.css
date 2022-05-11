@@ -153,6 +153,19 @@
     padding-left: 2rem;
 }
 
+.postPage .relatedPosts {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.postPage .otherPosts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
 @media screen and (max-width: 642px){
     .postPage .postHeader {
         flex-direction: column;
@@ -176,18 +189,7 @@
         line-height: 1.2;
     }
 
-.postPage .relatedPosts {
-    max-width: 1250px;
-    margin: auto;
-    padding: 0 1rem;
-}
 
-.postPage .otherPosts {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin-top: 3rem;
-}
 
 .postPage .otherPosts {
         grid-template-columns: 1fr;
