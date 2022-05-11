@@ -26,17 +26,6 @@ export default function Home({ posts, featured }) {
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
 			<main className={styles.home}>
-				<div className={styles.search}>
-					<i className="fas fa-search"></i>
-					<input
-						type="search"
-						name="query"
-						placeholder="Search Article"
-						className={styles.searchInput}
-						value={query}
-						onChange={(e) => setQuery(e.target.value)}
-					/>
-				</div>
 				<FeaturedPosts featured={featured} />
 				<Posts posts={posts} />
 			</main>

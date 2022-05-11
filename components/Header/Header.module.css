@@ -58,6 +58,10 @@
         padding-bottom: 0.5rem;
     }    
 
+    .header .menu {
+        gap: 1.5rem;
+    }
+
     .header .menu a {
         font-weight: normal;
     }

@@ -36,16 +36,6 @@ export default function Blog({ posts, featured }) {
 							onChange={(e) => setQuery(e.target.value)}
 						/>
 					</div>
-					<div className={styles.featuredPosts}>
-						{featured
-							.filter(
-								(post) =>
-									post.content.includes(query) || post.title.includes(query)
-							)
-							.map((post) => (
-								<Post key={post.index} post={post} />
-							))}
-					</div>
 
 					<div
 						className={styles.postsWrapper}
@@ -68,13 +58,11 @@ export default function Blog({ posts, featured }) {
 }
 
 export async function getStaticProps() {
-	const posts = getSortedPostsData().filter((post) => !post.featured);
-	const featured = getSortedPostsData().filter((post) => post.featured);
+	const posts = getSortedPostsData();
 
 	return {
 		props: {
 			posts,
-			featured,
 		},
 	};
 }
