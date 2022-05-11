@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import { FeaturedPosts, Posts } from "../components";
 import { getSortedPostsData } from "../lib/posts";
@@ -9,12 +7,6 @@ import { getSortedPostsData } from "../lib/posts";
 import styles from "../styles/Home.module.css";
 
 export default function Home({ posts, featured }) {
-	useEffect(() => {
-		AOS.init();
-	});
-
-	const [query, setQuery] = useState("");
-
 	return (
 		<>
 			<Head>

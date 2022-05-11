@@ -14,7 +14,11 @@ const HeroImage = () => {
 
 	return (
 		<div className={styles.image}>
-			<div className={styles.imageContainer}>
+			<div
+				className={styles.imageContainer}
+				data-aos="zoom-in"
+				data-aos-duration="1000"
+			>
 				<Image
 					src={image}
 					alt="Alex Kimeu"
@@ -23,9 +27,21 @@ const HeroImage = () => {
 					height={200}
 				/>
 			</div>
-			<h1 className={styles.name}>Alex Kimeu</h1>
-			<h2 className={styles.profession}>Software Developer</h2>
-			<div className={styles.herocta}>
+			<h1 className={styles.name} data-aos="zoom-in" data-aos-duration="1000">
+				Alex Kimeu
+			</h1>
+			<h2
+				className={styles.profession}
+				data-aos="zoom-in"
+				data-aos-duration="1000"
+			>
+				Software Developer
+			</h2>
+			<div
+				className={styles.herocta}
+				data-aos="zoom-in"
+				data-aos-duration="1000"
+			>
 				<div className={styles.socialMedia}>
 					<a
 						href="https://twitter.com/alekskimeu"

@@ -1,8 +1,20 @@
+import { useEffect } from "react";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import styles from "./AboutInfo.module.css";
+
 const AboutInfo = () => {
+	useEffect(() => {
+		AOS.init();
+	});
+
 	return (
-		<div className={styles.aboutInfo}>
+		<div
+			className={styles.aboutInfo}
+			data-aos="zoom-in"
+			data-aos-duration="1000"
+		>
 			<p className={styles.description}>
 				Hello, my name is Alex Kimeu and I&#39;m a Software Developer based in
 				Nairobi, Kenya.

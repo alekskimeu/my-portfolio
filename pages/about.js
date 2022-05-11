@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { AboutInfo, HeroImage } from "../components";
 
+
 import styles from "../styles/About.module.css";
 
 export default function Home() {
