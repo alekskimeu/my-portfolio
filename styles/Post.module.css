@@ -186,7 +186,7 @@
     }
 
     .postPage .postBody .description {
-        line-height: 1.2;
+        line-height: 1.3;
     }
 
 
@@ -196,17 +196,6 @@
     }
 
     .postPage .postIntro .intro, .postPage .postBody p, .postPage .postBody .description, .postPage blockquote p, .postPage blockquote li {
-        font-size: 1.3rem;
+        font-size: 1.35rem;
     }
-}
-
-@media screen and (max-width: 424px) {
-    .postPage .postIntro .intro {
-        line-height: 1.2;
-    }
-
-    .postPage .postBody p {
-        line-height: 1.2;
-    }
-
 }
