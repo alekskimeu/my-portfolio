@@ -6,7 +6,7 @@
 }
 
 .aboutInfo .description {
-    color: var(--text-main);
+    color: var(--text-minor);
     font-size: 1.4rem;
     margin-bottom: 1rem;
     opacity: .7;

@@ -30,7 +30,7 @@ export async function getStaticProps() {
 	const posts = getSortedPostsData()
 		.filter((post) => !post.featured)
 		.slice(0, 6);
-	const featured = getSortedPostsData().filter((post) => post.featured);
+	const featured = getSortedPostsData().splice(0, 2);
 
 	return {
 		props: { posts, featured },
