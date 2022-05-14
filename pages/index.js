@@ -25,12 +25,10 @@ export default function Home({ posts, featured }) {
 	);
 }
 
-// Fetch posts & projects
+// Fetch posts
 export async function getStaticProps() {
-	const posts = getSortedPostsData()
-		.filter((post) => !post.featured)
-		.slice(0, 6);
 	const featured = getSortedPostsData().splice(0, 2);
+	const posts = getSortedPostsData().splice(2, 8);
 
 	return {
 		props: { posts, featured },
