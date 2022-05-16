@@ -29,7 +29,7 @@ const Post = ({ post }) => {
 					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
-					{post.excerpt.substr(0, 60)}...{" "}
+					{post.excerpt.substr(0, 90)}...{" "}
 					<Link href={`/blog/${post.id}`}>
 						<a className={styles.linkMore}>Read post</a>
 					</Link>
