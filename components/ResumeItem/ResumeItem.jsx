@@ -24,7 +24,7 @@ const ResumeItem = ({ title, company, timeline, description, duties }) => {
 				<p className={styles.timeline}>{timeline}</p>
 			</div>
 			<div className={styles.resumeBody}>
-				<p className={styles.description}>{description}</p>
+				{/* <p className={styles.description}>{description}</p> */}
 				<ul className={styles.resumeList}>
 					{duties.map((duty) => (
 						<li key={duty.index}>{duty}</li>

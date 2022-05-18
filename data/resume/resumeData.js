@@ -8,7 +8,17 @@ export const resumeData = [
 			"Build & maintain ZawadiZ website",
 			"Social media management",
 			"Search Engine Optimization",
-			"General tech support"
+			"General tech support",
+		],
+	},
+	{
+		title: "Web Developer",
+		company: "Eldo Hub",
+		timeline: "May 2021 ~ Sep 2021",
+		description: "My duties:",
+		duties: [
+			"Created & deployed a website for a client",
+			"Trained the client on managing the website",
 		],
 	},
 	{
