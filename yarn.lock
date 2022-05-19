@@ -3853,6 +3853,11 @@
   "resolved" "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   "version" "2.0.2"
 
+"res@^0.4.0":
+  "integrity" "sha1-a0mSIEDdBWrRjDwOhdv81xK0QUc="
+  "resolved" "https://registry.npmjs.org/res/-/res-0.4.0.tgz"
+  "version" "0.4.0"
+
 "resolve-from@^4.0.0":
   "integrity" "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g=="
   "resolved" "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz"

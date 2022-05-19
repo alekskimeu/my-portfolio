@@ -5,6 +5,7 @@ import { FeaturedPosts, Posts } from "../components";
 import { getSortedPostsData } from "../lib/posts";
 
 import styles from "../styles/Home.module.css";
+import generateRss from "../lib/generateRss";
 
 export default function Home({ posts, featured }) {
 	return (
@@ -29,6 +30,7 @@ export default function Home({ posts, featured }) {
 export async function getStaticProps() {
 	const featured = getSortedPostsData().splice(0, 2);
 	const posts = getSortedPostsData().splice(2, 8);
+	await generateRss();
 
 	return {
 		props: { posts, featured },
