@@ -33,3 +33,9 @@
 .footer .copy i {
     color: red;
 }
+
+@media screen and (max-width: 624px) {
+    .footer .copy {
+        font-size: .95rem;
+    }
+}
