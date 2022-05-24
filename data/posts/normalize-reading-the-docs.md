@@ -1,5 +1,6 @@
 ---
 title: 'Normalize Reading The Docs'
+slug: 'normalize-reading-the-docs'
 excerpt: "When you buy a new gadget, it comes with a user manual that explains how to use the gadget. When you're stuck at some point operating the gadget, you can always go back to the manual and check it out. This is exactly what documentation is for software/technology. It explains how to use the software and you can always come back whenever stuck."
 date: 'May 13 2022 17:05:39 GMT+0300'
 ---

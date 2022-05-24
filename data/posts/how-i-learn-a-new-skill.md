@@ -1,7 +1,7 @@
 ---
 title: "How I Learn A New Skill"
+slug: 'how-i-learn-a-new-skill'
 excerpt: "Whether you're just getting started in the world of coding or you've been in the industry for 10 years, learning is inevitable to stay relevant in the industry."
-featured: false
 date: 'Apr 20 2022 13:00:39 GMT+0300'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Tools I use as a Developer'
+slug: 'tools-i-use-as-a-developer'
 excerpt: 'As a developer, I use a number of tools for my workflow. These tools ease my job and significantly increase my productivity.'
-featured: false
 date: 'Mar 29 2022 11:10:39 GMT+0300'
 ---
 
