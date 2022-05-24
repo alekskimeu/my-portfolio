@@ -128,8 +128,7 @@
     font-weight: 400;
     font-size: 1.3rem;
     text-transform: capitalize;
-    padding-bottom: 0.1rem;
-    border-bottom: 2px solid var(--text-main);
+    border-bottom: 1px solid var(--text-main);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

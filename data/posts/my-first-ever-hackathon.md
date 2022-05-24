@@ -13,7 +13,7 @@ As defined in [TechTarget](https://www.techtarget.com/searchcio/definition/hacka
 |:--:| 
 | *Myself, Steve & Christine presenting our prototype* |
 
-The time is September 2017. I was a 3rd year in <b>Maseno University</b> majoring in <b>IT</b>. At that time, the <b>Health IT project</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
+The time is September 2017. I was a 3rd year in <b>Maseno University</b> majoring in <b>IT</b>. At that time, the <b>Health IT project team</b> from <b>University of Nairobi</b> in collaboration with our University had organized a 3 day Hackathon with cool prizes for the top 3 teams.
 
 The goal of the Hackathon was to introduce the participants to Health Systems used in Kenya, specifically the [DHIS2](https://dhis2.org/), and to have the participants work on prototypes to try and address some of the shortcomings of the system.
 
@@ -21,9 +21,9 @@ When we heard about this for the first time, my friends and I brushed it off. We
 
 1. We didn't consider ourselves programmers. It's worth noting that at that time, we didn't have much focus on programming. We were more interested in computer networking and <b>CISCO</b> technologies. Therefore, we felt we didn't have what it takes to participate in a programming Hackathon.
 
-2. We were afraid of embarrassing ourselves in front of our juniors who were also participating in the Hackathon and who considered us more informed, more knowledgeable seniors.
+2. We didn't know much about Health Systems. How they work, store and process data. 
 
-3. We didn't know much about Health Systems. How they work, store and process data.
+3. We were afraid of embarrassing ourselves in front of our juniors who were also participating in the Hackathon and who considered us more informed, more knowledgeable seniors-:).
 
 I know these reasons are pretty dumb but that's how we felt back then. We spent a couple of days debating about this, whether to go or not. Eventually, we made up our minds and decided we had nothing to lose by participating and that it would be an awesome learning opportunity for us and we registered for the Hackathon.
 
