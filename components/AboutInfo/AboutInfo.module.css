@@ -7,7 +7,7 @@
 
 .aboutInfo .description {
     color: var(--text-minor);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
     opacity: .7;
 }
@@ -31,6 +31,6 @@
 
 @media screen and (max-width: 642px) {
     .aboutInfo .description {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
 }
