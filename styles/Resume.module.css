@@ -23,7 +23,7 @@
 }
 
 .resume .resumeHeader .heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 600;
     color: var(--text-main);
@@ -31,6 +31,11 @@
 }
 
 @media screen and (max-width: 762px) {
+    .resume .resumeHeader {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
     .resume .resumeWrapper::after {
         left: 31px;
     }
@@ -38,5 +43,15 @@
     .resume .resumeHeader .heading {
         font-weight: 500;
         font-size: 1.8rem;
+    }
+
+    .resume .resumeHeader .heading {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .resume .resumeHeader .heading {
+        font-size: 1.4rem;
     }
 }

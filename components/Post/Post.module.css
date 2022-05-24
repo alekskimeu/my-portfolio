@@ -23,7 +23,7 @@
     margin-top: 1rem;
     text-transform: capitalize;
     font-weight: 400;
-    opacity: .8;
+    opacity: .9;
     font-size: 1.4rem;
     color: var(--text-main);
     transition: all .5s ease;
@@ -34,14 +34,14 @@
 }
 
 .post .body .title:hover {
-    opacity: .9;
+    opacity: 1;
 }
 
 .post .body .excerpt {
     font-size: 1.35rem;
     line-height: 1.5;
     margin-top: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     opacity: .8;
     color: var(--text-minor);
 }
@@ -111,20 +111,24 @@
     }
 
     .post .body .title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .post .body .excerpt {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 
     .post .body .linkMore {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 400;
     }
 
     .post .footer span{
-        font-size: 1rem;
+        font-size: .9rem;
+    }
+
+    .post .footer .date {
+        font-size: 0.9rem;
     }
 }
 

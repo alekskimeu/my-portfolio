@@ -59,15 +59,12 @@
     }    
 
     .header .navbar a {
-        font-size: 1.15rem;
+        font-size: 1rem;
+        font-weight: 500;
     }
 
     .header .menu {
         gap: 1.5rem;
-    }
-
-    .header .menu a {
-        font-weight: normal;
     }
 
 }

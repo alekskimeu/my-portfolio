@@ -48,7 +48,7 @@
     font-size: 1.3rem;
     line-height: 1.6;
     opacity: .9;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--text-minor);
 }
 
@@ -62,9 +62,9 @@
 .postPage .postBody p {
     font-size: 1.3rem;
     line-height: 1.6;
-    margin-top: 1rem;
     opacity: .9;
-    font-weight: 300;
+    margin-top: 1rem;
+    font-weight: 400;
     color: var(--text-minor);
 }
 
@@ -175,7 +175,7 @@
     }
 
     .postPage .postHeader .title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .postPage .postHeader .date {
@@ -191,6 +191,6 @@
         }
 
     .postPage .postIntro .intro, .postPage .postBody p, .postPage .postBody .description, .postPage blockquote p, .postPage blockquote li {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 }

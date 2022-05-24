@@ -126,10 +126,14 @@
 
 @media screen and (max-width: 624px) {
     .resumeItem .resumeBody .description, .resumeItem .resumeBody .resumeList li {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
     .resumeItem .resumeItemHeader .company {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    .resumeItem .resumeItemHeader .profession {
+        font-size: 1.15rem;
     }
 }
 
