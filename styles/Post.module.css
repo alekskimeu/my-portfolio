@@ -127,7 +127,8 @@
     color: var(--text-main);
     font-weight: 400;
     text-transform: capitalize;
-    text-decoration: underline;
+    padding-bottom: 0.1rem;
+    border-bottom: 2px solid var(--text-main);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -192,5 +193,9 @@
 
     .postPage .postIntro .intro, .postPage .postBody p, .postPage .postBody .description, .postPage blockquote p, .postPage blockquote li {
         font-size: 1.1rem;
+    }
+
+    .postPage .postBody h2, .postPage .postBody a {
+        font-size: 1.25rem;
     }
 }
