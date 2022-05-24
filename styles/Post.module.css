@@ -48,7 +48,7 @@
 .postPage .postIntro .intro {
     font-size: 1.15rem;
     line-height: 1.6;
-    opacity: .9;
+    opacity: .8;
     font-weight: 400;
     color: var(--text-minor);
 }
@@ -63,7 +63,7 @@
 .postPage .postBody p {
     font-size: 1.15rem;
     line-height: 1.6;
-    opacity: .9;
+    opacity: .8;
     margin-top: 1rem;
     font-weight: 400;
     color: var(--text-minor);
