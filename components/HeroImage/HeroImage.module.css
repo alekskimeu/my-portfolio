@@ -32,7 +32,7 @@
 .image .name {
     margin-top: 1rem;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     opacity: .8;
     color: var(--text-minor);
 }
@@ -40,10 +40,16 @@
 .image .profession {
     margin: 0.5rem 0;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     opacity: .7;
     color: var(--text-minor);
+}
 
+.image .skills {
+    color: var(--text-minor);
+    font-weight: 400;
+    font-size: 1.2rem;
+    opacity: .8;
 }
 
 .image .herocta {
@@ -100,8 +106,8 @@
 }
 
 @media screen and (max-width: 624px) {
-    .image .profession {
-        font-size: 1.3rem;
+    .image .profession, .image .name, .image .skills {
+        font-size: 1.15rem;
     }
 }
 

@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import { FeaturedPosts, Posts } from "../components";
 import { getSortedPostsData } from "../lib/posts";
+import { Hero } from "../components";
 
 import styles from "../styles/Home.module.css";
 
@@ -17,6 +18,7 @@ export default function Home({ posts, featured }) {
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
 			<main className={styles.home}>
+				<Hero />
 				<FeaturedPosts featured={featured} />
 				<Posts posts={posts} />
 			</main>

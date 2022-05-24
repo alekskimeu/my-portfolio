@@ -37,6 +37,7 @@ const HeroImage = () => {
 			>
 				Software Developer
 			</h2>
+			<h3 className={styles.skills}>(React, Next, Node, React Native)</h3>
 			<div
 				className={styles.herocta}
 				data-aos="zoom-in"
