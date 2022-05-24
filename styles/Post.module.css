@@ -21,7 +21,7 @@
 }
 
 .postPage .postHeader .title {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.8rem;
     opacity: .9;
     color: var(--text-main);
@@ -46,7 +46,8 @@
 
 .postPage .postIntro .intro {
     font-size: 1.3rem;
-    opacity: .7;
+    line-height: 1.6;
+    opacity: .8;
     font-weight: 400;
     color: var(--text-minor);
 }
@@ -60,9 +61,10 @@
 
 .postPage .postBody p {
     font-size: 1.3rem;
-    margin-top: 1rem;
     line-height: 1.6;
-    opacity: .7;
+
+    margin-top: 1rem;
+    opacity: .8;
     font-weight: 400;
     color: var(--text-minor);
 }
@@ -70,6 +72,7 @@
 .postPage .postBody pre  {
     opacity: .7;
     max-width: 100%;
+    line-height: 1.6;
     font-size: 1.1rem;
     line-height: 1.4;
     font-weight: 400;
@@ -105,6 +108,7 @@
     font-size: 1.3rem;
     color: var(--body-bg);
     opacity: .7;
+    line-height: 1.6;
 }
 
 .postPage p img {
@@ -122,7 +126,7 @@
 
 .postPage .postBody a {
     color: var(--text-main);
-    font-weight: 500;
+    font-weight: 400;
     text-transform: capitalize;
     text-decoration: underline;
     transition: all .5s ease;
@@ -138,13 +142,13 @@
 
 .postPage .postBody h2 {
     margin-top: 3rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--text-minor);
     opacity: .8;
 }
 
 .postPage .postBody b {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .postPage .postBody ol {
