@@ -9,7 +9,7 @@ export default function Home({ posts, featured }) {
 	return (
 		<>
 			<Head>
-				<title>Home | Alex Kimeu</title>
+				<title>Alex Kimeu | Software Developer, Limitless learner </title>
 				<meta
 					name="description"
 					content="Software Developer | Limitless learner | Blogger"
