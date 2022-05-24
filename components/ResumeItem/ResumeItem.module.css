@@ -58,8 +58,8 @@
 }
 
 .resumeItem .resumeItemHeader .profession {
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: 400;
+    font-size: 1.25rem;
     color: var(--text-main);
     margin-bottom: 0.5rem;
     opacity: .9;
@@ -76,10 +76,11 @@
     opacity: .7;
     color: var(--text-main);
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .resumeItem .resumeBody .description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     line-height: 1.3;
     color: var(--text-main);
@@ -95,8 +96,8 @@
 }
 
 .resumeItem .resumeBody .resumeList li {
-    line-height: 1.4;
-    font-size: 1.3rem;
+    line-height: 1.6;
+    font-size: 1.15rem;
     font-weight: 400;
 }
 
@@ -133,7 +134,7 @@
     }
 
     .resumeItem .resumeItemHeader .profession {
-        font-size: 1.15rem;
+        font-size: 1.1rem;
     }
 }
 

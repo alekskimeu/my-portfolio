@@ -30,10 +30,11 @@
 
 .header .menu a {
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
     color: var(--text-main);
     opacity: .9;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -59,8 +60,7 @@
     }    
 
     .header .navbar a {
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: .95rem;
     }
 
     .header .menu {

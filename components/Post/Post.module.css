@@ -21,10 +21,11 @@
 
 .post .body .title {
     margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     font-weight: 400;
     opacity: .9;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--text-main);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -38,11 +39,11 @@
 }
 
 .post .body .excerpt {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin-top: 1rem;
     font-weight: 400;
-    opacity: .8;
+    opacity: .7;
     color: var(--text-minor);
 }
 
@@ -50,8 +51,8 @@
     color: var(--text-main);
     text-decoration: underline;
     opacity: 1;
-    font-size: 1.35rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 400;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
