@@ -1,7 +1,7 @@
 ---
 title: 'Hello World'
 slug: 'hello-world'
-excerpt: 'Hello World 👋! Welcome to this space. This is my first post here and I figured I might as well start off by reflecting a bit on my journey in the vast world of code so far. Here we go!'
+excerpt: 'Hello World 👋! Welcome to my tech blog. This is my first post here and I figured I might as well start off by reflecting a bit on my journey in the vast world of code so far. Here we go!'
 date: 'Mar 25 2022 11:10:39 GMT+0300'
 ---
 
