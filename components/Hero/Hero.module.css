@@ -1,23 +1,17 @@
 .hero {
-    padding: 8rem 1rem 3rem 1rem;
+    background-color: var(--card-bg);
+    box-shadow: 4px 8px 16px var(--body-bg);
+    height: fit-content;
+    flex: .4;
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 
 .hero .container {
     max-width: 1100px;
-    padding: 0 2rem 3rem 2rem;
     margin: auto;
-    border-bottom: 1px solid rgba(231, 231, 231, .2);
-}
-
-@media screen and (max-width: 962px) {
-    .hero {
-        padding-bottom: 3rem;
-    }  
-}
-
-@media screen and (max-width: 624px) {
-    .hero {
-        padding-top: 7rem;
-        padding-bottom: 1rem;
-    }
 }

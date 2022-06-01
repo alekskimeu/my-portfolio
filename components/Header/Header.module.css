@@ -6,11 +6,12 @@
     z-index: 1;
     padding: 0 2rem;
     background-color: var(--body-bg);
+    border-bottom: 1px solid rgba(231,231,231, .1);
 }
 
 .header .navbar {
     height: 100%;
-    max-width: 1160px;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,7 @@
     color: var(--text-main);
     opacity: .9;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

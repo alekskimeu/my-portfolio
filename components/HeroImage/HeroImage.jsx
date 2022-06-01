@@ -3,9 +3,10 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import image from "../../public/images/site/profile.jpg";
+import image from "../../public/images/site/profile.jpeg";
 
 import styles from "./HeroImage.module.css";
+import AppButton from "../AppButton/AppButton";
 
 const HeroImage = () => {
 	useEffect(() => {
@@ -38,7 +39,7 @@ const HeroImage = () => {
 				Software Developer
 			</h2>
 			<h3 className={styles.skills} data-aos="zoom-in" data-aos-duration="1000">
-				(React, Next, Node, React Native)
+				React, Next, React Native, Node
 			</h3>
 			<div
 				className={styles.herocta}
@@ -72,6 +73,7 @@ const HeroImage = () => {
 					</a>
 				</div>
 			</div>
+			<AppButton text="Download CV" />
 		</div>
 	);
 };

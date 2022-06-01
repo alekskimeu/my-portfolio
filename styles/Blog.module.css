@@ -6,8 +6,8 @@
     max-width: 600px;
     margin: auto;
     margin-bottom: 4rem;
-    background-color: var(--border);
-    border: 1px solid rgba(231, 231, 231, .5);
+    background-color: var(--white);
+    border: 1px solid rgba(231,231,231,.2);
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -20,13 +20,13 @@
 }
 
 .blog .search i {
-    color: rgba(231, 231, 231, .7);
+    color: rgba(231,231,231,.5);
     margin-left: .5rem;
     font-size: 1rem;
 }
 
 .blog .search .searchInput {
-    background-color: var(--border);
+    background-color: var(--white);
     border: none;
     padding: .5rem;
     width: 100%;
@@ -56,7 +56,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    gap: 1.2rem;
+    gap: 2rem;
 }
 
 @media screen and (max-width: 1000px) {

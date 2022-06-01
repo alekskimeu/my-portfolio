@@ -6,37 +6,45 @@ import relativeTime from "dayjs/plugin/relativeTime";
 
 import styles from "./Post.module.css";
 
-const Post = ({ post }) => {
+const Post = ({ post, image }) => {
 	dayjs.extend(relativeTime);
 
 	const imageName = post.title.split(" ").join("-").toLowerCase();
 
 	return (
 		<div className={styles.post}>
-			<div className={styles.postImageContainer}>
-				<Image
-					src={`/images/posts/${imageName}.jpg`}
-					alt={post.title}
-					className={styles.postImage}
-					layout="responsive"
-					width="300"
-					height="180"
-				/>
-			</div>
+			{image && (
+				<div className={styles.postImageContainer}>
+					<Image
+						src={`/images/posts/${imageName}.jpg`}
+						alt={post.title}
+						className={styles.postImage}
+						layout="responsive"
+						width="300"
+						height="180"
+					/>
+				</div>
+			)}
 
-			<div className={styles.body}>
+			<div
+				className={styles.body}
+				style={{ padding: image ? "1rem" : "1.5rem 2rem" }}
+			>
 				<Link href={`/blog/${post.id}`}>
 					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
-					{post.excerpt.substr(0, 90)}...{" "}
+					{image ? post.excerpt.substr(0, 80) : post.excerpt.substr(0, 120)}{" "}
 					<Link href={`/blog/${post.id}`}>
 						<a className={styles.linkMore}>Read post</a>
 					</Link>
 				</p>
 			</div>
 
-			<div className={styles.footer}>
+			<div
+				className={styles.footer}
+				style={{ padding: image ? "1rem" : "0 2rem 2rem 2rem" }}
+			>
 				<span className={styles.eta}>
 					{Math.floor(post.content.split(/\s+/).length / 200)} min read
 				</span>

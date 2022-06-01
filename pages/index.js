@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { FeaturedPosts, Posts } from "../components";
+import { FeaturedPosts, HeroImage, Posts } from "../components";
 import { getSortedPostsData } from "../lib/posts";
 import { Hero } from "../components";
 
@@ -18,9 +18,10 @@ export default function Home({ posts, featured }) {
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
 			<main className={styles.home}>
-				<Hero />
-				<FeaturedPosts featured={featured} />
-				<Posts posts={posts} />
+				<div className={styles.homeWrapper}>
+					<HeroImage />
+					<Posts posts={posts} />
+				</div>
 			</main>
 		</>
 	);
@@ -28,11 +29,9 @@ export default function Home({ posts, featured }) {
 
 // Fetch posts
 export async function getStaticProps() {
-	const featured = getSortedPostsData().splice(0, 2);
 	const posts = getSortedPostsData().splice(2, 8);
-	// await generateRss();
 
 	return {
-		props: { posts, featured },
+		props: { posts },
 	};
 }

@@ -1,20 +1,27 @@
 .aboutInfo {
-    padding: 3rem 2rem;
-    text-align: center;
-    max-width: 700px;
-    margin: auto;
+    flex: 1;
+    margin: 0 auto;
+}
+
+.aboutInfo .heading {
+    color: var(--text-main);
+    text-transform: uppercase;
+    opacity: .8;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(231,231,231,.1);
+    width: fit-content;
 }
 
 .aboutInfo .description {
     color: var(--text-minor);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
     opacity: .7;
 }
 
 .aboutInfo .description .link {
     position: relative;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--text-main);
 }
 

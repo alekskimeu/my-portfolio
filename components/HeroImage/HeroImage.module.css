@@ -3,14 +3,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    height: fit-content;
     text-align: center;
+    background-color: var(--card-bg);
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 
 .image .imageContainer {
     width: 200px;
     height: 200px;
-    border: 2px solid var(--text-minor);
+    border: 2px solid var(--text-main);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -32,15 +39,15 @@
 .image .name {
     margin-top: 1rem;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     opacity: .8;
-    color: var(--text-minor);
+    color: var(--text-main);
 }
 
 .image .profession {
     margin: 0.5rem 0;
-    font-weight: 400;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
     opacity: .7;
     color: var(--text-minor);
 }
@@ -49,7 +56,7 @@
     color: var(--text-minor);
     opacity: .6;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .image .herocta {

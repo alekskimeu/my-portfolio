@@ -15,6 +15,7 @@ const AboutInfo = () => {
 			data-aos="zoom-in"
 			data-aos-duration="1000"
 		>
+			<h1 className={styles.heading}>About me</h1>
 			<p className={styles.description}>
 				Hello, my name is Alex Kimeu and I&#39;m a Software Developer based in
 				Nairobi, Kenya.

@@ -1,0 +1,30 @@
+.btn {
+    border: 2px solid var(--text-main);
+    color: var(--text-main);   
+    text-transform: uppercase;
+    margin-top: 2rem;
+    padding: .8rem 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 640px) {
+    .btn {
+        border-width: 1px;
+        font-weight: 400;
+    }
+}

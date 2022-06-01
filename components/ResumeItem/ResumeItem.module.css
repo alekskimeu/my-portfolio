@@ -105,6 +105,7 @@
 @media screen and (max-width: 762px) {    
     .resumeItem .resumeItemHeader {
         flex-direction: column;
+        gap: 0.2rem;
     }
     .resumeItem {
         width: 93%;
@@ -128,24 +129,29 @@
 
 @media screen and (max-width: 624px) {
     .resumeItem .resumeBody .description, .resumeItem .resumeBody .resumeList li {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .resumeItem .resumeItemHeader .company {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .resumeItem .resumeItemHeader .profession {
         font-size: 1.1rem;
+        margin-bottom: 0.2rem;
     }
 }
 
 @media screen and (max-width: 424px) {
     .resumeItem .resumeItemHeader {
-        gap: 1rem;
-        margin-bottom: 0.5rem;
+        gap: .5rem;
+        margin-bottom: 0;
     }
 
     .resumeItem .resumeBody {
         display: none;
+    }
+
+    .resumeItem .resumeItemHeader .timeline {
+        font-size: .9rem;
     }
 }

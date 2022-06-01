@@ -42,14 +42,9 @@ export default function Blog({ posts, featured }) {
 						data-aos="fade-up"
 						data-aos-duration="1000"
 					>
-						{posts
-							.filter(
-								(post) =>
-									post.content.includes(query) || post.title.includes(query)
-							)
-							.map((post) => (
-								<Post key={post.index} post={post} />
-							))}
+						{posts.map((post) => (
+							<Post image={true} key={post.index} post={post} />
+						))}
 					</div>
 				</div>
 			</main>
