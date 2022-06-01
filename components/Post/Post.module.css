@@ -1,6 +1,7 @@
 .post {
     background-color: var(--card-bg);
     box-shadow: 2px 4px 8px var(--body-bg);
+    border: 1px solid rgba(231,231,231, .1);
     border-radius: .5rem;
     -webkit-border-radius: .5rem;
     -moz-border-radius: .5rem;
