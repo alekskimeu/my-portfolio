@@ -14,11 +14,10 @@
 }
 
 .post .body .title {
-    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 600;
     opacity: .7;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--text-main);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;

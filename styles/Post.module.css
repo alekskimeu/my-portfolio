@@ -46,7 +46,7 @@
 }
 
 .postPage .postIntro .intro {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     line-height: 1.6;
     opacity: .6;
     font-weight: 400;
@@ -61,7 +61,7 @@
 }
 
 .postPage .postBody p {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     line-height: 1.6;
     opacity: .6;
     margin-top: 1rem;
@@ -73,7 +73,7 @@
     opacity: .6;
     max-width: 100%;
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     font-weight: 400;
     margin-bottom: 2rem;
