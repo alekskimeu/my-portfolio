@@ -1,18 +1,24 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import * as dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 
 import styles from "./Post.module.css";
 
 const Post = ({ post, image }) => {
+	useEffect(() => {
+		AOS.init();
+	});
+
 	dayjs.extend(relativeTime);
 
 	const imageName = post.title.split(" ").join("-").toLowerCase();
 
 	return (
-		<div className={styles.post}>
+		<div className={styles.post} data-aos="zoom-in" data-aos-duration="1000">
 			{image && (
 				<div className={styles.postImageContainer}>
 					<Image
