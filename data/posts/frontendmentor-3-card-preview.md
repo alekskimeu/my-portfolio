@@ -5,16 +5,15 @@ excerpt: 'For quite some time now, I have been fascinated by the idea of working
 date: 'Jun 8 2022 11:30:39 GMT+0300'
 ---
 
-When I first had this idea a couple months ago, I was excited and I decided to give it a try. I jumped on, created an account and even joined the  Frontend Mentor Slack channel in order to collaborate  with others who are probably solving the challenges. However, I kept on procrastinating this until today when I decided to finally jump in and get started in solving the challenges.
+When I first had this idea a couple months ago, I was excited and decided to give it a try. I jumped on, created an account on [Frontend Mentor](https://www.frontendmentor.io/) and even joined their Slack channel in order to collaborate  with others who are probably solving the challenges. However, I kept on procrastinating this until today when I decided to finally jump right into it and get started in solving the challenges.
 
 If you don't already know, <b>Frontend Mentor</b> is a website that helps developers improve their front-end coding skills by building real projects. The website provides lot's of HTML, CSS and JavaScript challenges in the form of web designs. These challenges are divided into categories based on the users' skill/experience level.
 
 Check it out: [Frontend Mentor](https://www.frontendmentor.io/)
 
-To work on the challenges, you just need to pick the one you would love to work on from the list of the provided challenges, code out the design and submit
-your solution. You can also give and ask for feedback from other users after submitting your solutions.
+To work on the challenges, you just need to pick the one you wish to work on from the list of the provided challenges, code out the design and submit your solution. You can also give and ask for feedback from other users after submitting your solutions.
 
-I picked a fairly simple challenge to start me off. This required me to use only HTML and CSS to complete it. 
+I picked a fairly simple challenge to start me off. This required me to use only <b>HTML</b> and <b>CSS</b> to complete it. 
 
 Check my solution: [Solution](https://www.frontendmentor.io/solutions/3-card-preview-component-Sd4MTvNrep)
 
@@ -53,6 +52,6 @@ I used Netlify to deploy my solution. There are other free hosting sites one cou
 
 This was a fairly simple challenge. I needed it to kick start my journey in solving Frontend Mentor challenges. I look forward to working on more challenges, collaborating with others and learning along the way.
 
-*Coding, just like everything in life, the more you do it, the better you become at it.*
+*"Coding, just like everything in life, the more you do it, the better you become at it." ~ Alex*
 
 Thanks for reading!
