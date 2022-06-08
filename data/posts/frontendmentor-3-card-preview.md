@@ -5,9 +5,9 @@ excerpt: 'For quite some time now, I have been fascinated by the idea of working
 date: 'Jun 8 2022 11:30:39 GMT+0300'
 ---
 
-I jumped on, created an account and even joined the  Frontend Mentor Slack channel in order to collaborate  with others who are probably solving the challenges. However, I kept on procrastinating this until today when I decided to finally jump in.
+When I first had this idea a couple months ago, I was excited and I decided to give it a try. I jumped on, created an account and even joined the  Frontend Mentor Slack channel in order to collaborate  with others who are probably solving the challenges. However, I kept on procrastinating this until today when I decided to finally jump in and get started in solving the challenges.
 
-If you donn't already know,Frontend Mentor is a website that helps developers improve their front-end coding skills by building real projects. The website provides lot's of HTML, CSS and JavaScript challenges in the form of web designs. These challenges are divided into categories based on the users' skill/experience level.
+If you donn't already know, <b>Frontend Mentor</b> is a website that helps developers improve their front-end coding skills by building real projects. The website provides lot's of HTML, CSS and JavaScript challenges in the form of web designs. These challenges are divided into categories based on the users' skill/experience level.
 
 Check it out: [Frontend Mentor](https://www.frontendmentor.io/)
 
