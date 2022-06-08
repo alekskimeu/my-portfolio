@@ -143,13 +143,14 @@
 
 .postPage .postBody h2 {
     margin-top: 3rem;
-    font-weight: 400;
-    color: var(--text-minor);
+    font-weight: 500;
+    color: white;
     opacity: .7;
 }
 
-.postPage .postBody b {
-    font-weight: 400;
+.postPage .postBody b, .postPage .postBody a {
+    font-weight: 600;
+    color: white;
 }
 
 .postPage .postBody ol {

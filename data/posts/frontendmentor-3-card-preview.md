@@ -7,7 +7,7 @@ date: 'Jun 8 2022 11:30:39 GMT+0300'
 
 When I first had this idea a couple months ago, I was excited and I decided to give it a try. I jumped on, created an account and even joined the  Frontend Mentor Slack channel in order to collaborate  with others who are probably solving the challenges. However, I kept on procrastinating this until today when I decided to finally jump in and get started in solving the challenges.
 
-If you donn't already know, <b>Frontend Mentor</b> is a website that helps developers improve their front-end coding skills by building real projects. The website provides lot's of HTML, CSS and JavaScript challenges in the form of web designs. These challenges are divided into categories based on the users' skill/experience level.
+If you don't already know, <b>Frontend Mentor</b> is a website that helps developers improve their front-end coding skills by building real projects. The website provides lot's of HTML, CSS and JavaScript challenges in the form of web designs. These challenges are divided into categories based on the users' skill/experience level.
 
 Check it out: [Frontend Mentor](https://www.frontendmentor.io/)
 
@@ -34,7 +34,7 @@ I used Flexbox to center the entire container vertically and horizontally on the
 
 ## 2. CSS Grid
 
-I used CSS Grid with 3 grid columns to lay the cards next to each other horizontally. Flexbox would work but I have a personal preference for CSS Grid. On mobile devices, I only needed to change the number of grid columns to one to lay the cards one by one vertically.
+I used CSS Grid with 3 grid columns to lay the cards next to each other horizontally. Flexbox would work too but I have a personal preference for CSS Grid. On mobile devices, I only needed to change the number of grid columns to one to lay the cards one by one vertically.
 
 ## 3. Border radius
 
@@ -43,6 +43,8 @@ As shown in the provided designs, the first and the last card shave rounded bord
 ##  4. Git/Github
 
 Once I was done, I created a public repo on Github and pushed my code.
+
+[Github repo](https://github.com/alekskimeu/frontendmentor-3-column-card)
 
 
 ##  5. Deployment
