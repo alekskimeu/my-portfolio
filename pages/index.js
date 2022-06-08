@@ -29,7 +29,7 @@ export default function Home({ posts, featured }) {
 
 // Fetch posts
 export async function getStaticProps() {
-	const posts = getSortedPostsData().splice(2, 8);
+	const posts = getSortedPostsData().splice(0, 8);
 
 	return {
 		props: { posts },
