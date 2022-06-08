@@ -40,11 +40,11 @@ const Post = ({ post, image }) => {
 					<a className={styles.title}>{post.title}</a>
 				</Link>
 				<p className={styles.excerpt}>
-					{image ? post.excerpt.substr(0, 80) : post.excerpt.substr(0, 120)}{" "}
-					<Link href={`/blog/${post.id}`}>
-						<a className={styles.linkMore}>Read post</a>
-					</Link>
+					{image ? post.excerpt.substr(0, 100) : post.excerpt.substr(0, 120)}...
 				</p>
+				<Link href={`/blog/${post.id}`}>
+					<a className={styles.btnMore}>Read post</a>
+				</Link>
 			</div>
 
 			<div

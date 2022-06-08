@@ -16,8 +16,8 @@
 
 .post .body .title {
     text-transform: capitalize;
-    font-weight: 600;
-    opacity: .7;
+    font-weight: 500;
+    opacity: .9;
     font-size: 1.5rem;
     color: var(--text-main);
     transition: all .5s ease;
@@ -37,12 +37,22 @@
     font-weight: 400;
     color: var(--text-minor);
     opacity: .7;
+    margin-bottom: 2rem;
 }
 
-.post .body .linkMore {
-    color: var(--text-main);
-    text-decoration: underline;
+.post .body .btnMore {
+    background-color: var(--link);
+    padding: .7rem 1rem;
+    color: white;
+    text-transform: capitalize;
     font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    border-radius: .1rem;
+    -webkit-border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    -ms-border-radius: .1rem;
+    -o-border-radius: .1rem;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -50,7 +60,7 @@
     -o-transition: all .5s ease;
 }
 
-.post .body .linkMore:hover {
+.post .body .btnMore:hover {
     opacity: .9;
 }
 
@@ -78,6 +88,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .post .footer span {
