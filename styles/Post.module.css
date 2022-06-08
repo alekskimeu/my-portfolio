@@ -63,7 +63,6 @@
 .postPage .postBody p {
     font-size: 1.3rem;
     line-height: 1.6;
-    opacity: .6;
     margin-top: 1rem;
     font-weight: 400;
     color: var(--text-minor);

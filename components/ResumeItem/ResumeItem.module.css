@@ -74,8 +74,7 @@
 }
 
 .resumeItem .resumeItemHeader .timeline {
-    opacity: .7;
-    color: var(--text-main);
+    color: var(--text-minor);
     font-weight: 400;
     font-size: 1rem;
 }
@@ -84,16 +83,14 @@
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     line-height: 1.3;
-    color: var(--text-main);
-    opacity: .7;
+    color: var(--text-minor);
     font-weight: 400;
 }
 
 .resumeItem .resumeBody .resumeList {
     list-style-type: disc;
     padding-left: 2rem;
-    color: var(--text-main);
-    opacity: .6;  
+    color: var(--text-minor);
 }
 
 .resumeItem .resumeBody .resumeList li {
