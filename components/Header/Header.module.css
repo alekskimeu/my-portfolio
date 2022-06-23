@@ -1,16 +1,9 @@
 .header {
     width: 100%;
     z-index: 1;
+    padding: 1rem 0;
     background-color: var(--body-bg);
     border-bottom: 1px solid rgba(231,231,231, .3);
-}
-
-.header .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
-    gap: 2rem;
 }
 
 .header .menu {
@@ -54,7 +47,7 @@
 }
 
 @media screen and (max-width: 672px) {
-    .header .navbar a {
+    .header .menu a {
         font-size: .7rem;
     }
 }

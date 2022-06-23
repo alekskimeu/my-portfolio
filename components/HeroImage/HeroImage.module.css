@@ -20,7 +20,6 @@
     align-items: center;
     height: fit-content;
     text-align: center;
-    background-color: var(--card-bg);
     border: 1px solid rgba(231,231,231,.1);
     padding: 2rem 1rem;
     border-radius: .5rem;
@@ -79,6 +78,7 @@
 
 .image .socialMedia {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1.5rem;
 }
@@ -106,18 +106,7 @@
     opacity: .9;
 }
 
-@media screen and (max-width: 1040px) {
-    .image .socialMedia {
-        text-align: center;
-        justify-content: center;
-    }
-}
-
 @media screen and (max-width: 962px) {
-    .image .herocta {
-        justify-content: center;
-    }
-
     .image .socialMedia i {
         font-size: 2rem;
     }
