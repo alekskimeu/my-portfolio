@@ -50,14 +50,14 @@
     height: 2px;
     left: 0;
     right: 0;
-    bottom: -.3rem;
+    bottom: -.6rem;
     width: 60%;
     margin: auto;
     background-color: rgba(231, 231, 231, .2);
 }
 
 .image .profession {
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
     font-weight: 500;
     font-size: 1.1rem;
     text-transform: uppercase;
