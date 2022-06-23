@@ -9,7 +9,9 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Alex Kimeu | Software Developer, Limitless learner </title>
+				<title>
+					Alex Kimeu | Software Engineer (React, Next, React Native, Node)
+				</title>
 				<meta
 					name="description"
 					content="Software Developer: I create with cool people 👨‍💻."

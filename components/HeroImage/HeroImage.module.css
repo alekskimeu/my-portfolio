@@ -5,6 +5,7 @@
     align-items: center;
     width: 80px;
     height: 80px;
+    border: 2px solid var(--text-main);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -19,13 +20,8 @@
     align-items: center;
     height: fit-content;
     text-align: center;
-    border: 1px solid rgba(231,231,231,.1);
     padding: 2rem 1rem;
     border-radius: .5rem;
-    -webkit-border-radius: .5rem;
-    -moz-border-radius: .5rem;
-    -ms-border-radius: .5rem;
-    -o-border-radius: .5rem;
 }
 
 .image .photo {
