@@ -25,8 +25,8 @@ const Layout = ({ children }) => {
 				<div className="wrap">
 					<Header />
 					{children}
+					<Footer />
 				</div>
-				<Footer />
 			</div>
 		</>
 	);

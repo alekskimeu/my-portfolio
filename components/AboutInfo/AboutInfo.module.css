@@ -1,27 +1,28 @@
 .aboutInfo {
-    flex: 1;
+    max-width: 600px;
     margin: 0 auto;
-}
-
-.aboutInfo .heading {
-    color: var(--text-main);
-    text-transform: uppercase;
-    opacity: .8;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid rgba(231,231,231,.1);
-    width: fit-content;
 }
 
 .aboutInfo .description {
     color: var(--text-minor);
     font-size: 1.3rem;
     margin-bottom: 1rem;
+    text-align: center;
+    max-width: 560px;
 }
 
 .aboutInfo .description .link {
     position: relative;
     font-weight: 500;
     color: var(--text-main);
+    opacity: .8;
+}
+
+.aboutInfo .description span {
+    color: var(--text-main);
+    font-weight: 500;
+    opacity: .8;
+
 }
 
 .aboutInfo .description .link::after {

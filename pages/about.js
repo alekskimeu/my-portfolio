@@ -16,7 +16,6 @@ export default function Home() {
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
 			<main className={styles.about}>
-				<HeroImage />
 				<AboutInfo />
 			</main>
 		</>

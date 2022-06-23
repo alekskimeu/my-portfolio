@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 import image from "../../public/images/site/profile.jpeg";
 
 import styles from "./HeroImage.module.css";
-import AppButton from "../AppButton/AppButton";
 
 const HeroImage = () => {
 	useEffect(() => {
@@ -38,6 +37,7 @@ const HeroImage = () => {
 			>
 				Software Developer
 			</h2>
+			<h3 className={styles.tagline}> I create with cool people 👨‍💻.</h3>
 			<h3 className={styles.skills} data-aos="zoom-in" data-aos-duration="1000">
 				React, Next, React Native, Node
 			</h3>
@@ -73,7 +73,6 @@ const HeroImage = () => {
 					</a>
 				</div>
 			</div>
-			<AppButton text="Download CV" />
 		</div>
 	);
 };

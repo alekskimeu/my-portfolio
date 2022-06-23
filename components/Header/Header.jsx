@@ -7,11 +7,11 @@ const Header = () => {
 	return (
 		<header className={styles.header}>
 			<nav className={styles.navbar}>
-				<Link href="/">
+				{/* <Link href="/">
 					<a className={styles.logo}>
 						<Image src="/favicon-32x32.png" height={32} width={32} alt="Logo" />
 					</a>
-				</Link>
+				</Link> */}
 				<div className={styles.menu}>
 					<Link href="/">
 						<a>Home</a>
@@ -19,12 +19,13 @@ const Header = () => {
 					<Link href="/about">
 						<a>About</a>
 					</Link>
-					<Link href="/blog">
-						<a>Blog</a>
-					</Link>
-					<Link href="/resume">
-						<a>Resume</a>
-					</Link>
+					<a
+						href="https://aleks.hashnode.dev/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						Blog
+					</a>
 				</div>
 			</nav>
 		</header>

@@ -1,27 +1,24 @@
 .header {
-    height: 5rem;
-    position: fixed;
     width: 100%;
-    top: 0;
     z-index: 1;
-    padding: 0 2rem;
     background-color: var(--body-bg);
-    border-bottom: 1px solid rgba(231,231,231, .1);
+    border-bottom: 1px solid rgba(231,231,231, .3);
 }
 
 .header .navbar {
-    height: 100%;
-    max-width: 1300px;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    padding: 1rem 0;
+    gap: 2rem;
 }
 
 .header .menu {
+    width: 100%;
     display: flex;
+    justify-content: center;
+    gap: 3rem;
     align-items: center;
-    gap: 2rem;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -30,42 +27,34 @@
 }
 
 .header .menu a {
+    padding: .5rem 1.2rem .4rem 1.2rem;
+    border: 1px solid var(--text-minor);
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    color: var(--text-main);
+    color: var(--text-minor);
     opacity: .9;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 400;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 
 .header .menu a:hover {
-    color: var(--link);
+    color: var(--text-main);
+    border-color: var(--text-main);
     opacity: 1;
 }
 
 @media screen and (max-width: 672px) {
-    .header {
-        min-height: 6rem;
-    }
-
-    .header .navbar {
-        flex-direction: column;
-        justify-content: center;
-        gap: .5rem;
-        padding-bottom: 0.5rem;
-    }    
-
     .header .navbar a {
-        font-size: .95rem;
+        font-size: .7rem;
     }
-
-    .header .menu {
-        gap: 1.5rem;
-    }
-
 }
