@@ -9,12 +9,10 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>
-					Alex Kimeu | Software Engineer (React, Next, React Native, Node)
-				</title>
+				<title>Alex Kimeu | I create with cool people 👨‍💻.</title>
 				<meta
 					name="description"
-					content="Software Developer: I create with cool people 👨‍💻."
+					content="Software Developer: (React, Next, React Native, Node)"
 				/>
 				<meta name="keywords" content="Alex Kimeu, Software Developer" />
 			</Head>
