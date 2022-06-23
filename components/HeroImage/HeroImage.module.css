@@ -59,9 +59,9 @@
 
 .image .skills {
     color: var(--text-minor);
-    opacity: .9;
+    opacity: .8;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .image .herocta {

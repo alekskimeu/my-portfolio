@@ -38,9 +38,9 @@ const HeroImage = () => {
 				Software Developer
 			</h2>
 			<h3 className={styles.tagline}> I create with cool people 👨‍💻.</h3>
-			<h3 className={styles.skills} data-aos="zoom-in" data-aos-duration="1000">
-				React, Next, React Native, Node
-			</h3>
+			<h4 className={styles.skills} data-aos="zoom-in" data-aos-duration="1000">
+				(React, Next, React Native, Node)
+			</h4>
 			<div
 				className={styles.herocta}
 				data-aos="zoom-in"

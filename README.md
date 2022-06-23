@@ -1,12 +1,7 @@
 
-# Portfolio
+# My Website
 
-My personal website and blog page. I created it to help me learn [Next JS](https://nextjs.org/docs/getting-started), showcase my Tech skills & share what I learn on the Blog page. Check it out: [Portfolio](https://alex-kimeu.com)
-
-## Authors
-
-- [@alekskimeu](https://www.twitter.com/alekskimeu)
-
+Check it out: [Portfolio](https://alex-kimeu.com)
 
 ## Tech Stack
 
@@ -18,13 +13,13 @@ My personal website and blog page. I created it to help me learn [Next JS](https
 Clone the project
 
 ```bash
-  git clone https://github.com/alekskimeu/my-portfolio
+  git clone https://github.com/alekskimeu/my-site
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-portfolio
+  cd my-site
 ```
 
 Install dependencies
@@ -38,6 +33,12 @@ Start the server
 ```bash
   npm run dev
 ```
+
+## Authors
+
+- [@alekskimeu](https://www.twitter.com/alekskimeu)
+
+
 ## Contributing
 
 Contributions are always welcome!
