@@ -3,7 +3,7 @@
     z-index: 1;
     padding: 1rem 0;
     background-color: var(--body-bg);
-    border-bottom: 1px solid rgba(231,231,231, .3);
+    border-bottom: 1px solid rgba(231,231,231, .2);
 }
 
 .header .menu {

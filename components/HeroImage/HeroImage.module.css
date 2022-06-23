@@ -5,7 +5,6 @@
     align-items: center;
     width: 80px;
     height: 80px;
-    border: 2px solid var(--text-main);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

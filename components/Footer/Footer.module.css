@@ -1,9 +1,7 @@
 .footer {
     padding: 1rem;
     width: 100%;
-    /* position: absolute;
-    bottom: 0; */
-    border-top: 1px solid rgba(231,231,231, .3);
+    border-top: 1px solid rgba(231,231,231, .2);
 }
 
 .footer .container {
