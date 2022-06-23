@@ -1,10 +1,9 @@
 .image .imageContainer {
-    max-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border: 2px solid var(--text-main);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -20,7 +19,7 @@
     align-items: center;
     height: fit-content;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
     border-radius: .5rem;
 }
 
@@ -37,74 +36,47 @@
 
 .image .name {
     margin-top: 1rem;
-    font-weight: 400;
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 1.8rem;
     opacity: .8;
-    color: var(--text-main);
+    color: var(--text-minor);
+    position: relative;
+}
+
+.image .name::after {
+    position: absolute;
+    content: "";
+    border: none;
+    height: 2px;
+    left: 0;
+    right: 0;
+    bottom: -.3rem;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(231, 231, 231, .2);
 }
 
 .image .profession {
-    margin-top: 0.5rem;
+    margin-top: 1.2rem;
     font-weight: 500;
     font-size: 1.1rem;
+    text-transform: uppercase;
     color: var(--text-minor);
 }
 
 .image .tagline {
     color: var(--text-minor);
-    font-weight: 400;
-    opacity: .8;
-    margin: .3rem 0 .8rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+    opacity: .7;
+    margin-top: 1.5rem;
 }
 
 .image .skills {
     color: var(--text-minor);
     opacity: .8;
-    font-weight: 400;
-    font-size: 1rem;
-}
-
-.image .herocta {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    margin-top: 2rem;
-}
-
-.image .socialMedia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.image .socialMedia a {
-    color: var(--text-minor);
-    opacity: .7;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-}
-
-.image .socialMedia i {
-    font-size: 2.5rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-}
-
-.image .socialMedia a:hover {
-    opacity: .9;
-}
-
-@media screen and (max-width: 962px) {
-    .image .socialMedia i {
-        font-size: 2rem;
-    }
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 @media screen and (max-width: 624px) {

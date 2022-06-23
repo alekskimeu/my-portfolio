@@ -25,17 +25,6 @@ const AboutInfo = () => {
 				modern technologies.
 			</p>
 			<p className={styles.description}>
-				You can find some of my work on{" "}
-				<a
-					href="https://github.com/alekskimeu"
-					target="_blank"
-					rel="noreferrer"
-					className={styles.link}
-				>
-					Github
-				</a>
-			</p>
-			<p className={styles.description}>
 				Apart from coding & learning new techs, I write about tech in my{" "}
 				<a
 					href="https://aleks.hashnode.dev/"

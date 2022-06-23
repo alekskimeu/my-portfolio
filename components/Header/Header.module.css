@@ -1,16 +1,15 @@
 .header {
     width: 100%;
     z-index: 1;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     background-color: var(--body-bg);
-    border-bottom: 1px solid rgba(231,231,231, .2);
 }
 
 .header .menu {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
@@ -49,5 +48,12 @@
 @media screen and (max-width: 672px) {
     .header .menu a {
         font-size: .7rem;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .header .menu  {
+        gap: 1rem;
     }
 }

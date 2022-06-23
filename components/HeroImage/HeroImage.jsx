@@ -3,6 +3,8 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import SocialIcons from "../SocialIcons/SocialIcons";
+
 import image from "../../public/images/site/profile.jpeg";
 
 import styles from "./HeroImage.module.css";
@@ -28,7 +30,7 @@ const HeroImage = () => {
 				/>
 			</div>
 			<h1 className={styles.name} data-aos="zoom-in" data-aos-duration="1000">
-				Alex Kimeu
+				ALEX KIMEU
 			</h1>
 			<h2
 				className={styles.profession}
@@ -37,42 +39,17 @@ const HeroImage = () => {
 			>
 				Software Developer
 			</h2>
-			<h3 className={styles.tagline}> I create with cool people 👨‍💻.</h3>
-			<h4 className={styles.skills} data-aos="zoom-in" data-aos-duration="1000">
-				(React, Next, React Native, Node)
-			</h4>
-			<div
-				className={styles.herocta}
+			<h3
+				className={styles.tagline}
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
-				<div className={styles.socialMedia}>
-					<a
-						href="https://twitter.com/alekskimeu"
-						aria-label="Twitter"
-						rel="noreferrer"
-						target="_blank"
-					>
-						<i className="fab fa-twitter"></i>
-					</a>
-					<a
-						href="https://www.linkedin.com/in/alexkimeu/"
-						aria-label="LinkedIn"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<i className="fab fa-linkedin"></i>
-					</a>
-					<a
-						href="https://github.com/alekskimeu"
-						aria-label="Github"
-						rel="noreferrer"
-						target="_blank"
-					>
-						<i className="fab fa-github"></i>
-					</a>
-				</div>
-			</div>
+				{" "}
+				I create with cool people 👨‍💻.
+			</h3>
+			{/* <h4 className={styles.skills} data-aos="zoom-in" data-aos-duration="1000">
+				(React, Next, React Native, Node)
+			</h4> */}
 		</div>
 	);
 };

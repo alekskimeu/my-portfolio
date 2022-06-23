@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 const Layout = ({ children }) => {
 	return (
@@ -25,8 +26,10 @@ const Layout = ({ children }) => {
 				<div className="wrap">
 					<Header />
 					{children}
-					<Footer />
 				</div>
+				<SocialIcons />
+
+				<Footer />
 			</div>
 		</>
 	);
