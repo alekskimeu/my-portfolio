@@ -29,6 +29,15 @@ const SocialIcons = () => {
 			>
 				<i className="fab fa-github"></i>
 			</a>
+
+			<a
+				href="https://medium.com/@alexkimeu0"
+				aria-label="Medium"
+				rel="noreferrer"
+				target="_blank"
+			>
+				<i className="fab fa-medium"></i>
+			</a>
 		</div>
 	);
 };

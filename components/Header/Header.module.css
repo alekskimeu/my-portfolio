@@ -19,7 +19,7 @@
 }
 
 .header .menu a {
-    padding: .5rem 1.2rem .4rem 1.2rem;
+    padding: .5rem 1.4rem .4rem 1.4rem;
     border: 1px solid var(--text-minor);
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
