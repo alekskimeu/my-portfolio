@@ -65,10 +65,9 @@
 }
 
 .image .tagline {
-    color: var(--text-minor);
+    color: #6e7786;
     font-weight: 500;
     font-size: 1.2rem;
-    opacity: .7;
     margin-top: 1.5rem;
 }
 
