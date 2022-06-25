@@ -25,14 +25,14 @@ const AboutInfo = () => {
 				modern technologies.
 			</p>
 			<p className={styles.description}>
-				Apart from coding & learning new techs, I write about tech in my{" "}
+				Apart from coding & learning new techs, I write about tech on{" "}
 				<a
-					href="https://aleks.hashnode.dev/"
+					href="https://medium.com/@alexkimeu0"
 					target="_blank"
 					rel="noreferrer"
 					className={styles.link}
 				>
-					Blog
+					Medium
 				</a>{" "}
 				& occasionally play{" "}
 				<a
