@@ -45,7 +45,7 @@ const HeroImage = () => {
 				data-aos-duration="1000"
 			>
 				{" "}
-				I create with cool people 👨‍💻.
+				I create with cool people.
 			</h3>
 			{/* <h4 className={styles.skills} data-aos="zoom-in" data-aos-duration="1000">
 				(React, Next, React Native, Node)
