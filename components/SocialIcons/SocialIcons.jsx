@@ -6,13 +6,14 @@ const SocialIcons = () => {
 	return (
 		<div className={styles.socialMedia}>
 			<a
-				href="https://twitter.com/alekskimeu"
-				aria-label="Twitter"
+				href="mailto:kimeualeks@gmail.com"
+				aria-label="Email"
 				rel="noreferrer"
 				target="_blank"
 			>
-				<i className="fab fa-twitter"></i>
+				<i className="fas fa-envelope"></i>
 			</a>
+
 			<a
 				href="https://www.linkedin.com/in/alexkimeu/"
 				aria-label="LinkedIn"
@@ -28,6 +29,14 @@ const SocialIcons = () => {
 				target="_blank"
 			>
 				<i className="fab fa-github"></i>
+			</a>
+			<a
+				href="https://twitter.com/alekskimeu"
+				aria-label="Twitter"
+				rel="noreferrer"
+				target="_blank"
+			>
+				<i className="fab fa-twitter"></i>
 			</a>
 
 			<a
