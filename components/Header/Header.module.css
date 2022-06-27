@@ -19,14 +19,13 @@
 }
 
 .header .menu a {
-    padding: .5rem 1.4rem .4rem 1.4rem;
+    padding: .4rem 1.4rem;
     border: 1px solid var(--text-minor);
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
     color: var(--text-minor);
     opacity: .9;
     font-size: .8rem;
-    font-weight: 400;
+    font-weight: 600;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
