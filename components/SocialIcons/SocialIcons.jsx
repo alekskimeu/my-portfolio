@@ -40,7 +40,7 @@ const SocialIcons = () => {
 			</a>
 
 			<a
-				href="https://medium.com/@alexkimeu0"
+				href="https://medium.com/@alexkimeu"
 				aria-label="Medium"
 				rel="noreferrer"
 				target="_blank"
