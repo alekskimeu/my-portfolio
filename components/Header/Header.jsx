@@ -13,7 +13,7 @@ const Header = () => {
 				<Link href="/about">
 					<a>About</a>
 				</Link>
-				<a href="https://medium.com/@alexkimeu0" target="_blank" rel="noreferrer">
+				<a href="https://medium.com/@alexkimeu" target="_blank" rel="noreferrer">
 					Blog
 				</a>
 			</nav>
