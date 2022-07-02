@@ -25,7 +25,7 @@ const AboutInfo = () => {
 				modern technologies.
 			</p>
 			<p className={styles.description}>
-				Apart from coding & learning new techs, I write about tech on{" "}
+				Apart from coding, I write about tech on{" "}
 				<a
 					href="https://medium.com/@alexkimeu0"
 					target="_blank"
@@ -33,8 +33,8 @@ const AboutInfo = () => {
 					className={styles.link}
 				>
 					Medium
-				</a>{" "}
-				& occasionally play{" "}
+				</a>
+				, kick some ⚽ with friends & occasionally play{" "}
 				<a
 					href="https://tryhackme.com/games/koth"
 					target="_blank"
@@ -44,6 +44,9 @@ const AboutInfo = () => {
 					KoTH
 				</a>{" "}
 				on TryHackMe.
+			</p>
+			<p className={styles.description}>
+				If any of these interests you too, <br /> I&#39;d love to chat!
 			</p>
 		</div>
 	);

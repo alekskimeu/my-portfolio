@@ -59,23 +59,24 @@
 .image .profession {
     margin-top: 1.6rem;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: var(--text-minor);
 }
 
 .image .tagline {
-    color: #6e7786;
     font-weight: 500;
+    color: #6e7786;
     font-size: 1.2rem;
-    margin-top: 1.5rem;
+    margin: .5rem 0;
 }
 
-.image .skills {
-    color: var(--text-minor);
-    opacity: .8;
+.image .description {
+    color: #6e7786;
+    opacity: .9;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    max-width: 540px;
 }
 
 @media screen and (max-width: 624px) {
