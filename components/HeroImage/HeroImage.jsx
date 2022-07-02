@@ -47,7 +47,11 @@ const HeroImage = () => {
 				{" "}
 				I create with cool people.
 			</h3>
-			<p className={styles.description}>
+			<p
+				className={styles.description}
+				data-aos="zoom-in"
+				data-aos-duration="1000"
+			>
 				&quot;When you don&#39;t create things, you become defined by your
 				tastes rather than ability.&quot; <br />
 				<span style={{ fontSize: "1.1rem", opacity: 0.8 }}>
