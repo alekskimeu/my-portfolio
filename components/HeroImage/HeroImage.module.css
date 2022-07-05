@@ -65,18 +65,37 @@
 }
 
 .image .tagline {
+    position: relative;
     font-weight: 500;
-    color: #6e7786;
+    color: #798292;
     font-size: 1.2rem;
     margin: .5rem 0;
 }
 
+.image .tagline::after {
+    position: absolute;
+    content: "";
+    border: none;
+    height: 2px;
+    left: 0;
+    right: 0;
+    bottom: -.4rem;
+    width: 20%;
+    margin: auto;
+    background-color: rgba(231, 231, 231, .2);
+}
+
 .image .description {
-    color: #6e7786;
+    color: #68707c;
     opacity: .9;
     font-weight: 500;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     max-width: 540px;
+    margin-top: 0.5rem;
+}
+
+.image .description i {
+    color: var(--text-minor);
 }
 
 @media screen and (max-width: 624px) {

@@ -17,7 +17,7 @@ const AboutInfo = () => {
 			data-aos-duration="1000"
 		>
 			<p className={styles.description}>
-				Hello, my name is <span>Alex,</span> a <span>Software Developer</span>{" "}
+				Hello, my name is <span>Alex Kimeu</span>. I&#39;m a <span>Software Developer</span>{" "}
 				based in Nairobi, Kenya.
 			</p>
 			<p className={styles.description}>

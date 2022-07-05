@@ -44,7 +44,6 @@ const HeroImage = () => {
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
-				{" "}
 				I create with cool people.
 			</h3>
 			<p
@@ -52,8 +51,10 @@ const HeroImage = () => {
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
+				<i className="fas fa-arrow-right-long fa-xs"></i>
 				Whatever you do, don&#39;t let inertia & complacency keep you from
 				pushing yourself a little bit every day.
+				<i className="fas fa-arrow-left-long fa-xs"></i>
 			</p>
 		</div>
 	);
