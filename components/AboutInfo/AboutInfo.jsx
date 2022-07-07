@@ -17,8 +17,8 @@ const AboutInfo = () => {
 			data-aos-duration="1000"
 		>
 			<p className={styles.description}>
-				Hello, my name is <span>Alex Kimeu</span>. I&#39;m a <span>Software Developer</span>{" "}
-				based in Nairobi, Kenya.
+				Hello, my name is <span>Alex Kimeu</span>. I&#39;m a{" "}
+				<span>Software Developer</span> based in Nairobi, Kenya.
 			</p>
 			<p className={styles.description}>
 				I have hands-on experience building mobile & web applications using
@@ -34,7 +34,7 @@ const AboutInfo = () => {
 				>
 					Medium
 				</a>
-				, kick some ⚽ with friends & occasionally play{" "}
+				, play & watch football and occasionally play{" "}
 				<a
 					href="https://tryhackme.com/games/koth"
 					target="_blank"
@@ -45,9 +45,7 @@ const AboutInfo = () => {
 				</a>{" "}
 				on TryHackMe.
 			</p>
-			<p className={styles.description}>
-				If any of these interests you too, <br /> I&#39;d love to chat!
-			</p>
+			<p className={styles.description}>Let&#39;s connect!</p>
 		</div>
 	);
 };
