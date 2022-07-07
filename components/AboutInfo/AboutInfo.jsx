@@ -45,6 +45,7 @@ const AboutInfo = () => {
 				</a>{" "}
 				on TryHackMe.
 			</p>
+			<br />
 			<p className={styles.description}>Let&#39;s connect!</p>
 		</div>
 	);
