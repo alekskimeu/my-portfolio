@@ -44,17 +44,16 @@ const HeroImage = () => {
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
-				&lsquo;I create with cool people.&rsquo;
+				<i className="fas fa-arrow-right-long fa-xs"></i>I create with cool
+				people.<i className="fas fa-arrow-left-long fa-xs"></i>
 			</h3>
 			<p
 				className={styles.description}
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
-				<i className="fas fa-arrow-right-long fa-xs"></i>
-				Whatever you do, don&#39;t let inertia & complacency keep you from
-				pushing yourself a little bit every day.
-				<i className="fas fa-arrow-left-long fa-xs"></i>
+				&lsquo;Whatever you do, don&#39;t let inertia & complacency keep you
+				from pushing yourself a little bit every day.&rsquo;
 			</p>
 		</div>
 	);
