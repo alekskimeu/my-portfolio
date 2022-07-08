@@ -44,8 +44,7 @@ const HeroImage = () => {
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
-				<i className="fas fa-arrow-right-long fa-xs"></i>I create with cool
-				people.<i className="fas fa-arrow-left-long fa-xs"></i>
+				I create with cool people.
 			</h3>
 			<p
 				className={styles.description}
