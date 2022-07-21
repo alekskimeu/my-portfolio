@@ -44,7 +44,7 @@ const HeroImage = () => {
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
-				I create with cool people.
+				React | Next | React Native | Node | Laravel
 			</h3>
 			<p
 				className={styles.description}
