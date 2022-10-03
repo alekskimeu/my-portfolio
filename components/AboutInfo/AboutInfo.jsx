@@ -21,29 +21,10 @@ const AboutInfo = () => {
 				<span>Software Developer</span> based in Nairobi, Kenya.
 			</p>
 			<p className={styles.description}>
-				I have hands-on experience building mobile & web applications using
-				modern technologies.
-			</p>
-			<p className={styles.description}>
-				Apart from coding, I write about tech on{" "}
-				<a
-					href="https://medium.com/@alexkimeu0"
-					target="_blank"
-					rel="noreferrer"
-					className={styles.link}
-				>
-					Medium
-				</a>
-				, play & watch football and occasionally play{" "}
-				<a
-					href="https://tryhackme.com/games/koth"
-					target="_blank"
-					rel="noreferrer"
-					className={styles.link}
-				>
-					KoTH
-				</a>{" "}
-				on TryHackMe.
+				It&#39;s amazing that we live in an age where we can make many
+				possibilities with technology & I&#39;m ready to collaborate with other
+				developers in my career to develop solutions geared to improve
+				performance & accelerate business processes.
 			</p>
 			<br />
 			<p className={styles.description}>Let&#39;s connect!</p>

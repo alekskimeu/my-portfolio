@@ -39,20 +39,13 @@ const HeroImage = () => {
 			>
 				Software Developer
 			</h2>
-			<h3
-				className={styles.tagline}
-				data-aos="zoom-in"
-				data-aos-duration="1000"
-			>
-				React | Next | React Native | Node | Laravel
-			</h3>
 			<p
 				className={styles.description}
 				data-aos="zoom-in"
 				data-aos-duration="1000"
 			>
-				&lsquo;Whatever you do, don&#39;t let inertia & complacency keep you
-				from pushing yourself a little bit every day.&rsquo;
+				Agile Software Developer with hands-on experience using modern
+				technologies to develop quality web & mobile applications.
 			</p>
 		</div>
 	);

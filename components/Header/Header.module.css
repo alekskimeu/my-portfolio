@@ -19,7 +19,7 @@
 }
 
 .header .menu a {
-    padding: .4rem 1.4rem;
+    padding: .6rem 1.6rem .35rem 1.6rem;
     border: 1px solid var(--text-minor);
     text-transform: uppercase;
     color: var(--text-minor);

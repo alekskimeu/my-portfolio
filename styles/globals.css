@@ -1,74 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
 :root {
-  --link: #6A67CE;
-  --card-bg: #031424;
-  --body-bg: #090f19;
-  --text-main: #ddebff;
-  --text-minor: #9aa7bd;
-  --border: rgb(47, 55, 66);
+	--link: #6a67ce;
+	--card-bg: #031424;
+	--body-bg: #090f19;
+	--text-main: #ddebff;
+	--text-minor: #9aa7bd;
+	--border: rgb(47, 55, 66);
 }
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Titillium Web', sans-serif;
-  background-color: var(--body-bg);
+	font-family: "Abel", sans-serif;
+	background-color: var(--body-bg);
 }
 
 img {
-  pointer-events: none;
+	pointer-events: none;
 }
 
 .wrapper {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2rem;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2rem;
 }
 
 .wrap {
-  width: 80vw;
-  max-width: 700px;
+	width: 80vw;
+	max-width: 700px;
 }
 
-
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, button, a, span {
-  letter-spacing: 2px;
-  line-height: 1.6;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a,
+span {
+	letter-spacing: 2px;
+	line-height: 1.6;
 }
 
 @media screen and (max-width: 700px) {
-  .section-header a {
-    display: none;
-  }
+	.section-header a {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  h1, h2, h3, h4, h5, h6, p, button, a, span {
-    letter-spacing: 1.8px;
-    line-height: 1.4;
-  }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	button,
+	a,
+	span {
+		letter-spacing: 1.8px;
+		line-height: 1.4;
+	}
 }
